@@ -1099,6 +1099,96 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+// ============================================
+// WHATSAPP FLOATING BUTTON
+// ============================================
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9998;
+
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #20BA5C;
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    svg {
+      width: 32px;
+      height: 32px;
+      fill: #FFFFFF;
+    }
+  }
+
+  .whatsapp-tooltip {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: $rich-charcoal;
+    color: $pure-white;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: -6px;
+      top: 50%;
+      transform: translateY(-50%);
+      border-width: 6px;
+      border-style: solid;
+      border-color: transparent transparent transparent $rich-charcoal;
+    }
+  }
+
+  &:hover .whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 16px;
+    right: 16px;
+
+    .whatsapp-button {
+      width: 54px;
+      height: 54px;
+
+      svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    .whatsapp-tooltip {
+      display: none;
+    }
+  }
+}
+
 // Remove default Quarto styling conflicts
 .quarto-title {
   display: none;
