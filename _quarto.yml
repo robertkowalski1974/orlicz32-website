@@ -2,7 +2,7 @@ project:
   type: website
   resources:
     - lightbox.js
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Apartamenty Orlicz 32"
