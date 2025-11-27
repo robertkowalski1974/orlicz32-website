@@ -1,0 +1,275 @@
+---
+pagetitle: "Nasze apartamenty | Apartamenty Orlicz 32"
+description: "Odkryj nasze starannie zaprojektowane apartamenty butikowe w sercu Zamościa."
+format:
+  html:
+    include-after-body:
+      - file: navbar-pl.html
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); min-height: 50vh; background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+[APARTAMENTY]{.hero-logo-text}
+
+[Nasze apartamenty]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+["Współczesny komfort w ponadczasowej elegancji"]{.hero-tagline style="font-size: 1.2rem;"}
+
+:::
+:::
+
+
+<!-- WSTĘP -->
+::: {.section .section-light}
+::: {.container}
+::: {.about-content}
+Nasze apartamenty zostały zaprojektowane tak, abyś poczuł się jak w domu. Każda przestrzeń została starannie przemyślana, łącząc nowoczesny komfort z wyrafinowaną elegancją, która odzwierciedla renesansowe dziedzictwo Zamościa.
+
+Wszystkie apartamenty wyposażone są w wysokiej jakości meble, w pełni wyposażoną kuchnię, wygodne łóżka z ekskluzywną pościelą oraz wszelkie udogodnienia niezbędne do relaksującego pobytu.
+:::
+:::
+:::
+
+
+<!-- LISTA APARTAMENTÓW -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Wybierz swój apartament]{.section-subtitle}
+
+## Dostępne apartamenty
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+<!-- Pokój nr 1 -->
+::: {.apartment-card style="margin-bottom: 3rem;"}
+::: {.row .align-items-center}
+::: {.col-lg-6}
+::: {.apartment-image}
+![Pokój nr 1](../images/room1-main.jpg)
+:::
+:::
+::: {.col-lg-6}
+::: {.apartment-details}
+### Pokój nr 1
+::: {.apartment-features}
+[🛏️ 5 osób]{} [📐 55m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
+:::
+
+Przestronny apartament idealny dla rodzin lub grup. Ta hojnie urządzona przestrzeń oferuje:
+
+- Łóżko dwuosobowe z ekskluzywną pościelą
+- Rozkładana sofa dwuosobowa + rozkładana sofa jednoosobowa
+- W pełni wyposażona kuchnia
+- Nowoczesna łazienka z prysznicem
+- Smart TV i szybki internet WiFi
+- Biurko do pracy
+- Klimatyzacja
+
+[Zarezerwuj ten apartament](book-room1.qmd){.btn-gold}
+:::
+:::
+:::
+:::
+
+<!-- Pokój nr 3 -->
+::: {.apartment-card style="margin-bottom: 3rem;"}
+::: {.row .align-items-center .flex-lg-row-reverse}
+::: {.col-lg-6}
+::: {.apartment-image}
+![Pokój nr 3](../images/room3-main.jpg)
+:::
+:::
+::: {.col-lg-6}
+::: {.apartment-details}
+### Pokój nr 3
+::: {.apartment-features}
+[🛏️ 3 osoby]{} [📐 50m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
+:::
+
+Idealny dla par lub małych grup szukających spokojnego azylu. Ten uroczy apartament oferuje:
+
+- Łóżko dwuosobowe + łóżko pojedyncze z ekskluzywną pościelą
+- W pełni wyposażona kuchnia
+- Nowoczesna łazienka z wanną i prysznicem
+- Smart TV i szybki internet WiFi
+- Biurko do pracy
+- Klimatyzacja
+
+[Zarezerwuj ten apartament](book-room3.qmd){.btn-gold}
+:::
+:::
+:::
+:::
+
+:::
+:::
+
+
+<!-- UDOGODNIENIA -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[W cenie]{.section-subtitle}
+
+## Udogodnienia w apartamentach
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.features-grid}
+
+::: {.feature-card}
+::: {.feature-icon}
+📶
+:::
+### Szybki internet WiFi
+Bądź na bieżąco dzięki bezpłatnemu szybkiemu internetowi w całym apartamencie.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🍳
+:::
+### Wyposażona kuchnia
+Przygotuj własne posiłki – masz do dyspozycji wszystkie naczynia, sztućce i sprzęty kuchenne.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+❄️
+:::
+### Klimatyzacja
+Ciesz się komfortem przez cały rok dzięki klimatyzacji i ogrzewaniu.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🛁
+:::
+### Nowoczesna łazienka
+Relaksuj się w nowoczesnej łazience z zapewnionymi kosmetykami.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+📺
+:::
+### Rozrywka
+Smart TV z możliwością streamingu dla Twojego relaksu.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🧺
+:::
+### Pralnia
+Pralka i suszarka dostępne przy dłuższych pobytach.
+:::
+
+:::
+:::
+:::
+
+
+<!-- REZERWACJA -->
+::: {#booking .section .booking-section}
+::: {.container}
+::: {.section-header}
+[Rezerwacja]{.section-subtitle}
+
+## Zarezerwuj apartament {style="color: #FFFFFF;"}
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.booking-widget-container}
+
+::: {.booking-cta-box}
+::: {.booking-cta-content}
+
+[✨]{.booking-icon}
+
+### Zarezerwuj swój apartament
+
+Wybierz terminy i zabezpiecz swój pobyt w sercu Zamościa.
+
+[Sprawdź dostępność](book.qmd){.btn-book-large}
+
+:::
+:::
+
+:::
+:::
+:::
+
+
+<!-- REGULAMIN -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Warto wiedzieć]{.section-subtitle}
+
+## Regulamin i zasady
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.check-times}
+
+::: {.check-time-card}
+#### Zameldowanie
+[16:00 – 21:00]{.time}
+:::
+
+::: {.check-time-card}
+#### Wymeldowanie
+[Do 11:00]{.time}
+:::
+
+::: {.check-time-card}
+#### Anulowanie
+[Bezpłatne do 7 dni]{.time}
+:::
+
+:::
+
+::: {.about-content style="margin-top: 2rem;"}
+
+**Zasady ogólne:**
+
+- Zakaz palenia w apartamentach
+- Zwierzęta mile widziane po wcześniejszym uzgodnieniu (może obowiązywać dodatkowa opłata)
+- Cisza nocna od 22:00 do 8:00
+- Wymagany ważny dokument tożsamości przy zameldowaniu
+- Może być wymagana kaucja
+
+W przypadku specjalnych próśb lub wcześniejszego/późniejszego zameldowania prosimy o [kontakt](contact.qmd).
+
+:::
+:::
+:::

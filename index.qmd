@@ -1,0 +1,347 @@
+---
+pagetitle: "Apartamenty Orlicz 32 | Boutique Apartments in Zamość"
+description: "Feel like home while you are away. Boutique apartments in the heart of UNESCO's Pearl of the Renaissance."
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+![](images/logo.webp){.hero-logo style="max-width: 250px; margin-bottom: 1.5rem;"}
+
+[APARTAMENTY]{.hero-logo-text}
+
+[ORLICZ 32]{.hero-title}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+["Feel like home while you are away"]{.hero-tagline}
+
+[UNESCO World Heritage City • Pearl of the Renaissance]{.hero-subtitle}
+
+::: {.hero-cta}
+[Book Your Stay](book.qmd){.btn-book}
+:::
+
+:::
+
+::: {.scroll-indicator}
+::: {.mouse}
+:::
+:::
+
+:::
+
+
+<!-- ABOUT SECTION -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Our Philosophy]{.section-subtitle}
+
+## Welcome to Orlicz 32
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+Apartamenty Orlicz 32 is a boutique accommodation nestled in the heart of **Zamość**, a city recognized by UNESCO as an outstanding example of a late 16th-century Renaissance planned town.
+
+Named after its location on Orlicz-Dreszera Street, we offer guests a unique opportunity to experience the charm of this historic [**"Pearl of the Renaissance"**]{.highlight} while enjoying all the comforts of a modern home.
+
+Our meticulously designed apartments combine contemporary comfort with the timeless elegance that defines our host city. We provide personalized services and thoughtfully curated spaces that offer a true escape from the everyday hustle.
+:::
+:::
+:::
+
+
+<!-- VALUES SECTION -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[What We Offer]{.section-subtitle}
+
+## The Orlicz 32 Experience
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.features-grid}
+
+::: {.feature-card}
+::: {.feature-icon}
+🏠
+:::
+### Warmth & Comfort
+We create spaces that feel like home. Every detail is considered to ensure you feel welcomed, comfortable, and at ease from the moment you arrive.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🏛️
+:::
+### Heritage & Authenticity
+We honor the extraordinary Renaissance heritage of Zamość. Our brand reflects the timeless elegance and architectural harmony that makes our city a UNESCO treasure.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+✨
+:::
+### Personal Touch
+We believe in boutique hospitality that treats every guest as an individual. Our personalized services ensure each stay is tailored to create meaningful experiences.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🌿
+:::
+### Escape & Retreat
+We offer sanctuary from the everyday hustle. Orlicz 32 is a place to slow down, reconnect, and experience the tranquility of a beautifully preserved Renaissance city.
+:::
+
+:::
+:::
+:::
+
+
+<!-- APARTMENTS PREVIEW -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Accommodation]{.section-subtitle}
+
+## Our Apartments
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.row}
+::: {.col-md-6}
+::: {.apartment-card}
+::: {.apartment-image}
+![Room Nr 1 - Cozy apartment](images/room1-main.jpg)
+:::
+::: {.apartment-details}
+### Room Nr 1
+::: {.apartment-features}
+[🛏️ 5 Guests]{} [📐 55m²]{} [🚿 Shower]{}
+:::
+Spacious apartment perfect for families or groups. Features a double bed, double sofa bed, and single sofa bed.
+
+[View Details →](apartments.qmd){.btn-details}
+[Book Now →](book-room1.qmd){.btn-details}
+:::
+:::
+:::
+
+::: {.col-md-6}
+::: {.apartment-card}
+::: {.apartment-image}
+![Room Nr 3 - Cozy apartment with warm atmosphere](images/room3-main.jpg)
+:::
+::: {.apartment-details}
+### Room Nr 3
+::: {.apartment-features}
+[🛏️ 3 Guests]{} [📐 50m²]{} [🛁 Bathtub with Shower]{}
+:::
+Perfect for couples or small groups. Wake up to natural light streaming through large windows and enjoy all the comforts of home.
+
+[View Details →](apartments.qmd){.btn-details}
+[Book Now →](book-room3.qmd){.btn-details}
+:::
+:::
+:::
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[Explore All Apartments](apartments.qmd){.btn-gold}
+:::
+
+:::
+:::
+
+
+<!-- BOOKING SECTION -->
+::: {#booking .section .booking-section}
+::: {.container}
+::: {.section-header}
+[Reservations]{.section-subtitle}
+
+## Book Your Stay {style="color: #FFFFFF;"}
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.booking-widget-container}
+
+::: {.booking-cta-box}
+::: {.booking-cta-content}
+
+[✨]{.booking-icon}
+
+### Ready to Experience Zamość?
+
+Select your dates and book your stay in our boutique apartments in the heart of this UNESCO World Heritage city.
+
+[Check Availability & Book](book.qmd){.btn-book-large}
+
+:::
+:::
+
+:::
+:::
+:::
+
+
+<!-- TESTIMONIALS SECTION -->
+::: {.section .section-light .testimonials-section}
+::: {.container}
+::: {.section-header}
+[Guest Reviews]{.section-subtitle}
+
+## What Our Guests Say
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.testimonial-widget-container}
+
+<!-- Elfsight All-in-One Reviews Widget -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-ba61a78d-0422-4329-9e8f-3158cb7c9d21" data-elfsight-app-lazy></div>
+
+:::
+:::
+:::
+
+
+<!-- LOCATION SECTION -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Location]{.section-subtitle}
+
+## In the Heart of Zamość
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.row}
+::: {.col-lg-8}
+::: {.map-container}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.5!2d23.2519!3d50.7167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4723831fd4b5c5e7%3A0x1!2sOrlicz-Dreszera%2032%2C%2022-400%20Zamo%C5%9B%C4%87!5e0!3m2!1sen!2spl!4v1" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+:::
+:::
+
+::: {.col-lg-4}
+::: {.location-info}
+### Contact & Info
+
+::: {.info-item}
+::: {.info-icon}
+📍
+:::
+::: {.info-text}
+#### Address
+Orlicz-Dreszera 32, 22-400 Zamość, Poland
+:::
+:::
+
+::: {.info-item}
+::: {.info-icon}
+🕐
+:::
+::: {.info-text}
+#### Check-in
+16:00 – 21:00
+:::
+:::
+
+::: {.info-item}
+::: {.info-icon}
+🕚
+:::
+::: {.info-text}
+#### Check-out
+Before 11:00
+:::
+:::
+
+::: {.info-item}
+::: {.info-icon}
+🌐
+:::
+::: {.info-text}
+#### Website
+[www.orlicz32.pl](https://www.orlicz32.pl)
+:::
+:::
+
+:::
+:::
+:::
+:::
+:::
+
+
+<!-- ZAMOŚĆ TEASER -->
+::: {.section .section-dark}
+::: {.container}
+::: {.section-header}
+[Discover]{.section-subtitle}
+
+## Pearl of the Renaissance
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+Zamość was founded in 1580 by Chancellor Jan Zamoyski and designed by Italian architect Bernardo Morando as an "ideal city" based on Italian Renaissance theories. 
+
+The city's perfectly preserved architecture, Renaissance town square, and historical significance earned it **UNESCO World Heritage status in 1992**.
+
+::: {style="margin-top: 2rem;"}
+[Explore Zamość](zamosc.qmd){.btn-outline-gold}
+:::
+:::
+:::
+:::

@@ -1,0 +1,220 @@
+---
+pagetitle: "Odkryj Zamość | Apartamenty Orlicz 32"
+description: "Poznaj Zamość – Perłę Renesansu, miasto wpisane na Listę Światowego Dziedzictwa UNESCO, założone w 1580 roku."
+format:
+  html:
+    include-after-body:
+      - file: navbar-pl.html
+---
+
+::: {.hero-section style="background-image: url('../images/zamosc-hero.svg'); min-height: 50vh;"}
+::: {.hero-content}
+
+[Odkryj]{.hero-logo-text}
+
+[Zamość]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+["Perła Renesansu • Światowe Dziedzictwo UNESCO"]{.hero-tagline style="font-size: 1.2rem;"}
+
+:::
+:::
+
+
+<!-- HISTORIA -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Historia]{.section-subtitle}
+
+## Miasto idealne
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+Zamość został założony w **1580 roku** przez kanclerza **Jana Zamoyskiego**, jednego z najpotężniejszych polskich magnatów tamtej epoki. Zlecił on włoskiemu architektowi **Bernardowi Morandowi** zaprojektowanie miasta opartego na renesansowych teoriach „miasta idealnego" – koncepcji łączącej funkcjonalność, piękno i harmonię.
+
+Efektem jest doskonale zaplanowany układ urbanistyczny, który przetrwał niemal nienaruszony przez ponad cztery stulecia. Unikalne połączenie włoskich i środkowoeuropejskich tradycji architektonicznych przyniosło miastu wpis na **Listę Światowego Dziedzictwa UNESCO w 1992 roku**.
+
+Spacerując dziś po Zamościu, przenosimy się w czasie do złotego wieku renesansu – podziwiając podcieniowe kamienice kupieckie, okazały ratusz oraz wspaniały Rynek Wielki stanowiący serce miasta.
+:::
+:::
+:::
+
+
+<!-- ATRAKCJE -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Warto zobaczyć]{.section-subtitle}
+
+## Atrakcje miasta
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.features-grid}
+
+::: {.feature-card}
+::: {.feature-icon}
+🏛️
+:::
+### Rynek Wielki
+Serce Zamościa – jeden z najpiękniejszych renesansowych placów w Europie. Otoczony kolorowymi podcieniowymi kamienicami, idealny na poranną kawę lub wieczorny spacer.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🏰
+:::
+### Ratusz
+Ikoniczny zamojski ratusz z charakterystyczną wieżą i wspaniałymi schodami dominuje nad Rynkiem Wielkim. Arcydzieło architektury renesansowej.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+⛪
+:::
+### Kolegiata
+Kościół Zmartwychwstania Pańskiego i św. Tomasza Apostoła to wspaniały przykład architektury barokowej, z pięknymi freskami i kaplicą rodu Zamoyskich.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🏯
+:::
+### Pałac Zamoyskich
+Niegdyś okazała rezydencja założyciela miasta, dziś mieści muzeum prezentujące historię i skarby Zamościa.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🏰
+:::
+### Fortyfikacje
+Odkryj doskonale zachowane renesansowe fortyfikacje, bastiony i bramy, które niegdyś chroniły to strategiczne miasto na szlaku handlowym na Wschód.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🕍
+:::
+### Synagoga
+XVII-wieczna synagoga stanowi świadectwo wielokulturowego dziedzictwa miasta i niegdyś prężnej społeczności żydowskiej Zamościa.
+:::
+
+:::
+:::
+:::
+
+
+<!-- PROPONOWANE SPACERY -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Zwiedzaj]{.section-subtitle}
+
+## Proponowane spacery
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+
+### Szlak renesansowego dziedzictwa (2-3 godziny)
+
+Rozpocznij zwiedzanie tuż za naszym progiem i podążaj tym starannie opracowanym szlakiem przez najważniejsze miejsca Zamościa:
+
+- **Start z Orlicz 32** — Rozpocznij podróż od naszych apartamentów
+- **Rynek Wielki** — Podziwiaj podcieniowe kamienice i ich zdobione fasady
+- **Ratusz** — Zachwyć się renesansową architekturą i wejdź na wieżę, by podziwiać panoramę miasta
+- **Muzeum Arsenał** — Poznaj historię militarną i zgromadzone artefakty
+- **Kolegiata** — Doświadcz barokowego przepychu wnętrza
+- **Stara Brama Lubelska** — Jedna z trzech oryginalnych bram miejskich
+- **Bastion VII** — Spaceruj po fortyfikacjach z widokiem na fosę
+- **Powrót ulicą Grodzką** — Zajrzyj do lokalnych sklepów i kawiarni
+
+### Wieczorny spacer (1 godzina)
+
+O zachodzie słońca Zamość przemienia się w magiczną, oświetloną lampami renesansową scenę:
+
+- Przejdź się wokół iluminowanego Rynku Wielkiego
+- Zjedz kolację w jednej z restauracji pod podcieniami
+- Podziwiaj widok wieży ratuszowej na tle wieczornego nieba
+- Zakończ spacer lodami z jednej z uroczych kawiarni przy rynku
+
+:::
+:::
+:::
+
+
+<!-- INFORMACJE PRAKTYCZNE -->
+::: {.section .section-dark}
+::: {.container}
+::: {.section-header}
+[Informacje praktyczne]{.section-subtitle}
+
+## Warto wiedzieć
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.features-grid}
+
+::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-icon}
+🚶
+:::
+### Miasto do zwiedzania pieszo
+Zamojskie Stare Miasto jest kompaktowe i idealne do zwiedzania pieszo. Większość atrakcji znajduje się w odległości 10-15 minut spacerem od Orlicz 32.
+:::
+
+::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-icon}
+🅿️
+:::
+### Parking
+Bezpłatny parking uliczny w pobliżu naszych apartamentów. Płatny parking dostępny w centrum Starego Miasta.
+:::
+
+::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-icon}
+🍽️
+:::
+### Gastronomia
+Doskonałe restauracje i kawiarnie wokół Rynku Wielkiego – od tradycyjnej kuchni polskiej po dania kuchni międzynarodowej.
+:::
+
+::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-icon}
+🛒
+:::
+### Zakupy
+Lokalne targowiska, sklepy z rzemiosłem artystycznym i supermarkety – wszystko w zasięgu ręki.
+:::
+
+:::
+:::
+:::

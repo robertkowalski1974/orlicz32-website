@@ -1,0 +1,184 @@
+---
+pagetitle: "Contact | Apartamenty Orlicz 32"
+description: "Get in touch with Apartamenty Orlicz 32. We're here to help with your booking and answer any questions."
+---
+
+::: {.hero-section style="background-image: url('images/contact-hero.svg'); min-height: 40vh;"}
+::: {.hero-content}
+
+[Get in Touch]{.hero-logo-text}
+
+[Contact Us]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+:::
+:::
+
+
+<!-- CONTACT INFO - Full width grid -->
+::: {.contact-grid}
+
+::: {.contact-info-panel}
+### Contact Information
+
+::: {.contact-item}
+[📍]{.contact-icon}
+
+**Address**  
+Orlicz-Dreszera 32  
+22-400 Zamość, Poland
+:::
+
+::: {.contact-item}
+[📧]{.contact-icon}
+
+**Email**  
+[info@orlicz32.pl](mailto:info@orlicz32.pl)
+:::
+
+::: {.contact-item}
+[📱]{.contact-icon}
+
+**Phone**  
+[+48 508 209 313](tel:+48508209313)
+:::
+
+::: {.contact-item}
+[🌐]{.contact-icon}
+
+**Website**  
+[www.orlicz32.pl](https://www.orlicz32.pl)
+:::
+
+---
+
+### Check-in / Check-out
+
+::: {.contact-item}
+[🕐]{.contact-icon}
+
+**Check-in**  
+16:00 – 21:00
+:::
+
+::: {.contact-item}
+[🕚]{.contact-icon}
+
+**Check-out**  
+Before 11:00
+:::
+
+*For early or late arrival, please contact us in advance.*
+
+:::
+
+::: {.contact-form-panel}
+::: {.section-header style="margin-bottom: 2rem; text-align: left;"}
+[Message Us]{.section-subtitle}
+
+## Send a Message
+
+::: {.section-divider style="justify-content: flex-start;"}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.contact-form}
+<div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/bXxqqpeuUFyj8lxviq6BvqmZ8Hs3gSGXAj7kYL3Z4b0OKzsyiiCggdeVpz7cH1Rb7d"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+:::
+:::
+
+:::
+
+
+<!-- MAP -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Find Us]{.section-subtitle}
+
+## Location
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.map-container style="height: 450px; margin-bottom: 2rem;"}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.5!2d23.2519!3d50.7167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4723831fd4b5c5e7%3A0x1!2sOrlicz-Dreszera%2032%2C%2022-400%20Zamo%C5%9B%C4%87!5e0!3m2!1sen!2spl!4v1" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+:::
+
+::: {.about-content}
+### Getting Here
+
+**From Warsaw (approx. 300 km):**  
+Take the S17 expressway towards Lublin, then continue on route 17 to Zamość. Journey time approximately 3.5-4 hours.
+
+**From Lublin (approx. 90 km):**  
+Follow route 17/74 southeast to Zamość. Journey time approximately 1-1.5 hours.
+
+**From Kraków (approx. 300 km):**  
+Take the A4 motorway east, then route 94 via Rzeszów and route 77 north. Journey time approximately 4-4.5 hours.
+
+**Nearest Airports:**  
+Lublin Airport (LUZ) - approximately 100 km, with connections to Warsaw, London, and other European cities.
+
+Rzeszów-Jasionka Airport (RZE) - approximately 120 km, with connections to major European destinations.
+
+**Parking:**  
+Free street parking is available near our apartments. We'll provide detailed parking instructions upon booking.
+:::
+:::
+:::
+
+
+<!-- FAQ -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Help]{.section-subtitle}
+
+## Frequently Asked Questions
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+
+**What time is check-in and check-out?**  
+Check-in is between 16:00 and 21:00. Check-out is before 11:00. If you need different times, please contact us in advance and we'll do our best to accommodate you.
+
+**Is parking available?**  
+Yes, free street parking is available near our apartments. We'll send you detailed instructions before your arrival.
+
+**Are pets allowed?**  
+Pets are welcome upon request. Please let us know in advance so we can prepare the apartment accordingly. An additional cleaning fee may apply.
+
+**Do you offer airport transfers?**  
+We can arrange private transfers from Lublin Airport or other locations. Please contact us for pricing and availability.
+
+**What's included in the apartment?**  
+All our apartments include bed linens, towels, toiletries, a fully equipped kitchen, high-speed WiFi, Smart TV, and climate control. We also provide a welcome guide with local recommendations.
+
+**Can I cancel my reservation?**  
+Our standard policy allows free cancellation up to 7 days before arrival. Please check the specific terms when booking.
+
+**Is the Old Town walkable from Orlicz 32?**  
+Absolutely! We're located just a short walk from the Great Market Square and all major attractions. You won't need a car to explore the city.
+
+:::
+:::
+:::

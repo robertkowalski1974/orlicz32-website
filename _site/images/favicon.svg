@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#2D2926"/>
+  <!-- Stylized O with line through it -->
+  <circle cx="16" cy="16" r="10" fill="none" stroke="#C9A961" stroke-width="2"/>
+  <line x1="6" y1="16" x2="26" y2="16" stroke="#C9A961" stroke-width="2"/>
+</svg>

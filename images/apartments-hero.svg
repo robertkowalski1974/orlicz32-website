@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800" width="1920" height="800">
+  <defs>
+    <linearGradient id="aptsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D2926;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3D3936;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#aptsGrad)"/>
+  
+  <!-- Decorative apartment silhouettes -->
+  <g opacity="0.1">
+    <!-- Window frames -->
+    <rect x="200" y="300" width="150" height="200" rx="5" fill="none" stroke="#C9A961" stroke-width="2"/>
+    <line x1="275" y1="300" x2="275" y2="500" stroke="#C9A961" stroke-width="1"/>
+    <line x1="200" y1="400" x2="350" y2="400" stroke="#C9A961" stroke-width="1"/>
+    
+    <rect x="1570" y="250" width="150" height="250" rx="5" fill="none" stroke="#C9A961" stroke-width="2"/>
+    <line x1="1645" y1="250" x2="1645" y2="500" stroke="#C9A961" stroke-width="1"/>
+    <line x1="1570" y1="375" x2="1720" y2="375" stroke="#C9A961" stroke-width="1"/>
+  </g>
+  
+  <!-- Central content -->
+  <text x="960" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="20" letter-spacing="8" fill="#C9A961">APARTAMENTY ORLICZ 32</text>
+  
+  <line x1="760" y1="370" x2="910" y2="370" stroke="#C9A961" stroke-width="1"/>
+  <rect x="920" y="363" width="10" height="10" fill="#C9A961" transform="rotate(45 925 368)"/>
+  <rect x="990" y="363" width="10" height="10" fill="#C9A961" transform="rotate(45 995 368)"/>
+  <line x1="1010" y1="370" x2="1160" y2="370" stroke="#C9A961" stroke-width="1"/>
+  
+  <text x="960" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="#FFFFFF">Our Apartments</text>
+  
+  <text x="960" y="520" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#FFFFFF" opacity="0.8">Contemporary comfort meets timeless elegance</text>
+  
+  <text x="960" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" fill="#C9A961" opacity="0.5">REPLACE WITH APARTMENT INTERIOR PHOTO</text>
+</svg>

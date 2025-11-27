@@ -1,0 +1,69 @@
+project:
+  type: website
+  resources:
+    - lightbox.js
+  output-dir: _site
+
+website:
+  title: "Apartamenty Orlicz 32"
+  description: "Boutique apartments in the heart of Zamość - UNESCO World Heritage City"
+  favicon: images/favicon.svg
+  
+  navbar:
+    background: "#2D2926"
+    foreground: "#FFFFFF"
+    logo: images/logo.webp
+    logo-alt: "Apartamenty Orlicz 32"
+    title: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Apartments"
+        href: apartments.qmd
+      - text: "Zamość"
+        href: zamosc.qmd
+      - text: "Gallery"
+        href: gallery.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - text: "Book Now"
+        href: book.qmd
+      - text: "PL"
+        href: pl/index.qmd
+  
+  page-footer:
+    background: "#2D2926"
+    foreground: "#C9A961"
+    center: |
+      <div class="footer-content">
+        <div class="footer-logo">ORLICZ 32</div>
+        <div class="footer-tagline">"Feel like home while you are away"</div>
+        <div class="footer-address">Orlicz-Dreszera 32, 22-400 Zamość, Poland</div>
+        <div class="footer-copyright">© 2025 Apartamenty Orlicz 32. All rights reserved.</div>
+      </div>
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    lightbox: true
+    toc: false
+    page-layout: full
+    include-in-header:
+      - text: |
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-NSSHCCQF');</script>
+          <!-- End Google Tag Manager -->
+    include-before-body:
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSSHCCQF"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->

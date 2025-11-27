@@ -1,0 +1,271 @@
+---
+pagetitle: "Our Apartments | Apartamenty Orlicz 32"
+description: "Discover our meticulously designed boutique apartments in the heart of Zamość."
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); min-height: 50vh; background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+[APARTAMENTY]{.hero-logo-text}
+
+[Our Apartments]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+["Contemporary comfort meets timeless elegance"]{.hero-tagline style="font-size: 1.2rem;"}
+
+:::
+:::
+
+
+<!-- INTRO -->
+::: {.section .section-light}
+::: {.container}
+::: {.about-content}
+Our apartments are designed to be your home away from home. Each space has been thoughtfully curated to combine modern comfort with the refined elegance that reflects the Renaissance heritage of Zamość.
+
+Every apartment features high-quality furnishings, a fully equipped kitchen, comfortable beds with premium linens, and all the amenities you need for a relaxing stay.
+:::
+:::
+:::
+
+
+<!-- APARTMENT LISTINGS -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Choose Your Space]{.section-subtitle}
+
+## Available Apartments
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+<!-- Room Nr 1 -->
+::: {.apartment-card style="margin-bottom: 3rem;"}
+::: {.row .align-items-center}
+::: {.col-lg-6}
+::: {.apartment-image}
+![Room Nr 1](images/room1-main.jpg)
+:::
+:::
+::: {.col-lg-6}
+::: {.apartment-details}
+### Room Nr 1
+::: {.apartment-features}
+[🛏️ 5 Guests]{} [📐 55m²]{} [🛁 1 Bathroom]{} [☕ Kitchen]{}
+:::
+
+Spacious apartment perfect for families or groups. This generous space features:
+
+- Double bed with premium bedding
+- Double sofa bed + single sofa bed
+- Fully equipped kitchen with essentials
+- Modern bathroom with shower
+- Smart TV and high-speed WiFi
+- Work desk area
+- Air conditioning
+
+[Book This Apartment](book-room1.qmd){.btn-gold}
+:::
+:::
+:::
+:::
+
+<!-- Room Nr 3 -->
+::: {.apartment-card style="margin-bottom: 3rem;"}
+::: {.row .align-items-center .flex-lg-row-reverse}
+::: {.col-lg-6}
+::: {.apartment-image}
+![Room Nr 3](images/room3-main.jpg)
+:::
+:::
+::: {.col-lg-6}
+::: {.apartment-details}
+### Room Nr 3
+::: {.apartment-features}
+[🛏️ 3 Guests]{} [📐 50m²]{} [🛁 1 Bathroom]{} [☕ Kitchen]{}
+:::
+
+Perfect for couples or small groups seeking a tranquil retreat. This charming apartment features:
+
+- Queen-size bed + single bed with premium bedding
+- Fully equipped kitchen with essentials
+- Modern bathroom with bathtub and shower
+- Smart TV and high-speed WiFi
+- Work desk area
+- Air conditioning
+
+[Book This Apartment](book-room3.qmd){.btn-gold}
+:::
+:::
+:::
+:::
+
+:::
+:::
+
+
+<!-- AMENITIES -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Included]{.section-subtitle}
+
+## Apartment Amenities
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.features-grid}
+
+::: {.feature-card}
+::: {.feature-icon}
+📶
+:::
+### High-Speed WiFi
+Stay connected with complimentary high-speed internet throughout your apartment.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🍳
+:::
+### Equipped Kitchen
+Prepare your own meals with all the cookware, utensils, and appliances you need.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+❄️
+:::
+### Climate Control
+Enjoy year-round comfort with air conditioning and heating systems.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🛁
+:::
+### Premium Bath
+Luxuriate in modern bathrooms with quality toiletries provided.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+📺
+:::
+### Entertainment
+Smart TV with streaming capabilities for your relaxation.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🧺
+:::
+### Laundry
+Washer and dryer available for longer stays.
+:::
+
+:::
+:::
+:::
+
+
+<!-- BOOKING -->
+::: {#booking .section .booking-section}
+::: {.container}
+::: {.section-header}
+[Reservations]{.section-subtitle}
+
+## Book Your Apartment {style="color: #FFFFFF;"}
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.booking-widget-container}
+
+::: {.booking-cta-box}
+::: {.booking-cta-content}
+
+[✨]{.booking-icon}
+
+### Book Your Apartment
+
+Select your dates and secure your stay in the heart of Zamość.
+
+[Check Availability & Book](book.qmd){.btn-book-large}
+
+:::
+:::
+
+:::
+:::
+:::
+
+
+<!-- POLICIES -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Good to Know]{.section-subtitle}
+
+## House Rules & Policies
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.check-times}
+
+::: {.check-time-card}
+#### Check-in
+[16:00 – 21:00]{.time}
+:::
+
+::: {.check-time-card}
+#### Check-out
+[Before 11:00]{.time}
+:::
+
+::: {.check-time-card}
+#### Cancellation
+[Free up to 7 days]{.time}
+:::
+
+:::
+
+::: {.about-content style="margin-top: 2rem;"}
+
+**General Policies:**
+
+- No smoking inside apartments
+- Pets welcome upon request (additional fee may apply)
+- Quiet hours from 22:00 to 08:00
+- Valid ID required at check-in
+- Security deposit may be required
+
+For special requests or early/late check-in arrangements, please [contact us](contact.qmd).
+
+:::
+:::
+:::

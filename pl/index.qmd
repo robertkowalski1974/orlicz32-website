@@ -1,0 +1,273 @@
+---
+pagetitle: "Apartamenty Orlicz 32 | Apartamenty butikowe w Zamościu"
+description: "Poczuj się jak w domu, będąc daleko od niego. Apartamenty butikowe w sercu perły renesansu – miasta wpisanego na listę UNESCO."
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    include-after-body:
+      - file: navbar-pl.html
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+![](../images/logo.webp){.hero-logo style="max-width: 250px; margin-bottom: 1.5rem;"}
+
+[APARTAMENTY]{.hero-logo-text}
+
+[ORLICZ 32]{.hero-title}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+["Poczuj się jak w domu, będąc daleko od niego"]{.hero-tagline}
+
+[Miasto UNESCO • Perła Renesansu]{.hero-subtitle}
+
+::: {.hero-cta}
+[Zarezerwuj pobyt](book.qmd){.btn-book}
+:::
+
+:::
+
+::: {.scroll-indicator}
+::: {.mouse}
+:::
+:::
+
+:::
+
+
+<!-- SEKCJA O NAS -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Nasza filozofia]{.section-subtitle}
+
+## Witamy w Orlicz 32
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+Apartamenty Orlicz 32 to butikowy obiekt noclegowy położony w samym sercu **Zamościa** – miasta uznanego przez UNESCO za wybitny przykład renesansowego założenia urbanistycznego z końca XVI wieku.
+
+Nazwa naszych apartamentów pochodzi od adresu przy ulicy Orlicz-Dreszera. Oferujemy gościom niepowtarzalną okazję, by doświadczyć uroku tego historycznego miasta, nazywanego [**„Perłą Renesansu"**]{.highlight}, ciesząc się jednocześnie wszelkimi udogodnieniami nowoczesnego domu.
+
+Nasze starannie zaprojektowane apartamenty łączą współczesny komfort z ponadczasową elegancją, która definiuje charakter naszego miasta. Zapewniamy spersonalizowaną obsługę i przemyślanie urządzone przestrzenie, oferując prawdziwy odpoczynek od codziennego zgiełku.
+:::
+:::
+:::
+
+
+<!-- SEKCJA WARTOŚCI -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Co oferujemy]{.section-subtitle}
+
+## Doświadczenie Orlicz 32
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.features-grid}
+
+::: {.feature-card}
+::: {.feature-icon}
+🏠
+:::
+### Ciepło i komfort
+Tworzymy przestrzenie, w których poczujesz się jak w domu. Każdy detal został przemyślany, abyś od pierwszej chwili czuł się mile widziany i swobodnie.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🏛️
+:::
+### Dziedzictwo i autentyczność
+Czerpiemy z niezwykłego renesansowego dziedzictwa Zamościa. Nasza marka odzwierciedla ponadczasową elegancję i architektoniczną harmonię, które czynią nasze miasto skarbem UNESCO.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+✨
+:::
+### Indywidualne podejście
+Wierzymy w butikową gościnność, która traktuje każdego gościa indywidualnie. Nasza spersonalizowana obsługa sprawia, że każdy pobyt staje się wyjątkowym przeżyciem.
+:::
+
+::: {.feature-card}
+::: {.feature-icon}
+🌿
+:::
+### Azyl i wytchnienie
+Oferujemy schronienie od codziennego pośpiechu. Orlicz 32 to miejsce, gdzie można zwolnić tempo, nabrać sił i doświadczyć spokoju pięknie zachowanego renesansowego miasta.
+:::
+
+:::
+:::
+:::
+
+
+<!-- PODGLĄD APARTAMENTÓW -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Zakwaterowanie]{.section-subtitle}
+
+## Nasze apartamenty
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.row}
+::: {.col-md-6}
+::: {.apartment-card}
+::: {.apartment-image}
+![Pokój nr 1 - Przestronny apartament](../images/room1-main.jpg)
+:::
+::: {.apartment-details}
+### Pokój nr 1
+::: {.apartment-features}
+[🛏️ 5 osób]{} [📐 55m²]{} [🚿 Prysznic]{}
+:::
+Przestronny apartament idealny dla rodzin lub grup. Łóżko dwuosobowe, rozkładana sofa dwuosobowa oraz rozkładana sofa jednoosobowa.
+
+[Zobacz szczegóły →](apartments.qmd){.btn-details}
+[Zarezerwuj →](book-room1.qmd){.btn-details}
+:::
+:::
+:::
+
+::: {.col-md-6}
+::: {.apartment-card}
+::: {.apartment-image}
+![Pokój nr 3 - Przytulny apartament](../images/room3-main.jpg)
+:::
+::: {.apartment-details}
+### Pokój nr 3
+::: {.apartment-features}
+[🛏️ 3 osoby]{} [📐 50m²]{} [🛁 Wanna z prysznicem]{}
+:::
+Idealny dla par lub małych grup. Duże okna wpuszczające naturalne światło oraz wszystkie udogodnienia domowe.
+
+[Zobacz szczegóły →](apartments.qmd){.btn-details}
+[Zarezerwuj →](book-room3.qmd){.btn-details}
+:::
+:::
+:::
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[Zobacz wszystkie apartamenty](apartments.qmd){.btn-gold}
+:::
+
+:::
+:::
+
+
+<!-- SEKCJA LOKALIZACJA -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Lokalizacja]{.section-subtitle}
+
+## Perła Renesansu
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+Zamość został założony w **1580 roku** przez kanclerza **Jana Zamoyskiego** i zaprojektowany przez włoskiego architekta **Bernarda Moranda** jako „miasto idealne". Ten urbanistyczny klejnot, wpisany na **Listę Światowego Dziedzictwa UNESCO**, zachwyca doskonale zachowaną renesansową architekturą.
+
+Apartamenty Orlicz 32 znajdują się zaledwie kilka minut spacerem od słynnego Rynku Wielkiego – jednego z najpiękniejszych placów renesansowych w Europie.
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[Odkryj Zamość](zamosc.qmd){.btn-gold}
+:::
+
+:::
+:::
+
+
+<!-- SEKCJA OPINIE -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Opinie gości]{.section-subtitle}
+
+## Co mówią nasi goście
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-ba61a78d-0422-4329-9e8f-3158cb7c9d21" data-elfsight-app-lazy></div>
+
+:::
+:::
+
+
+<!-- SEKCJA REZERWACJA -->
+::: {#booking .section .booking-section}
+::: {.container}
+::: {.section-header}
+[Rezerwacja]{.section-subtitle}
+
+## Zarezerwuj apartament {style="color: #FFFFFF;"}
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.booking-widget-container}
+
+::: {.booking-cta-box}
+::: {.booking-cta-content}
+
+[✨]{.booking-icon}
+
+### Zarezerwuj swój pobyt
+
+Wybierz terminy i zabezpiecz swój pobyt w sercu Zamościa.
+
+[Sprawdź dostępność](book.qmd){.btn-book-large}
+
+:::
+:::
+
+:::
+:::
+:::

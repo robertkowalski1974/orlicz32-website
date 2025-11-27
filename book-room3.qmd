@@ -1,0 +1,35 @@
+---
+pagetitle: "Book Room Nr 3 | Apartamenty Orlicz 32"
+description: "Book Room Nr 3 - Cozy apartment for 3 guests in the heart of Zamość."
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room3-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+[Reservations]{.hero-logo-text}
+
+[Book Room Nr 3]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+[50m² • 3 Guests • Kitchen • Bathtub with Shower]{.hero-tagline style="font-size: 1.1rem;"}
+
+:::
+:::
+
+
+<!-- BOOKING IFRAME -->
+::: {.booking-page-container}
+
+<iframe 
+  src="https://orlicz32.guestybookings.com/en/properties/687a4d0c544795001080eb20" 
+  class="booking-iframe"
+  title="Book Room Nr 3 - Apartamenty Orlicz 32"
+  allow="payment"
+></iframe>
+
+:::

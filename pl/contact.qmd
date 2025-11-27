@@ -1,0 +1,188 @@
+---
+pagetitle: "Kontakt | Apartamenty Orlicz 32"
+description: "Skontaktuj się z Apartamentami Orlicz 32. Chętnie pomożemy z rezerwacją i odpowiemy na wszelkie pytania."
+format:
+  html:
+    include-after-body:
+      - file: navbar-pl.html
+---
+
+::: {.hero-section style="background-image: url('../images/contact-hero.svg'); min-height: 40vh;"}
+::: {.hero-content}
+
+[Skontaktuj się]{.hero-logo-text}
+
+[Kontakt]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+:::
+:::
+
+
+<!-- INFORMACJE KONTAKTOWE -->
+::: {.contact-grid}
+
+::: {.contact-info-panel}
+### Dane kontaktowe
+
+::: {.contact-item}
+[📍]{.contact-icon}
+
+**Adres**  
+Orlicz-Dreszera 32  
+22-400 Zamość, Polska
+:::
+
+::: {.contact-item}
+[📧]{.contact-icon}
+
+**E-mail**  
+[info@orlicz32.pl](mailto:info@orlicz32.pl)
+:::
+
+::: {.contact-item}
+[📱]{.contact-icon}
+
+**Telefon**  
+[+48 508 209 313](tel:+48508209313)
+:::
+
+::: {.contact-item}
+[🌐]{.contact-icon}
+
+**Strona internetowa**  
+[www.orlicz32.pl](https://www.orlicz32.pl)
+:::
+
+---
+
+### Zameldowanie / Wymeldowanie
+
+::: {.contact-item}
+[🕐]{.contact-icon}
+
+**Zameldowanie**  
+16:00 – 21:00
+:::
+
+::: {.contact-item}
+[🕚]{.contact-icon}
+
+**Wymeldowanie**  
+Do 11:00
+:::
+
+*W przypadku wcześniejszego lub późniejszego przyjazdu prosimy o wcześniejszy kontakt.*
+
+:::
+
+::: {.contact-form-panel}
+::: {.section-header style="margin-bottom: 2rem; text-align: left;"}
+[Napisz do nas]{.section-subtitle}
+
+## Wyślij wiadomość
+
+::: {.section-divider style="justify-content: flex-start;"}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.contact-form}
+<div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/63fowEnFq980csrwguNwOftppRzH07jMi8v4cECUGtynd5EO6QhQEcFi5fsR12aCsz"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+:::
+:::
+
+:::
+
+
+<!-- MAPA -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Znajdź nas]{.section-subtitle}
+
+## Lokalizacja
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.map-container style="height: 450px; margin-bottom: 2rem;"}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.5!2d23.2519!3d50.7167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4723831fd4b5c5e7%3A0x1!2sOrlicz-Dreszera%2032%2C%2022-400%20Zamo%C5%9B%C4%87!5e0!3m2!1spl!2spl!4v1" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+:::
+
+::: {.about-content}
+### Jak do nas dojechać
+
+**Z Warszawy (ok. 300 km):**  
+Jedź drogą ekspresową S17 w kierunku Lublina, następnie kontynuuj drogą nr 17 do Zamościa. Czas przejazdu: około 3,5-4 godziny.
+
+**Z Lublina (ok. 90 km):**  
+Jedź drogą nr 17/74 na południowy wschód do Zamościa. Czas przejazdu: około 1-1,5 godziny.
+
+**Z Krakowa (ok. 300 km):**  
+Jedź autostradą A4 na wschód, następnie drogą nr 94 przez Rzeszów i drogą nr 77 na północ. Czas przejazdu: około 4-4,5 godziny.
+
+**Najbliższe lotniska:**  
+Lotnisko Lublin (LUZ) – około 100 km, z połączeniami do Warszawy, Londynu i innych europejskich miast.
+
+Lotnisko Rzeszów-Jasionka (RZE) – około 120 km, z połączeniami do głównych europejskich destynacji.
+
+**Parking:**  
+Bezpłatny parking uliczny dostępny w pobliżu naszych apartamentów. Szczegółowe informacje o parkowaniu prześlemy po dokonaniu rezerwacji.
+:::
+:::
+:::
+
+
+<!-- FAQ -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Pomoc]{.section-subtitle}
+
+## Najczęściej zadawane pytania
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content}
+
+**O której godzinie jest zameldowanie i wymeldowanie?**  
+Zameldowanie odbywa się między 16:00 a 21:00. Wymeldowanie do 11:00. Jeśli potrzebujesz innych godzin, skontaktuj się z nami wcześniej – postaramy się dostosować do Twoich potrzeb.
+
+**Czy jest dostępny parking?**  
+Tak, bezpłatny parking uliczny jest dostępny w pobliżu naszych apartamentów. Szczegółowe instrukcje prześlemy przed przyjazdem.
+
+**Czy można przyjechać ze zwierzętami?**  
+Zwierzęta są mile widziane po wcześniejszym uzgodnieniu. Prosimy o informację z wyprzedzeniem, abyśmy mogli odpowiednio przygotować apartament. Może obowiązywać dodatkowa opłata za sprzątanie.
+
+**Czy oferujecie transfery z lotniska?**  
+Możemy zorganizować prywatny transfer z lotniska w Lublinie lub innych lokalizacji. Skontaktuj się z nami, aby uzyskać cenę i sprawdzić dostępność.
+
+**Co jest wliczone w cenę apartamentu?**  
+Wszystkie apartamenty zawierają pościel, ręczniki, kosmetyki, w pełni wyposażoną kuchnię, szybki internet WiFi, Smart TV oraz klimatyzację. Zapewniamy również przewodnik powitalny z lokalnymi rekomendacjami.
+
+**Czy mogę anulować rezerwację?**  
+Nasza standardowa polityka pozwala na bezpłatną rezygnację do 7 dni przed przyjazdem. Szczegółowe warunki znajdziesz podczas rezerwacji.
+
+**Czy Stare Miasto jest w zasięgu spaceru od Orlicz 32?**  
+Zdecydowanie tak! Znajdujemy się zaledwie kilka minut spacerem od Rynku Wielkiego i wszystkich głównych atrakcji. Nie potrzebujesz samochodu, aby zwiedzać miasto.
+
+:::
+:::
+:::

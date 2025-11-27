@@ -1,0 +1,159 @@
+---
+pagetitle: "Gallery | Apartamenty Orlicz 32"
+description: "Explore our boutique apartments and discover the beauty of Zamość through our photo gallery."
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room3-main.jpg'); min-height: 40vh; background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+[Visual Journey]{.hero-logo-text}
+
+[Our Gallery]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+:::
+:::
+
+
+<!-- ROOM NR 1 GALLERY -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Apartment]{.section-subtitle}
+
+## Room Nr 1
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+[55m² • 5 Guests • Full Kitchen • Shower]{style="color: #666; font-size: 1.1rem;"}
+:::
+
+::: {.gallery-grid}
+
+![Room 1](images/gallery/room1/01.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/02.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/03.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/04.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/05.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/06.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/07.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/08.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/09.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/10.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/11.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/12.jpg){group="room1" .gallery-img}
+
+![Room 1](images/gallery/room1/13.jpg){group="room1" .gallery-img}
+
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[Book Room Nr 1](book-room1.qmd){.btn-gold}
+:::
+
+:::
+:::
+
+
+<!-- ROOM NR 3 GALLERY -->
+::: {.section .section-white}
+::: {.container}
+::: {.section-header}
+[Apartment]{.section-subtitle}
+
+## Room Nr 3
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+[50m² • 3 Guests • Full Kitchen • Bathtub with Shower]{style="color: #666; font-size: 1.1rem;"}
+:::
+
+::: {.gallery-grid}
+
+![Room 3](images/gallery/cozy-retreat/01-living.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/02-bedroom.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/03-kitchen.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/04-detail.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/05-view.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/06-room.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/07-bathroom.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/08-interior.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/09-space.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/10-amenity.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/11-area.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/12-corner.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/13-feature.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/14-extra.jpg){group="room3" .gallery-img}
+
+![Room 3](images/gallery/cozy-retreat/15-final.jpg){group="room3" .gallery-img}
+
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[Book Room Nr 3](book-room3.qmd){.btn-gold}
+:::
+
+:::
+:::
+
+
+<!-- CTA -->
+::: {.section .section-light}
+::: {.container}
+::: {.section-header}
+[Experience Zamość]{.section-subtitle}
+
+## Ready to Stay?
+
+::: {.section-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+:::
+
+::: {.about-content style="text-align: center;"}
+Book your boutique apartment in the heart of UNESCO's Pearl of the Renaissance.
+
+[View All Rooms](book.qmd){.btn-gold}
+:::
+
+:::
+:::

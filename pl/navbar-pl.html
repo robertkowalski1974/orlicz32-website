@@ -1,0 +1,38 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Update navbar for Polish pages
+  var navbar = document.querySelector('.navbar-nav.me-auto');
+  if (navbar) {
+    navbar.innerHTML = `
+      <li class="nav-item"><a class="nav-link" href="/pl/index.html"><span class="menu-text">Strona główna</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="/pl/apartments.html"><span class="menu-text">Apartamenty</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="/pl/zamosc.html"><span class="menu-text">Zamość</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="/pl/gallery.html"><span class="menu-text">Galeria</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="/pl/contact.html"><span class="menu-text">Kontakt</span></a></li>
+    `;
+  }
+  
+  // Update right navbar
+  var navbarRight = document.querySelector('.navbar-nav.navbar-nav-scroll:not(.me-auto)') || document.querySelector('.navbar-collapse .navbar-nav:last-child');
+  if (navbarRight && navbarRight !== navbar) {
+    navbarRight.innerHTML = `
+      <li class="nav-item"><a class="nav-link" href="/pl/book.html"><span class="menu-text">Zarezerwuj</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="/index.html"><span class="menu-text">EN</span></a></li>
+    `;
+  }
+  
+  // Update footer
+  var footerTagline = document.querySelector('.footer-tagline');
+  if (footerTagline) {
+    footerTagline.textContent = '"Poczuj się jak w domu, będąc daleko od niego"';
+  }
+  var footerAddress = document.querySelector('.footer-address');
+  if (footerAddress) {
+    footerAddress.textContent = 'Orlicz-Dreszera 32, 22-400 Zamość, Polska';
+  }
+  var footerCopyright = document.querySelector('.footer-copyright');
+  if (footerCopyright) {
+    footerCopyright.textContent = '© 2025 Apartamenty Orlicz 32. Wszelkie prawa zastrzeżone.';
+  }
+});
+</script>

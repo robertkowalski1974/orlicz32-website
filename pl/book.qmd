@@ -1,0 +1,37 @@
+---
+pagetitle: "Rezerwacja | Apartamenty Orlicz 32"
+description: "Zarezerwuj apartament butikowy w sercu Zamościa."
+format:
+  html:
+    include-after-body:
+      - file: navbar-pl.html
+---
+
+::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;"}
+::: {.hero-content}
+
+[Rezerwacja]{.hero-logo-text}
+
+[Zarezerwuj pobyt]{.hero-title style="font-size: 2.5rem;"}
+
+::: {.hero-divider}
+[]{.line}
+[]{.diamond}
+[]{.line}
+:::
+
+:::
+:::
+
+
+<!-- IFRAME REZERWACJI -->
+::: {.booking-page-container}
+
+<iframe 
+  src="https://orlicz32.guestybookings.com/pl" 
+  class="booking-iframe"
+  title="Rezerwacja - Apartamenty Orlicz 32"
+  allow="payment"
+></iframe>
+
+:::

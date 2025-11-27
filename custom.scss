@@ -1,0 +1,1118 @@
+/*-- scss:defaults --*/
+
+// Orlicz32 Brand Colors
+$rich-charcoal: #2D2926;
+$heritage-gold: #C9A961;
+$pure-white: #FFFFFF;
+$bright-gold: #D4AF37;
+$warm-linen: #F5F2ED;
+$stone-gray: #666666;
+
+// Bootstrap overrides
+$primary: $heritage-gold;
+$secondary: $rich-charcoal;
+$body-bg: $warm-linen;
+$body-color: $rich-charcoal;
+$link-color: $heritage-gold;
+$link-hover-color: $bright-gold;
+
+// Typography - Georgia as primary, Arial as secondary
+$font-family-sans-serif: Arial, "Helvetica Neue", sans-serif;
+$font-family-serif: Georgia, "Times New Roman", serif;
+$headings-font-family: Georgia, "Times New Roman", serif;
+$headings-font-weight: 400;
+$headings-color: $rich-charcoal;
+
+$font-size-base: 1rem;
+$h1-font-size: 2.75rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+
+$navbar-bg: $rich-charcoal;
+$navbar-fg: $pure-white;
+
+/*-- scss:rules --*/
+
+// ============================================
+// GLOBAL STYLES
+// ============================================
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-serif;
+  line-height: 1.7;
+  color: $rich-charcoal;
+  background-color: $warm-linen;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
+  color: $rich-charcoal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+// ============================================
+// NAVBAR STYLES
+// ============================================
+
+.navbar {
+  background-color: $rich-charcoal !important;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid rgba($heritage-gold, 0.3);
+  
+  .navbar-brand-container {
+    margin: 0 !important;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    margin-right: 2rem;
+    
+    &.navbar-brand-logo {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  // Hide the text title, keep only logo
+  .navbar-title {
+    display: none !important;
+  }
+  
+  .navbar-logo {
+    height: 45px;
+    width: auto;
+  }
+  
+  .nav-link {
+    color: $pure-white !important;
+    font-family: $font-family-sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: $heritage-gold !important;
+    }
+  }
+  
+  // Style the "Book Now" button (last item in right navbar)
+  .navbar-nav.navbar-nav-scroll:last-child .nav-link:last-child,
+  .navbar-nav:last-child .nav-link {
+    background-color: $heritage-gold !important;
+    color: $rich-charcoal !important;
+    padding: 0.6rem 1.5rem !important;
+    border-radius: 0;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: $bright-gold !important;
+      color: $rich-charcoal !important;
+    }
+  }
+}
+
+// ============================================
+// HERO SECTION
+// ============================================
+
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $rich-charcoal;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba($rich-charcoal, 0.7) 0%,
+      rgba($rich-charcoal, 0.5) 50%,
+      rgba($rich-charcoal, 0.8) 100%
+    );
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+  }
+  
+  .hero-logo-text {
+    font-family: $font-family-serif;
+    color: $heritage-gold;
+    font-size: 1rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-title {
+    font-family: $font-family-serif;
+    color: $pure-white;
+    font-size: 3.5rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5rem;
+    
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .hero-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    
+    .line {
+      width: 80px;
+      height: 1px;
+      background-color: $heritage-gold;
+    }
+    
+    .diamond {
+      width: 8px;
+      height: 8px;
+      background-color: $heritage-gold;
+      transform: rotate(45deg);
+    }
+  }
+  
+  .hero-tagline {
+    font-family: $font-family-serif;
+    font-style: italic;
+    color: $pure-white;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.95;
+  }
+  
+  .hero-subtitle {
+    font-family: $font-family-sans-serif;
+    color: $heritage-gold;
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  
+  .hero-cta {
+    margin-top: 2.5rem;
+    
+    .btn-book {
+      display: inline-block;
+      background-color: $heritage-gold;
+      color: $rich-charcoal;
+      padding: 1rem 3rem;
+      font-family: $font-family-sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 2px solid $heritage-gold;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: transparent;
+        color: $heritage-gold;
+      }
+    }
+  }
+  
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    
+    .mouse {
+      width: 26px;
+      height: 40px;
+      border: 2px solid $heritage-gold;
+      border-radius: 13px;
+      position: relative;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 8px;
+        background-color: $heritage-gold;
+        border-radius: 2px;
+        animation: scroll 2s infinite;
+      }
+    }
+  }
+}
+
+@keyframes scroll {
+  0% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(12px); }
+}
+
+// ============================================
+// SECTION STYLES
+// ============================================
+
+.section {
+  padding: 5rem 0;
+  
+  &.section-dark {
+    background-color: $rich-charcoal;
+    color: $pure-white;
+    
+    h2, h3 {
+      color: $heritage-gold;
+    }
+    
+    p {
+      color: rgba($pure-white, 0.9);
+    }
+  }
+  
+  &.section-light {
+    background-color: $warm-linen;
+  }
+  
+  &.section-white {
+    background-color: $pure-white;
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  .section-subtitle {
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: $heritage-gold;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  
+  .section-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    
+    .line {
+      width: 50px;
+      height: 1px;
+      background-color: $heritage-gold;
+    }
+    
+    .diamond {
+      width: 6px;
+      height: 6px;
+      background-color: $heritage-gold;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+// ============================================
+// ABOUT SECTION
+// ============================================
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlight {
+    color: $heritage-gold;
+    font-weight: 600;
+  }
+}
+
+// ============================================
+// FEATURES / VALUES
+// ============================================
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background-color: $pure-white;
+  border: 1px solid rgba($heritage-gold, 0.2);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: $heritage-gold;
+    box-shadow: 0 10px 40px rgba($rich-charcoal, 0.1);
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    color: $heritage-gold;
+    margin-bottom: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: $rich-charcoal;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    color: $stone-gray;
+    line-height: 1.7;
+  }
+}
+
+// ============================================
+// APARTMENTS PREVIEW
+// ============================================
+
+.apartment-card {
+  position: relative;
+  overflow: hidden;
+  background-color: $pure-white;
+  margin-bottom: 2rem;
+  
+  .apartment-image {
+    position: relative;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
+  
+  .apartment-details {
+    padding: 2rem;
+    
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .apartment-features {
+      display: flex;
+      gap: 1.5rem;
+      margin: 1rem 0;
+      font-family: $font-family-sans-serif;
+      font-size: 0.85rem;
+      color: $stone-gray;
+      
+      span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
+    
+    p {
+      color: $stone-gray;
+      margin-bottom: 1.5rem;
+    }
+    
+    .btn-details {
+      display: inline-block;
+      color: $heritage-gold;
+      font-family: $font-family-sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px solid $heritage-gold;
+      padding-bottom: 0.25rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: $bright-gold;
+        border-color: $bright-gold;
+      }
+    }
+  }
+}
+
+// ============================================
+// BOOKING SECTION
+// ============================================
+
+.booking-section {
+  background-color: $rich-charcoal;
+  padding: 5rem 0;
+  
+  .section-header {
+    h2 {
+      color: $pure-white;
+    }
+  }
+  
+  .booking-widget-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: $pure-white;
+    padding: 2rem;
+    min-height: 400px;
+    
+    // Placeholder styling
+    .booking-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 350px;
+      border: 2px dashed rgba($heritage-gold, 0.3);
+      background-color: rgba($heritage-gold, 0.05);
+      
+      .placeholder-content {
+        text-align: center;
+        color: $stone-gray;
+        
+        .placeholder-icon {
+          font-size: 3rem;
+          color: $heritage-gold;
+          margin-bottom: 1rem;
+        }
+        
+        p {
+          font-family: $font-family-sans-serif;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+// ============================================
+// TESTIMONIALS
+// ============================================
+
+.testimonials-section {
+  background-color: $warm-linen;
+  
+  .testimonial-widget-container {
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 300px;
+    
+    .testimonial-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 250px;
+      background-color: $pure-white;
+      border: 1px solid rgba($heritage-gold, 0.2);
+      
+      .placeholder-content {
+        text-align: center;
+        padding: 2rem;
+        
+        .quote-icon {
+          font-size: 3rem;
+          color: $heritage-gold;
+          opacity: 0.5;
+          margin-bottom: 1rem;
+        }
+        
+        p {
+          color: $stone-gray;
+          font-family: $font-family-sans-serif;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+// ============================================
+// GALLERY
+// ============================================
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  cursor: pointer;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba($rich-charcoal, 0.4) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+    
+    &::before {
+      opacity: 1;
+    }
+  }
+  
+  &.gallery-item-large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+// Lightbox styles
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($rich-charcoal, 0.95);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .lightbox-content {
+    max-width: 90%;
+    max-height: 90vh;
+    
+    img {
+      max-width: 100%;
+      max-height: 85vh;
+      object-fit: contain;
+    }
+  }
+  
+  .lightbox-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: $pure-white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: $heritage-gold;
+    }
+  }
+  
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $pure-white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: $heritage-gold;
+    }
+    
+    &.prev {
+      left: 2rem;
+    }
+    
+    &.next {
+      right: 2rem;
+    }
+  }
+}
+
+// ============================================
+// LOCATION / MAP & CONTACT INFO
+// ============================================
+
+.map-container {
+  height: 400px;
+  background-color: $stone-gray;
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+.location-info {
+  background-color: $rich-charcoal;
+  color: $pure-white;
+  padding: 2.5rem;
+  
+  h3 {
+    color: $heritage-gold;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+  
+  h4 {
+    color: $pure-white !important;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+  
+  p, a {
+    color: $heritage-gold !important;
+    font-size: 0.95rem;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: $bright-gold !important;
+  }
+  
+  hr {
+    border-color: rgba($heritage-gold, 0.3);
+    margin: 1.5rem 0;
+  }
+  
+  em {
+    color: rgba($pure-white, 0.7);
+    font-size: 0.85rem;
+  }
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  
+  .info-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    width: 30px;
+    text-align: center;
+  }
+  
+  .info-text {
+    flex: 1;
+    
+    h4 {
+      color: $pure-white;
+      font-size: 0.85rem;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    p {
+      color: rgba($pure-white, 0.8);
+      font-size: 0.95rem;
+      margin: 0;
+      line-height: 1.5;
+    }
+    
+    a {
+      color: $heritage-gold;
+      text-decoration: none;
+      
+      &:hover {
+        color: $bright-gold;
+      }
+    }
+  }
+}
+
+.location-section {
+  .map-container {
+    height: 400px;
+  }
+}
+
+// ============================================
+// CONTACT PAGE GRID
+// ============================================
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0;
+  min-height: 600px;
+  
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-info-panel {
+  background-color: $rich-charcoal;
+  color: $pure-white;
+  padding: 3rem;
+  
+  h3 {
+    color: $heritage-gold;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid rgba($heritage-gold, 0.3);
+    margin: 2rem 0;
+  }
+  
+  em {
+    display: block;
+    color: rgba($pure-white, 0.6);
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  
+  .contact-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    width: 30px;
+  }
+  
+  strong {
+    display: block;
+    color: $pure-white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.25rem;
+  }
+  
+  p {
+    color: rgba($pure-white, 0.85);
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: $heritage-gold !important;
+    text-decoration: none;
+    
+    &:hover {
+      color: $bright-gold !important;
+    }
+  }
+}
+
+.contact-form-panel {
+  background-color: $pure-white;
+  padding: 3rem;
+  
+  .section-header {
+    text-align: left;
+    
+    h2 {
+      text-align: left;
+    }
+  }
+  
+  .section-divider {
+    justify-content: flex-start;
+  }
+}
+
+// ============================================
+// CONTACT FORM
+// ============================================
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    
+    label {
+      display: block;
+      font-family: $font-family-sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $stone-gray;
+      margin-bottom: 0.5rem;
+    }
+    
+    input,
+    textarea {
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid rgba($heritage-gold, 0.3);
+      background-color: $pure-white;
+      font-family: $font-family-serif;
+      font-size: 1rem;
+      color: $rich-charcoal;
+      transition: border-color 0.3s ease;
+      
+      &:focus {
+        outline: none;
+        border-color: $heritage-gold;
+      }
+    }
+    
+    textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: $heritage-gold;
+    color: $rich-charcoal;
+    border: 2px solid $heritage-gold;
+    font-family: $font-family-sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: $rich-charcoal;
+      color: $heritage-gold;
+    }
+  }
+}
+
+// ============================================
+// FOOTER
+// ============================================
+
+.footer-content {
+  text-align: center;
+  padding: 2rem 0;
+  
+  .footer-logo {
+    font-family: $font-family-serif;
+    font-size: 1.5rem;
+    color: $heritage-gold;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-tagline {
+    font-family: $font-family-serif;
+    font-style: italic;
+    color: $pure-white;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-address {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: rgba($pure-white, 0.7);
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-copyright {
+    font-family: $font-family-sans-serif;
+    font-size: 0.75rem;
+    color: rgba($pure-white, 0.5);
+    margin-top: 1.5rem;
+  }
+}
+
+// ============================================
+// BUTTONS & UTILITIES
+// ============================================
+
+.btn-gold {
+  display: inline-block;
+  background-color: $heritage-gold;
+  color: $rich-charcoal;
+  padding: 1rem 2.5rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid $heritage-gold;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: transparent;
+    color: $heritage-gold;
+  }
+}
+
+.btn-outline-gold {
+  display: inline-block;
+  background-color: transparent;
+  color: $heritage-gold;
+  padding: 1rem 2.5rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid $heritage-gold;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: $heritage-gold;
+    color: $rich-charcoal;
+  }
+}
+
+.text-gold {
+  color: $heritage-gold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container-narrow {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+// ============================================
+// RESPONSIVE ADJUSTMENTS
+// ============================================
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .hero-section {
+    min-height: 90vh;
+    
+    .hero-title {
+      font-size: 2rem;
+      letter-spacing: 0.1em;
+    }
+    
+    .hero-tagline {
+      font-size: 1.1rem;
+    }
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .location-section {
+    .location-info {
+      padding: 2rem;
+    }
+  }
+}
+
+// Remove default Quarto styling conflicts
+.quarto-title {
+  display: none;
+}
+
+#quarto-content {
+  padding: 0;
+}
+
+main.content {
+  padding: 0;
+  max-width: 100%;
+}
+
+.page-columns {
+  max-width: 100%;
+}
