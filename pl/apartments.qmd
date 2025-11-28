@@ -26,13 +26,14 @@ format:
 :::
 
 
+
 <!-- WSTĘP -->
 ::: {.section .section-light}
 ::: {.container}
 ::: {.about-content}
-Nasze apartamenty zostały zaprojektowane tak, abyś poczuł się jak w domu. Każda przestrzeń została starannie przemyślana, łącząc nowoczesny komfort z wyrafinowaną elegancją, która odzwierciedla renesansowe dziedzictwo Zamościa.
+Nasze apartamenty zostały zaprojektowane tak, abyś poczuł się jak w domu. Przytulne wnętrza łączą wygodę z elegancją.
 
-Wszystkie apartamenty wyposażone są w wysokiej jakości meble, w pełni wyposażoną kuchnię, wygodne łóżka z ekskluzywną pościelą oraz wszelkie udogodnienia niezbędne do relaksującego pobytu.
+Znajdziesz tu w pełni wyposażoną kuchnię, wygodne łóżka i wszystko, czego potrzebujesz do spokojnego wypoczynku.
 :::
 :::
 :::
@@ -70,7 +71,7 @@ Wszystkie apartamenty wyposażone są w wysokiej jakości meble, w pełni wyposa
 
 Przestronny apartament idealny dla rodzin lub grup. Ta hojnie urządzona przestrzeń oferuje:
 
-- Łóżko dwuosobowe z ekskluzywną pościelą
+- Łóżko dwuosobowe
 - Rozkładana sofa dwuosobowa + rozkładana sofa jednoosobowa
 - W pełni wyposażona kuchnia
 - Nowoczesna łazienka z prysznicem
@@ -101,7 +102,7 @@ Przestronny apartament idealny dla rodzin lub grup. Ta hojnie urządzona przestr
 
 Idealny dla par lub małych grup szukających spokojnego azylu. Ten uroczy apartament oferuje:
 
-- Łóżko dwuosobowe + łóżko pojedyncze z ekskluzywną pościelą
+- Łóżko dwuosobowe + łóżko pojedyncze
 - W pełni wyposażona kuchnia
 - Nowoczesna łazienka z wanną i prysznicem
 - Smart TV i szybki internet WiFi
