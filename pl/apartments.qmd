@@ -31,6 +31,7 @@ format:
 ::: {.section .section-light}
 ::: {.container}
 ::: {.about-content}
+
 Nasze apartamenty zostały zaprojektowane tak, abyś poczuł się jak w domu. Przytulne wnętrza łączą wygodę z elegancją.
 
 Znajdziesz tu w pełni wyposażoną kuchnię, wygodne łóżka i wszystko, czego potrzebujesz do spokojnego wypoczynku.
