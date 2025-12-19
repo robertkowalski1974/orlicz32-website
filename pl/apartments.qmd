@@ -55,17 +55,17 @@ Znajdziesz tu w pełni wyposażoną kuchnię, wygodne łóżka i wszystko, czego
 :::
 :::
 
-<!-- Pokój nr 1 -->
+<!-- Apartament nr 1 -->
 ::: {.apartment-card style="margin-bottom: 3rem;"}
 ::: {.row .align-items-center}
 ::: {.col-lg-6}
 ::: {.apartment-image}
-![Pokój nr 1](../images/room1-main.jpg)
+![Apartament nr 1](../images/room1-main.jpg)
 :::
 :::
 ::: {.col-lg-6}
 ::: {.apartment-details}
-### Pokój nr 1
+### Apartament nr 1
 ::: {.apartment-features}
 [🛏️ 5 osób]{} [📐 55m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
 :::
@@ -86,17 +86,17 @@ Przestronny apartament idealny dla rodzin lub grup. Ta hojnie urządzona przestr
 :::
 :::
 
-<!-- Pokój nr 3 -->
+<!-- Apartament nr 3 -->
 ::: {.apartment-card style="margin-bottom: 3rem;"}
 ::: {.row .align-items-center .flex-lg-row-reverse}
 ::: {.col-lg-6}
 ::: {.apartment-image}
-![Pokój nr 3](../images/room3-main.jpg)
+![Apartament nr 3](../images/room3-main.jpg)
 :::
 :::
 ::: {.col-lg-6}
 ::: {.apartment-details}
-### Pokój nr 3
+### Apartament nr 3
 ::: {.apartment-features}
 [🛏️ 3 osoby]{} [📐 50m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
 :::

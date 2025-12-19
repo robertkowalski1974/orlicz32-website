@@ -143,10 +143,10 @@ Oferujemy schronienie od codziennego pośpiechu. Orlicz 32 to miejsce, gdzie mo�
 ::: {.col-md-6}
 ::: {.apartment-card}
 ::: {.apartment-image}
-![Pokój nr 1 - Przestronny apartament](../images/room1-main.jpg)
+![Apartament nr 1 - Przestronny apartament](../images/room1-main.jpg)
 :::
 ::: {.apartment-details}
-### Pokój nr 1
+### Apartament nr 1
 ::: {.apartment-features}
 [🛏️ 5 osób]{} [📐 55m²]{} [🚿 Prysznic]{}
 :::
@@ -161,10 +161,10 @@ Przestronny apartament idealny dla rodzin lub grup. Łóżko dwuosobowe, rozkła
 ::: {.col-md-6}
 ::: {.apartment-card}
 ::: {.apartment-image}
-![Pokój nr 3 - Przytulny apartament](../images/room3-main.jpg)
+![Apartament nr 3 - Przytulny apartament](../images/room3-main.jpg)
 :::
 ::: {.apartment-details}
-### Pokój nr 3
+### Apartament nr 3
 ::: {.apartment-features}
 [🛏️ 3 osoby]{} [📐 50m²]{} [🛁 Wanna z prysznicem]{}
 :::
