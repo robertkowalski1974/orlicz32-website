@@ -277,6 +277,36 @@ Apartamenty Orlicz 32 znajdują się zaledwie kilka minut spacerem od słynnego 
 [— Łukasz Szumiła, Google]{.review-source}
 :::
 
+::: {.review-excerpt-card}
+> "Pokoje były czyste, łazienka również. Wszystko czego potrzebowaliśmy znaleźliśmy na miejscu. Apartament znajduje się około 15 min pieszo od rynku. Właściciel pomocny i bardzo uprzejmy. Polecamy."
+
+[— Ewa Kwiat, Google]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Jestem stałym gościem i zawsze wracam. Personel uprzejmy i pomocny. To miejsce ma wszystko czego potrzebuję: darmowe WiFi, parking, wyposażenie kuchenne, telewizor."
+
+[— Kazimierz, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "To kolejny pobyt tutaj. Właściciel bardzo pomocny, łatwo dostosował godziny zameldowania do naszego przyjazdu. Czysty apartament ze wszystkimi udogodnieniami, pięknie urządzony. Świetna lokalizacja!"
+
+[— Tomasz, Airbnb]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Niepowtarzalny styl, dbałość o szczegóły, czystość i dostęp do wszystkiego co potrzebne. Bliskość centrum, spokojne otoczenie. Właściciele, którzy bardzo dbają o gości."
+
+[— Maria, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Bardzo miłe przyjęcie i troska o nasz pobyt. Apartament wyposażony we wszystko co potrzebne. Lokalizacja na urokliwej uliczce willowej. Doskonały kontakt z właścicielem."
+
+[— Edward, Booking.com]{.review-source}
+:::
+
 :::
 
 <script src="https://static.elfsight.com/platform/platform.js" async></script>

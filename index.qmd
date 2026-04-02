@@ -283,6 +283,36 @@ Select your dates and book your stay in our boutique apartments in the heart of 
 [— Łukasz Szumiła, Google]{.review-source}
 :::
 
+::: {.review-excerpt-card}
+> "Rooms were clean, bathroom too. Everything we needed we found on site. The apartment is about 15 minutes walk from the market square. Owner helpful and very polite. We recommend."
+
+[— Ewa Kwiat, Google]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "I'm a regular guest and always return. Staff is courteous and helpful. This place has everything I need: free WiFi, parking, kitchen equipment, flat-screen TV."
+
+[— Kazimierz, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "This is another stay there. The owner was very helpful, and easily adjusted the check-in times to our arrival. A clean apartment with all the amenities, beautifully decorated. Great location!"
+
+[— Tomasz, Airbnb]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Unique style, attention to detail, cleanliness and access to everything needed. Proximity to the centre, quiet surroundings. Owners who care very much about guests."
+
+[— Maria, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Very pleasant reception and careful attention to our stay. Apartment equipped with everything needed. Location on a charming villa street. Excellent owner contact."
+
+[— Edward, Booking.com]{.review-source}
+:::
+
 :::
 
 ::: {.testimonial-widget-container}
