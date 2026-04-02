@@ -1,8 +1,51 @@
 ---
 pagetitle: "Odkryj Zamość | Apartamenty Orlicz 32"
-description: "Poznaj Zamość – Perłę Renesansu, miasto wpisane na Listę Światowego Dziedzictwa UNESCO, założone w 1580 roku."
+description: "Zamość — Perła Renesansu, miasto UNESCO. Historia, atrakcje, spacery."
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/pl/zamosc.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/zamosc.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/zamosc.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/zamosc.html">
+          <meta property="og:title" content="Odkryj Zamość | Apartamenty Orlicz 32">
+          <meta property="og:description" content="Zamość — Perła Renesansu, miasto UNESCO. Historia, atrakcje, spacery.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/zamosc-hero.svg">
+          <meta property="og:url" content="https://www.orlicz32.pl/pl/zamosc.html">
+          <meta property="og:type" content="article">
+          <meta property="og:locale" content="pl_PL">
+          <meta property="og:locale:alternate" content="en_GB">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Odkryj Zamość | Orlicz 32">
+          <meta name="twitter:description" content="Zamość — Perła Renesansu, miasto UNESCO. Historia, atrakcje, spacery.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/zamosc-hero.svg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Zamość","item":"https://www.orlicz32.pl/pl/zamosc.html"}]}
+          </script>
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "TouristDestination",
+            "name": "Zamość",
+            "description": "Zamość is a UNESCO World Heritage city founded in 1580, known as the Pearl of the Renaissance. Features a perfectly preserved Renaissance town square, colourful merchant houses, and historic fortifications.",
+            "url": "https://www.orlicz32.pl/pl/zamosc.html",
+            "touristType": ["Cultural tourism", "Heritage tourism", "City break"],
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 50.7167,
+              "longitude": 23.2519
+            },
+            "includesAttraction": [
+              {"@type": "TouristAttraction", "name": "Rynek Wielki (Great Market Square)", "description": "One of the finest Renaissance squares in Europe, surrounded by colourful arcaded merchant houses."},
+              {"@type": "TouristAttraction", "name": "Town Hall (Ratusz)", "description": "Iconic Renaissance town hall with a distinctive tower and grand staircase."},
+              {"@type": "TouristAttraction", "name": "Zamość Cathedral", "description": "Baroque cathedral with beautiful frescoes and the Zamoyski family chapel."},
+              {"@type": "TouristAttraction", "name": "Zamość Fortifications", "description": "Well-preserved Renaissance fortifications, bastions, and gates."},
+              {"@type": "TouristAttraction", "name": "Zamość Synagogue", "description": "17th-century synagogue testament to the city's multicultural heritage."}
+            ]
+          }
+          </script>
     include-after-body:
       - file: navbar-pl.html
 ---
@@ -196,7 +239,7 @@ Zamojskie Stare Miasto jest kompaktowe i idealne do zwiedzania pieszo. Większo�
 🅿️
 :::
 ### Parking
-Bezpłatny parking uliczny w pobliżu naszych apartamentów. Płatny parking dostępny w centrum Starego Miasta.
+Bezpłatny parking na terenie obiektu za budynkiem, monitorowany przez CCTV. Płatny parking dostępny w centrum Starego Miasta.
 :::
 
 ::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}

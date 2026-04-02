@@ -1,6 +1,6 @@
 ---
 pagetitle: "Apartamenty Orlicz 32 | Apartamenty butikowe w Zamościu"
-description: "Poczuj się jak w domu, będąc daleko od niego. Apartamenty butikowe w sercu perły renesansu – miasta wpisanego na listę UNESCO."
+description: "Butikowe apartamenty w sercu Zamościa — Perła Renesansu, UNESCO. 2 apartamenty, 10 min do Starego Miasta, darmowy parking, WiFi."
 format:
   html:
     include-in-header:
@@ -8,6 +8,22 @@ format:
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+          <link rel="canonical" href="https://www.orlicz32.pl/pl/index.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/index.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/index.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/index.html">
+          <meta property="og:title" content="Apartamenty Orlicz 32 | Apartamenty butikowe w Zamościu">
+          <meta property="og:description" content="2 butikowe apartamenty w sercu Zamościa, miasta UNESCO. 10 min do Rynku Wielkiego. Darmowy parking, WiFi, klimatyzacja.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/pl/index.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="pl_PL">
+          <meta property="og:locale:alternate" content="en_GB">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Apartamenty Orlicz 32 | Zamość">
+          <meta name="twitter:description" content="Butikowe apartamenty w Zamościu. Zarezerwuj bezpośrednio.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
     include-after-body:
       - file: navbar-pl.html
 ---
@@ -150,7 +166,7 @@ Oferujemy schronienie od codziennego pośpiechu. Orlicz 32 to miejsce, gdzie mo�
 ::: {.apartment-features}
 [🛏️ 5 osób]{} [📐 55m²]{} [🚿 Prysznic]{}
 :::
-Przestronny apartament idealny dla rodzin lub grup. Łóżko dwuosobowe, rozkładana sofa dwuosobowa oraz rozkładana sofa jednoosobowa.
+Apartament 55 m² dla maksymalnie 5 gości. Idealny dla rodzin odwiedzających Stare Miasto w Zamościu. Łóżko podwójne, rozkładana sofa podwójna, rozkładana sofa pojedyncza. W pełni wyposażona kuchnia, darmowy parking.
 
 [Zobacz szczegóły →](apartments.qmd){.btn-details}
 [Zarezerwuj →](book-room1.qmd){.btn-details}
@@ -168,7 +184,7 @@ Przestronny apartament idealny dla rodzin lub grup. Łóżko dwuosobowe, rozkła
 ::: {.apartment-features}
 [🛏️ 3 osoby]{} [📐 50m²]{} [🛁 Wanna z prysznicem]{}
 :::
-Idealny dla par lub małych grup. Duże okna wpuszczające naturalne światło oraz wszystkie udogodnienia domowe.
+Apartament 50 m² dla maksymalnie 3 gości. Idealny dla par lub podróżników. Łóżko queen-size, łóżko pojedyncze. Duże okna, naturalne światło. W pełni wyposażona kuchnia, darmowy parking.
 
 [Zobacz szczegóły →](apartments.qmd){.btn-details}
 [Zarezerwuj →](book-room3.qmd){.btn-details}
@@ -227,6 +243,40 @@ Apartamenty Orlicz 32 znajdują się zaledwie kilka minut spacerem od słynnego 
 []{.diamond}
 []{.line}
 :::
+:::
+
+::: {.review-excerpts}
+
+::: {.review-excerpt-card}
+> "Apartament zasługuje na najwyższą ocenę. Kontakt z właścicielem też na 5 gwiazdek. Czysto, ładnie, urządzone z gustem. Kuchnia wyposażona rewelacyjnie."
+
+[— Ewa Grabowska, Google]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Doskonały apartament w świetnej lokalizacji, niesamowita obsługa i wspaniały standard. Czysto, dobrze wyposażone."
+
+[— Tomasz, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Bardzo czysty apartament zgodny z opisem, dobrze wyposażona kuchnia, zapewnione miejsce parkingowe, bliskość Starego Miasta, bardzo spokojna okolica. Właściciel bardzo komunikatywny i przyjazny."
+
+[— Grzegorz, Airbnb]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Apartament wykończony z dbałością o każdy szczegół, klimatyczny, z duszą. Nienaganna czystość, śnieżnobiała pościel i ręczniki."
+
+[— Marian, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Miłe, przytulne mieszkanie. Czysto, niczego nie brakuje. Kuchnia świetnie wyposażona. Dobra lokalizacja. Mili i pomocni właściciele."
+
+[— Łukasz Szumiła, Google]{.review-source}
+:::
+
 :::
 
 <script src="https://static.elfsight.com/platform/platform.js" async></script>

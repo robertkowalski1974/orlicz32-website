@@ -1,8 +1,29 @@
 ---
-pagetitle: "Rezerwacja | Apartamenty Orlicz 32"
-description: "Zarezerwuj apartament butikowy w sercu Zamościa."
+pagetitle: "Zarezerwuj | Apartamenty Orlicz 32"
+description: "Zarezerwuj butikowy apartament w Zamościu. Najlepsze ceny przy rezerwacji bezpośredniej."
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/pl/book.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/book.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/book.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/book.html">
+          <meta property="og:title" content="Zarezerwuj | Apartamenty Orlicz 32">
+          <meta property="og:description" content="Zarezerwuj butikowy apartament w Zamościu. Najlepsze ceny przy rezerwacji bezpośredniej.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/pl/book.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="pl_PL">
+          <meta property="og:locale:alternate" content="en_GB">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Zarezerwuj | Orlicz 32 Zamość">
+          <meta name="twitter:description" content="Zarezerwuj apartament w Zamościu. Najlepsze ceny bezpośrednio.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Rezerwacja","item":"https://www.orlicz32.pl/pl/book.html"}]}
+          </script>
     include-after-body:
       - file: navbar-pl.html
 ---
@@ -24,11 +45,26 @@ format:
 :::
 
 
+::: {.booking-contact-info}
+### Zarezerwuj bezpośrednio
+
+**Online:** Skorzystaj z kalendarza poniżej, aby sprawdzić dostępność i zarezerwować.
+
+**Telefonicznie:** [+48 508 209 313](tel:+48508209313)
+
+**WhatsApp:** [Napisz do nas na WhatsApp](https://wa.me/48508209313)
+
+**Email:** [info@orlicz32.pl](mailto:info@orlicz32.pl)
+
+Zameldowanie: 16:00 – 21:00 | Wymeldowanie: Przed 11:00
+:::
+
+
 <!-- IFRAME REZERWACJI -->
 ::: {.booking-page-container}
 
-<iframe 
-  src="https://orlicz32.guestybookings.com/pl" 
+<iframe
+  src="https://orlicz32.guestybookings.com/pl"
   class="booking-iframe"
   title="Rezerwacja - Apartamenty Orlicz 32"
   allow="payment"

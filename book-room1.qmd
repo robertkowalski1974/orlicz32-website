@@ -1,6 +1,29 @@
 ---
 pagetitle: "Book Room Nr 1 | Apartamenty Orlicz 32"
-description: "Book Room Nr 1 - Cozy apartment for guests in the heart of Zamość."
+description: "Book Room 1: 55m², up to 5 guests, ideal for families. Zamość, 10 min to Old Town. Free parking."
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/book-room1.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/book-room1.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/book-room1.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/book-room1.html">
+          <meta property="og:title" content="Book Room Nr 1 — Family Apartment | Orlicz 32">
+          <meta property="og:description" content="55m², up to 5 guests. Double bed, double sofa bed, single sofa bed. Free parking, fibre WiFi.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/book-room1.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="en_GB">
+          <meta property="og:locale:alternate" content="pl_PL">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Book Room 1 | Orlicz 32">
+          <meta name="twitter:description" content="55m² family apartment in Zamość. Book direct.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.orlicz32.pl/index.html"},{"@type":"ListItem","position":2,"name":"Book","item":"https://www.orlicz32.pl/book.html"},{"@type":"ListItem","position":3,"name":"Room Nr 1","item":"https://www.orlicz32.pl/book-room1.html"}]}
+          </script>
 ---
 
 ::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;"}
@@ -20,10 +43,26 @@ description: "Book Room Nr 1 - Cozy apartment for guests in the heart of Zamoś�
 :::
 
 
+<!-- BOOKING CONTACT INFO (for AI agents and alternative booking) -->
+::: {.booking-contact-info}
+### Book Directly
+
+**Online:** Use the booking calendar below to check availability and book instantly.
+
+**By Phone:** [+48 508 209 313](tel:+48508209313)
+
+**By WhatsApp:** [Message us on WhatsApp](https://wa.me/48508209313)
+
+**By Email:** [info@orlicz32.pl](mailto:info@orlicz32.pl)
+
+Check-in: 16:00 – 21:00 | Check-out: Before 11:00
+:::
+
+
 <!-- BOOKING IFRAME -->
 ::: {.booking-page-container}
 
-<iframe 
+<iframe
   src="https://orlicz32.guestybookings.com/en/properties/687a4d0d5ee48b000fe42ea8" 
   class="booking-iframe"
   title="Book Room Nr 1 - Apartamenty Orlicz 32"

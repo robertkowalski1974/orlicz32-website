@@ -2,7 +2,14 @@ project:
   type: website
   resources:
     - lightbox.js
+    - robots.txt
+    - sitemap.xml
+    - llms.txt
+    - llms-full.txt
+    - CNAME
   output-dir: docs
+  post-render:
+    - cp sitemap.xml docs/
 
 website:
   title: "Apartamenty Orlicz 32"
@@ -61,6 +68,7 @@ format:
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-NSSHCCQF');</script>
           <!-- End Google Tag Manager -->
+      - file: _includes/schema-global.html
     include-before-body:
       - text: |
           <!-- Google Tag Manager (noscript) -->

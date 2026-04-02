@@ -1,8 +1,29 @@
 ---
-pagetitle: "Galeria | Apartamenty Orlicz 32"
-description: "Zobacz nasze apartamenty butikowe i odkryj piękno Zamościa w naszej galerii zdjęć."
+pagetitle: "Galeria zdjęć | Apartamenty Orlicz 32"
+description: "Zdjęcia naszych butikowych apartamentów w Zamościu."
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/pl/gallery.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/gallery.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/gallery.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/gallery.html">
+          <meta property="og:title" content="Galeria zdjęć | Apartamenty Orlicz 32">
+          <meta property="og:description" content="Zdjęcia naszych butikowych apartamentów w Zamościu.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room3-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/pl/gallery.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="pl_PL">
+          <meta property="og:locale:alternate" content="en_GB">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Galeria | Orlicz 32 Zamość">
+          <meta name="twitter:description" content="Zdjęcia butikowych apartamentów w Zamościu.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room3-main.jpg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Galeria","item":"https://www.orlicz32.pl/pl/gallery.html"}]}
+          </script>
     include-after-body:
       - file: navbar-pl.html
 ---

@@ -1,6 +1,29 @@
 ---
 pagetitle: "Our Apartments | Apartamenty Orlicz 32"
-description: "Discover our meticulously designed boutique apartments in the heart of Zamość."
+description: "2 boutique apartments in Zamość: Room 1 (55m², 5 guests) and Room 3 (50m², 3 guests). Fully equipped kitchen, free parking, fibre WiFi."
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/apartments.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/apartments.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/apartments.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/apartments.html">
+          <meta property="og:title" content="Our Apartments | Apartamenty Orlicz 32 in Zamość">
+          <meta property="og:description" content="2 boutique self-catering apartments in UNESCO Zamość. Room 1: 55m², 5 guests. Room 3: 50m², 3 guests. Free parking, fibre WiFi.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/apartments.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="en_GB">
+          <meta property="og:locale:alternate" content="pl_PL">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Apartments | Orlicz 32 Zamość">
+          <meta name="twitter:description" content="2 boutique apartments in Zamość Old Town. Fully equipped, free parking.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.orlicz32.pl/index.html"},{"@type":"ListItem","position":2,"name":"Apartments","item":"https://www.orlicz32.pl/apartments.html"}]}
+          </script>
 ---
 
 ::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); min-height: 50vh; background-size: cover; background-position: center;"}
@@ -64,7 +87,7 @@ Every apartment features high-quality furnishings, a fully equipped kitchen, com
 [🛏️ 5 Guests]{} [📐 55m²]{} [🛁 1 Bathroom]{} [☕ Kitchen]{}
 :::
 
-Spacious apartment perfect for families or groups. This generous space features:
+55 m² self-catering apartment for up to 5 guests, ideal for families visiting Zamość's UNESCO Old Town or groups exploring eastern Poland. The apartment is a 10-15 minute walk from the Great Market Square (Rynek Wielki). Features:
 
 - Double bed with premium bedding
 - Double sofa bed + single sofa bed
@@ -95,7 +118,7 @@ Spacious apartment perfect for families or groups. This generous space features:
 [🛏️ 3 Guests]{} [📐 50m²]{} [🛁 1 Bathroom]{} [☕ Kitchen]{}
 :::
 
-Perfect for couples or small groups seeking a tranquil retreat. This charming apartment features:
+50 m² self-catering apartment for up to 3 guests, ideal for couples on a weekend getaway to Zamość or travelers looking for a quiet base near the Renaissance Old Town. Large windows fill the space with natural light. The Great Market Square is a 10-15 minute walk away. Features:
 
 - Queen-size bed + single bed with premium bedding
 - Fully equipped kitchen with essentials

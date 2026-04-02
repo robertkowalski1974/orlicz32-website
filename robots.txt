@@ -1,0 +1,35 @@
+# Orlicz 32 - Boutique Apartments in Zamosc, Poland
+# https://www.orlicz32.pl
+
+User-agent: *
+Allow: /
+
+# AI Crawlers - explicitly welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Cohere-AI
+Allow: /
+
+Sitemap: https://www.orlicz32.pl/sitemap.xml

@@ -1,8 +1,29 @@
 ---
 pagetitle: "Nasze apartamenty | Apartamenty Orlicz 32"
-description: "Odkryj nasze starannie zaprojektowane apartamenty butikowe w sercu Zamościa."
+description: "2 butikowe apartamenty w Zamościu: Pokój 1 (55m², 5 gości) i Pokój 3 (50m², 3 gości). Kuchnia, parking, WiFi."
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/pl/apartments.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/apartments.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/apartments.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/apartments.html">
+          <meta property="og:title" content="Nasze apartamenty | Apartamenty Orlicz 32">
+          <meta property="og:description" content="2 butikowe apartamenty w Zamościu. Pokój 1: 55m², 5 gości. Pokój 3: 50m², 3 gości. Parking, WiFi.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/pl/apartments.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="pl_PL">
+          <meta property="og:locale:alternate" content="en_GB">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Apartamenty | Orlicz 32 Zamość">
+          <meta name="twitter:description" content="Butikowe apartamenty w Zamościu. Wyposażone, parking gratis.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Apartamenty","item":"https://www.orlicz32.pl/pl/apartments.html"}]}
+          </script>
     include-after-body:
       - file: navbar-pl.html
 ---
@@ -70,15 +91,14 @@ Znajdziesz tu w pełni wyposażoną kuchnię, wygodne łóżka i wszystko, czego
 [🛏️ 5 osób]{} [📐 55m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
 :::
 
-Przestronny apartament idealny dla rodzin lub grup. Ta hojnie urządzona przestrzeń oferuje:
+Apartament 55 m² dla maksymalnie 5 gości. Idealny dla rodzin odwiedzających Zamość lub grup zwiedzających Stare Miasto — 10 minut spacerem do Rynku Wielkiego.
 
-- Łóżko dwuosobowe
-- Rozkładana sofa dwuosobowa + rozkładana sofa jednoosobowa
-- W pełni wyposażona kuchnia
+- Łóżko podwójne, rozkładana sofa podwójna, rozkładana sofa pojedyncza
+- W pełni wyposażona kuchnia ze zmywarką
 - Nowoczesna łazienka z prysznicem
-- Smart TV i szybki internet WiFi
-- Biurko do pracy
-- Klimatyzacja
+- Smart TV, szybki internet WiFi
+- Biurko do pracy, klimatyzacja
+- Darmowy parking na terenie obiektu z CCTV
 
 [Zarezerwuj ten apartament](book-room1.qmd){.btn-gold}
 :::
@@ -101,14 +121,14 @@ Przestronny apartament idealny dla rodzin lub grup. Ta hojnie urządzona przestr
 [🛏️ 3 osoby]{} [📐 50m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
 :::
 
-Idealny dla par lub małych grup szukających spokojnego azylu. Ten uroczy apartament oferuje:
+Apartament 50 m² dla maksymalnie 3 gości. Idealny dla par lub podróżników szukających spokoju — duże okna, naturalne światło, 10 minut spacerem do Rynku Wielkiego.
 
-- Łóżko dwuosobowe + łóżko pojedyncze
-- W pełni wyposażona kuchnia
+- Łóżko queen-size, łóżko pojedyncze
+- W pełni wyposażona kuchnia ze zmywarką
 - Nowoczesna łazienka z wanną i prysznicem
-- Smart TV i szybki internet WiFi
-- Biurko do pracy
-- Klimatyzacja
+- Smart TV, szybki internet WiFi
+- Biurko do pracy, klimatyzacja
+- Darmowy parking na terenie obiektu z CCTV
 
 [Zarezerwuj ten apartament](book-room3.qmd){.btn-gold}
 :::

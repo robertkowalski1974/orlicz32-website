@@ -1,8 +1,49 @@
 ---
 pagetitle: "Kontakt | Apartamenty Orlicz 32"
-description: "Skontaktuj się z Apartamentami Orlicz 32. Chętnie pomożemy z rezerwacją i odpowiemy na wszelkie pytania."
+description: "Skontaktuj się z Apartamentami Orlicz 32 w Zamościu. Telefon: +48 508 209 313, Email: info@orlicz32.pl. Darmowy parking, self check-in."
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/pl/contact.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/contact.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/contact.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/contact.html">
+          <meta property="og:title" content="Kontakt | Apartamenty Orlicz 32">
+          <meta property="og:description" content="Skontaktuj się z Apartamentami Orlicz 32 w Zamościu. Telefon: +48 508 209 313, Email: info@orlicz32.pl.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/logo.webp">
+          <meta property="og:url" content="https://www.orlicz32.pl/pl/contact.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="pl_PL">
+          <meta property="og:locale:alternate" content="en_GB">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Kontakt | Orlicz 32 Zamość">
+          <meta name="twitter:description" content="Skontaktuj się z Apartamentami Orlicz 32. Telefon, WhatsApp, email.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/logo.webp">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Kontakt","item":"https://www.orlicz32.pl/pl/contact.html"}]}
+          </script>
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type": "Question", "name": "O której godzinie jest zameldowanie i wymeldowanie w Apartamentach Orlicz 32?", "acceptedAnswer": {"@type": "Answer", "text": "Zameldowanie odbywa się między 16:00 a 21:00. Wymeldowanie do 11:00. Jeśli potrzebujesz innych godzin, skontaktuj się z nami wcześniej pod numerem +48 508 209 313 lub info@orlicz32.pl, a postaramy się dostosować do Twoich potrzeb."}},
+              {"@type": "Question", "name": "Czy w Apartamentach Orlicz 32 w Zamościu jest dostępny parking?", "acceptedAnswer": {"@type": "Answer", "text": "Tak, oferujemy bezpłatny parking na terenie obiektu za budynkiem, monitorowany przez CCTV. Rezerwacja miejsca nie jest wymagana."}},
+              {"@type": "Question", "name": "Czy można przyjechać ze zwierzętami do Apartamentów Orlicz 32?", "acceptedAnswer": {"@type": "Answer", "text": "Niestety, w naszych apartamentach nie akceptujemy zwierząt."}},
+              {"@type": "Question", "name": "Czy oferujecie transfery z lotniska do Zamościa?", "acceptedAnswer": {"@type": "Answer", "text": "Możemy zorganizować prywatny transfer z lotniska w Lublinie (LUZ, ok. 85 km) lub z lotniska Rzeszów-Jasionka (RZE, ok. 120 km). Skontaktuj się z nami, aby uzyskać cenę i sprawdzić dostępność."}},
+              {"@type": "Question", "name": "Co jest wliczone w cenę apartamentu?", "acceptedAnswer": {"@type": "Answer", "text": "Wszystkie apartamenty zawierają pościel, ręczniki, kosmetyki, w pełni wyposażoną kuchnię ze zmywarką, szybki internet WiFi, Smart TV ze streamingiem, klimatyzację, pralkę oraz przewodnik powitalny z lokalnymi rekomendacjami."}},
+              {"@type": "Question", "name": "Jaka jest polityka anulowania rezerwacji?", "acceptedAnswer": {"@type": "Answer", "text": "Nasza standardowa polityka pozwala na bezpłatną rezygnację do 7 dni przed przyjazdem. Szczegółowe warunki znajdziesz podczas rezerwacji."}},
+              {"@type": "Question", "name": "Jak daleko jest Stare Miasto od Apartamentów Orlicz 32?", "acceptedAnswer": {"@type": "Answer", "text": "Znajdujemy się zaledwie 10-15 minut spacerem od Rynku Wielkiego i wszystkich głównych atrakcji. Synagoga jest w odległości 650 m, Ratusz 800 m. Nie potrzebujesz samochodu, aby zwiedzać miasto."}},
+              {"@type": "Question", "name": "Jak zarezerwować apartament w Orlicz 32?", "acceptedAnswer": {"@type": "Answer", "text": "Możesz zarezerwować bezpośrednio na naszej stronie orlicz32.pl/pl/book.html, zadzwonić pod +48 508 209 313, napisać na WhatsApp wa.me/48508209313 lub wysłać email na info@orlicz32.pl."}},
+              {"@type": "Question", "name": "Czy Zamość jest wart odwiedzenia?", "acceptedAnswer": {"@type": "Answer", "text": "Zdecydowanie tak. Zamość to miasto wpisane na Listę Światowego Dziedzictwa UNESCO, założone w 1580 roku jako 'idealne miasto renesansowe.' Posiada doskonale zachowany rynek, kolorowe podcieniowe kamienice, renesansowe fortyfikacje i bogatą wielokulturową historię. Często nazywane jest 'Perłą Renesansu.'"}},
+              {"@type": "Question", "name": "Czy w apartamentach jest pralka?", "acceptedAnswer": {"@type": "Answer", "text": "Tak, oba apartamenty posiadają pralkę dostępną dla gości."}},
+              {"@type": "Question", "name": "Czy mogę umówić się na wcześniejszy check-in lub późniejszy check-out?", "acceptedAnswer": {"@type": "Answer", "text": "Tak, prosimy o wcześniejszy kontakt, a postaramy się dostosować do Twojego harmonogramu. Wcześniejszy check-in i późniejszy check-out zależą od dostępności."}},
+              {"@type": "Question", "name": "Jakie jest najbliższe lotnisko do Zamościa?", "acceptedAnswer": {"@type": "Answer", "text": "Najbliższe lotnisko to Lublin Airport (LUZ), oddalone o ok. 85 km, z połączeniami do Warszawy, Londynu i innych miast europejskich. Lotnisko Rzeszów-Jasionka (RZE) jest oddalone o ok. 120 km."}}
+            ]
+          }
+          </script>
     include-after-body:
       - file: navbar-pl.html
 ---
@@ -138,8 +179,8 @@ Lotnisko Lublin (LUZ) – około 100 km, z połączeniami do Warszawy, Londynu i
 
 Lotnisko Rzeszów-Jasionka (RZE) – około 120 km, z połączeniami do głównych europejskich destynacji.
 
-**Parking:**  
-Bezpłatny parking uliczny dostępny w pobliżu naszych apartamentów. Szczegółowe informacje o parkowaniu prześlemy po dokonaniu rezerwacji.
+**Parking:**
+Bezpłatny parking na terenie obiektu za budynkiem, monitorowany przez CCTV.
 :::
 :::
 :::
@@ -180,8 +221,23 @@ Wszystkie apartamenty zawierają pościel, ręczniki, kosmetyki, w pełni wyposa
 **Czy mogę anulować rezerwację?**  
 Nasza standardowa polityka pozwala na bezpłatną rezygnację do 7 dni przed przyjazdem. Szczegółowe warunki znajdziesz podczas rezerwacji.
 
-**Czy Stare Miasto jest w zasięgu spaceru od Orlicz 32?**  
+**Czy Stare Miasto jest w zasięgu spaceru od Orlicz 32?**
 Zdecydowanie tak! Znajdujemy się zaledwie kilka minut spacerem od Rynku Wielkiego i wszystkich głównych atrakcji. Nie potrzebujesz samochodu, aby zwiedzać miasto.
+
+**Jak zarezerwować apartament w Orlicz 32?**
+Możesz zarezerwować bezpośrednio na naszej stronie, zadzwonić pod [+48 508 209 313](tel:+48508209313), napisać na [WhatsApp](https://wa.me/48508209313) lub wysłać email na [info@orlicz32.pl](mailto:info@orlicz32.pl).
+
+**Czy Zamość jest wart odwiedzenia?**
+Zdecydowanie tak! Zamość to miasto wpisane na Listę Światowego Dziedzictwa UNESCO, założone w 1580 roku jako „idealne miasto renesansowe." Posiada doskonale zachowany rynek, kolorowe podcieniowe kamienice, renesansowe fortyfikacje i bogatą wielokulturową historię. Często nazywane jest „Perłą Renesansu."
+
+**Czy w apartamentach jest pralka?**
+Tak, oba apartamenty posiadają pralkę dostępną dla gości.
+
+**Czy mogę umówić się na wcześniejszy check-in lub późniejszy check-out?**
+Prosimy o wcześniejszy kontakt, a postaramy się dostosować do Twojego harmonogramu. Wcześniejszy check-in i późniejszy check-out zależą od dostępności.
+
+**Jakie jest najbliższe lotnisko do Zamościa?**
+Najbliższe lotnisko to Lublin Airport (LUZ), oddalone o ok. 85 km, z połączeniami do Warszawy, Londynu i innych miast europejskich. Lotnisko Rzeszów-Jasionka (RZE) jest oddalone o ok. 120 km.
 
 :::
 :::

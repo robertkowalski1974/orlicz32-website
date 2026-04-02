@@ -1,6 +1,6 @@
 ---
 pagetitle: "Apartamenty Orlicz 32 | Boutique Apartments in Zamość"
-description: "Feel like home while you are away. Boutique apartments in the heart of UNESCO's Pearl of the Renaissance."
+description: "Boutique self-catering apartments in UNESCO's Zamość. 2 apartments, 10 min to Old Town, free parking, fibre WiFi. Book direct."
 format:
   html:
     include-in-header:
@@ -8,6 +8,22 @@ format:
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+          <link rel="canonical" href="https://www.orlicz32.pl/index.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/index.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/index.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/index.html">
+          <meta property="og:title" content="Apartamenty Orlicz 32 | Boutique Apartments in Zamość">
+          <meta property="og:description" content="2 boutique self-catering apartments in UNESCO Zamość. 10-min walk to Great Market Square. Free parking, fibre WiFi, air conditioning.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/index.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="en_GB">
+          <meta property="og:locale:alternate" content="pl_PL">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Apartamenty Orlicz 32 | Boutique Apartments in Zamość">
+          <meta name="twitter:description" content="Boutique apartments in UNESCO's Zamość. Book direct for best rates.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
 ---
 
 ::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); background-size: cover; background-position: center;"}
@@ -149,7 +165,7 @@ We offer sanctuary from the everyday hustle. Orlicz 32 is a place to slow down, 
 ::: {.apartment-features}
 [🛏️ 5 Guests]{} [📐 55m²]{} [🚿 Shower]{}
 :::
-Spacious apartment perfect for families or groups. Features a double bed, double sofa bed, and single sofa bed.
+55 m² self-catering apartment for up to 5 guests. Ideal for families visiting Zamość Old Town. Double bed, double sofa bed, single sofa bed. Fully equipped kitchen, free parking.
 
 [View Details →](apartments.qmd){.btn-details}
 [Book Now →](book-room1.qmd){.btn-details}
@@ -167,7 +183,7 @@ Spacious apartment perfect for families or groups. Features a double bed, double
 ::: {.apartment-features}
 [🛏️ 3 Guests]{} [📐 50m²]{} [🛁 Bathtub with Shower]{}
 :::
-Perfect for couples or small groups. Wake up to natural light streaming through large windows and enjoy all the comforts of home.
+50 m² self-catering apartment for up to 3 guests. Ideal for couples or solo travelers. Queen bed, single bed. Large windows, natural light. Fully equipped kitchen, free parking.
 
 [View Details →](apartments.qmd){.btn-details}
 [Book Now →](book-room3.qmd){.btn-details}
@@ -233,6 +249,40 @@ Select your dates and book your stay in our boutique apartments in the heart of 
 []{.diamond}
 []{.line}
 :::
+:::
+
+::: {.review-excerpts}
+
+::: {.review-excerpt-card}
+> "The apartment deserves the highest rating. Contact with the owner — 5 stars. Clean, beautiful, tastefully decorated. Kitchen equipped brilliantly. Everything you need and even more."
+
+[— Ewa Grabowska, Google]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Excellent apartment in great location, amazing service and wonderful standard. Clean, well-equipped."
+
+[— Tomasz, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Very clean apartment that matched the description, well-equipped kitchen, close proximity to the Old Town, very quiet neighbourhood. The host is very communicative and friendly."
+
+[— Grzegorz, Airbnb]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Apartment finished with attention to every detail, atmospheric, with soul. Impeccable cleanliness, snowy white bedding and towels."
+
+[— Marian, Booking.com]{.review-source}
+:::
+
+::: {.review-excerpt-card}
+> "Nice, cozy apartment. Clean, nothing missing. Kitchen excellently equipped. Good location. Nice and helpful owners."
+
+[— Łukasz Szumiła, Google]{.review-source}
+:::
+
 :::
 
 ::: {.testimonial-widget-container}

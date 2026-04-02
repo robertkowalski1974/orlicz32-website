@@ -1,6 +1,29 @@
 ---
-pagetitle: "Gallery | Apartamenty Orlicz 32"
-description: "Explore our boutique apartments and discover the beauty of Zamość through our photo gallery."
+pagetitle: "Photo Gallery | Apartamenty Orlicz 32"
+description: "Photos of our boutique apartments in Zamość. Room 1 (55m², 5 guests) and Room 3 (50m², 3 guests)."
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://www.orlicz32.pl/gallery.html">
+          <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/gallery.html">
+          <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/gallery.html">
+          <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/gallery.html">
+          <meta property="og:title" content="Photo Gallery | Apartamenty Orlicz 32">
+          <meta property="og:description" content="Browse photos of our boutique apartments in Zamość, Poland.">
+          <meta property="og:image" content="https://www.orlicz32.pl/images/room3-main.jpg">
+          <meta property="og:url" content="https://www.orlicz32.pl/gallery.html">
+          <meta property="og:type" content="website">
+          <meta property="og:locale" content="en_GB">
+          <meta property="og:locale:alternate" content="pl_PL">
+          <meta property="og:site_name" content="Apartamenty Orlicz 32">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Gallery | Orlicz 32 Zamość">
+          <meta name="twitter:description" content="Photos of boutique apartments in Zamość.">
+          <meta name="twitter:image" content="https://www.orlicz32.pl/images/room3-main.jpg">
+          <script type="application/ld+json">
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.orlicz32.pl/index.html"},{"@type":"ListItem","position":2,"name":"Gallery","item":"https://www.orlicz32.pl/gallery.html"}]}
+          </script>
 ---
 
 ::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room3-main.jpg'); min-height: 40vh; background-size: cover; background-position: center;"}
@@ -39,31 +62,31 @@ description: "Explore our boutique apartments and discover the beauty of Zamoś�
 
 ::: {.gallery-grid}
 
-![Room 1](images/gallery/room1/01.jpg){group="room1" .gallery-img}
+![Room 1 living area with sofa bed and modern decor](images/gallery/room1/01.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/02.jpg){group="room1" .gallery-img}
+![Room 1 double bed with premium bedding](images/gallery/room1/02.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/03.jpg){group="room1" .gallery-img}
+![Room 1 fully equipped kitchen](images/gallery/room1/03.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/04.jpg){group="room1" .gallery-img}
+![Room 1 dining area](images/gallery/room1/04.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/05.jpg){group="room1" .gallery-img}
+![Room 1 work desk and seating area](images/gallery/room1/05.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/06.jpg){group="room1" .gallery-img}
+![Room 1 bathroom with modern shower](images/gallery/room1/06.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/07.jpg){group="room1" .gallery-img}
+![Room 1 interior details and decor](images/gallery/room1/07.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/08.jpg){group="room1" .gallery-img}
+![Room 1 kitchen appliances and storage](images/gallery/room1/08.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/09.jpg){group="room1" .gallery-img}
+![Room 1 natural light and window view](images/gallery/room1/09.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/10.jpg){group="room1" .gallery-img}
+![Room 1 sofa bed for additional guests](images/gallery/room1/10.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/11.jpg){group="room1" .gallery-img}
+![Room 1 wardrobe and storage space](images/gallery/room1/11.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/12.jpg){group="room1" .gallery-img}
+![Room 1 smart TV and entertainment area](images/gallery/room1/12.jpg){group="room1" .gallery-img}
 
-![Room 1](images/gallery/room1/13.jpg){group="room1" .gallery-img}
+![Room 1 hallway and entrance area](images/gallery/room1/13.jpg){group="room1" .gallery-img}
 
 :::
 
@@ -94,35 +117,35 @@ description: "Explore our boutique apartments and discover the beauty of Zamoś�
 
 ::: {.gallery-grid}
 
-![Room 3](images/gallery/cozy-retreat/01-living.jpg){group="room3" .gallery-img}
+![Room 3 living area with natural light](images/gallery/cozy-retreat/01-living.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/02-bedroom.jpg){group="room3" .gallery-img}
+![Room 3 bedroom with queen bed](images/gallery/cozy-retreat/02-bedroom.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/03-kitchen.jpg){group="room3" .gallery-img}
+![Room 3 fully equipped kitchen](images/gallery/cozy-retreat/03-kitchen.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/04-detail.jpg){group="room3" .gallery-img}
+![Room 3 interior detail and decor](images/gallery/cozy-retreat/04-detail.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/05-view.jpg){group="room3" .gallery-img}
+![Room 3 window view with natural light](images/gallery/cozy-retreat/05-view.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/06-room.jpg){group="room3" .gallery-img}
+![Room 3 single bed and seating area](images/gallery/cozy-retreat/06-room.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/07-bathroom.jpg){group="room3" .gallery-img}
+![Room 3 bathroom with bathtub and shower](images/gallery/cozy-retreat/07-bathroom.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/08-interior.jpg){group="room3" .gallery-img}
+![Room 3 stylish interior and furnishings](images/gallery/cozy-retreat/08-interior.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/09-space.jpg){group="room3" .gallery-img}
+![Room 3 spacious layout and open plan](images/gallery/cozy-retreat/09-space.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/10-amenity.jpg){group="room3" .gallery-img}
+![Room 3 amenities and toiletries](images/gallery/cozy-retreat/10-amenity.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/11-area.jpg){group="room3" .gallery-img}
+![Room 3 dining and work area](images/gallery/cozy-retreat/11-area.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/12-corner.jpg){group="room3" .gallery-img}
+![Room 3 cozy reading corner](images/gallery/cozy-retreat/12-corner.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/13-feature.jpg){group="room3" .gallery-img}
+![Room 3 smart TV and entertainment](images/gallery/cozy-retreat/13-feature.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/14-extra.jpg){group="room3" .gallery-img}
+![Room 3 wardrobe and storage](images/gallery/cozy-retreat/14-extra.jpg){group="room3" .gallery-img}
 
-![Room 3](images/gallery/cozy-retreat/15-final.jpg){group="room3" .gallery-img}
+![Room 3 hallway and entrance](images/gallery/cozy-retreat/15-final.jpg){group="room3" .gallery-img}
 
 :::
 

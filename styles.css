@@ -332,9 +332,70 @@ html {
   .scroll-indicator {
     display: none !important;
   }
-  
+
   .hero-section {
     min-height: auto;
     padding: 2rem;
   }
+}
+
+/* AI-friendly booking fallback */
+.booking-contact-info {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(201, 169, 97, 0.3);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.booking-contact-info h3 {
+  font-family: Georgia, 'Cormorant Garamond', serif;
+  color: #2D2926;
+  margin-bottom: 1rem;
+}
+
+.booking-contact-info p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.booking-contact-info a {
+  color: #C9A961;
+  text-decoration: none;
+}
+
+.booking-contact-info a:hover {
+  color: #D4AF37;
+}
+
+/* Homepage review excerpts */
+.review-excerpts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.review-excerpt-card {
+  background: #FFFFFF;
+  padding: 1.5rem;
+  border-left: 3px solid #C9A961;
+  border-radius: 0 4px 4px 0;
+}
+
+.review-excerpt-card blockquote {
+  font-style: italic;
+  color: #2D2926;
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  border: none;
+  padding: 0;
+}
+
+.review-excerpt-card .review-source {
+  font-size: 0.85rem;
+  color: #999;
 }
