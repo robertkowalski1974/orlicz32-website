@@ -78,14 +78,14 @@ Inside, we let the rooms keep the character they came with — herringbone parqu
 
 ::: {.host-block}
 ::: {.host-monogram}
-RK
+K·R
 :::
 ::: {.host-text}
-### Your host — Robert
+### Your hosts — Katarzyna & Robert
 
-I look after both apartments myself. We live a few minutes away, so if a plan changes or a train runs late, send me a message on WhatsApp — I normally reply within a couple of hours.
+We look after both apartments ourselves and live a few minutes away, so if a plan changes or a train runs late, send us a message on WhatsApp — one of us normally replies within a couple of hours.
 
-I am glad to fix a check-in time that suits your journey, and to point you at the restaurants we actually eat in rather than the ones on the square with the biggest sign. English and Polish are both fine.
+We are glad to fix a check-in time that suits your journey, and to point you at the restaurants we actually eat in rather than the ones on the square with the biggest sign. English and Polish are both fine.
 :::
 :::
 :::
@@ -123,8 +123,8 @@ Zamość was laid out in 1580 as one planned town and UNESCO listed it in 1992. 
 ::: {.feature-icon}
 {{< icon message >}}
 :::
-### A host who answers
-You have a direct WhatsApp line to Robert, not a call centre queue. Arrivals move when your travel does — just tell us when.
+### Hosts who answer
+You have a direct WhatsApp line to us, not a call centre queue. Arrivals move when your travel does — just tell us when.
 :::
 
 :::
@@ -211,7 +211,7 @@ Our lowest rate is the one on this site. No platform commission is added on top 
 {{< icon message >}}
 
 ### One message away
-You write to Robert and Robert writes back. WhatsApp +48 508 209 313, or info@orlicz32.pl.
+You write to us and Katarzyna or Robert writes back. WhatsApp +48 508 209 313, or info@orlicz32.pl.
 :::
 
 ::: {.why-item}

@@ -81,14 +81,14 @@ W środku zostawiliśmy to, co wnętrza miały od początku — parkiet w jodeł
 
 ::: {.host-block}
 ::: {.host-monogram}
-RK
+K·R
 :::
 ::: {.host-text}
-### Twój gospodarz — Robert
+### Twoi gospodarze — Katarzyna i Robert
 
-Oba apartamenty prowadzę sam. Mieszkamy kilka minut stąd, więc jeśli plany się zmienią albo pociąg się spóźni, napisz na WhatsApp: +48 508 209 313. Zwykle odpisuję w ciągu dwóch godzin.
+Oba apartamenty prowadzimy sami. Mieszkamy kilka minut stąd, więc jeśli plany się zmienią albo pociąg się spóźni, napisz na WhatsApp: +48 508 209 313. Zwykle odpisujemy w ciągu dwóch godzin.
 
-Godzinę zameldowania dopasuję do Twojej podróży. Podpowiem też, gdzie zjeść — te miejsca, do których sami chodzimy, a nie te z największym szyldem przy rynku. Mówię po polsku i po angielsku.
+Godzinę zameldowania dopasujemy do Twojej podróży. Podpowiemy też, gdzie zjeść — te miejsca, do których sami chodzimy, a nie te z największym szyldem przy rynku. Mówimy po polsku i po angielsku.
 :::
 :::
 :::
@@ -126,8 +126,8 @@ Zamość rozplanowano w 1580 roku jako jedno założenie, a UNESCO wpisało je n
 ::: {.feature-icon}
 {{< icon message >}}
 :::
-### Gospodarz, który odpisuje
-Piszesz na WhatsApp prosto do Roberta, nie na infolinię. Godzinę przyjazdu przesuwamy wtedy, kiedy zmienia się Twój rozkład jazdy — wystarczy dać znać.
+### Gospodarze, którzy odpisują
+Piszesz na WhatsApp prosto do nas, nie na infolinię. Godzinę przyjazdu przesuwamy wtedy, kiedy zmienia się Twój rozkład jazdy — wystarczy dać znać.
 :::
 
 :::
@@ -214,7 +214,7 @@ Najniższą cenę mamy tutaj, na tej stronie. Nie doliczamy do niej prowizji por
 {{< icon message >}}
 
 ### Jedna wiadomość
-Piszesz do Roberta i Robert odpisuje. WhatsApp +48 508 209 313 albo info@orlicz32.pl.
+Piszesz do nas, a odpisuje Katarzyna albo Robert. WhatsApp +48 508 209 313 albo info@orlicz32.pl.
 :::
 
 ::: {.why-item}
