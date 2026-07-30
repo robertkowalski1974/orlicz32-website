@@ -258,9 +258,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Rezerwacja","item":"https://www.orlicz32.pl/pl/book.html"}]}
 </script>
+<style>html:not(.pl-ready) .navbar .menu-text { visibility: hidden; }</style>
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -331,27 +331,61 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<div class="hero-section" style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;">
+<div class="hero-section hero--compact hero--book">
 <div class="hero-content">
 <p><span class="hero-logo-text">Rezerwacja</span></p>
-<p><span class="hero-title" style="font-size: 2.5rem;">Zarezerwuj pobyt</span></p>
+<p><span class="hero-title">Zarezerwuj pobyt</span></p>
 <div class="hero-divider">
 <p><span class="line"></span> <span class="diamond"></span> <span class="line"></span></p>
 </div>
 </div>
 </div>
+<!-- DLACZEGO BEZPOŚREDNIO -->
+<section class="section-light">
+<div class="container">
+<div class="why-direct">
+<div class="why-item">
+<p><svg class="o32-icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.6 3H5a2 2 0 0 0-2 2v6.6a2 2 0 0 0 .6 1.4l7.4 7.4a2 2 0 0 0 2.8 0l6.6-6.6a2 2 0 0 0 0-2.8L13 3.6A2 2 0 0 0 11.6 3Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></p>
+<section id="zawsze-najlepsza-cena" class="level3">
+<h3 class="anchored" data-anchor-id="zawsze-najlepsza-cena">Zawsze najlepsza cena</h3>
+<p>Rezerwacja tutaj nigdy nie kosztuje więcej niż przez portal — po drodze nie ma prowizji.</p>
+</section>
+</div>
+<div class="why-item">
+<p><svg class="o32-icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 15a2 2 0 0 1-2 2H8l-4 3.5V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z"></path></svg></p>
+<section id="jedna-wiadomość" class="level3">
+<h3 class="anchored" data-anchor-id="jedna-wiadomość">Jedna wiadomość</h3>
+<p>WhatsApp trafia prosto do Roberta, nie na infolinię. Zapytaj o wszystko, zanim się zdecydujesz.</p>
+</section>
+</div>
+<div class="why-item">
+<p><svg class="o32-icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="17" r="4"></circle><path d="M9.8 14.2 19.5 4.5"></path><path d="M15.5 8.5l2 2M17.5 6.5l2.5 2.5"></path></svg></p>
+<section id="elastyczny-przyjazd" class="level3">
+<h3 class="anchored" data-anchor-id="elastyczny-przyjazd">Elastyczny przyjazd</h3>
+<p>Zameldowanie jest między 16:00 a 21:00, ale podaj godzinę pociągu albo samolotu, a ułożymy to pod Ciebie.</p>
+</section>
+</div>
+</div>
+</div>
+</section>
+<!-- DANE DO REZERWACJI (dla asystentów AI i rezerwacji alternatywnej) -->
 <section id="zarezerwuj-bezpośrednio" class="level3 booking-contact-info">
 <h3 class="anchored" data-anchor-id="zarezerwuj-bezpośrednio">Zarezerwuj bezpośrednio</h3>
-<p><strong>Online:</strong> Skorzystaj z kalendarza poniżej, aby sprawdzić dostępność i zarezerwować.</p>
-<p><strong>Telefonicznie:</strong> <a href="tel:+48508209313">+48 508 209 313</a></p>
-<p><strong>WhatsApp:</strong> <a href="https://wa.me/48508209313">Napisz do nas na WhatsApp</a></p>
-<p><strong>Email:</strong> <a href="mailto:info@orlicz32.pl">info@orlicz32.pl</a></p>
-<p>Zameldowanie: 16:00 – 21:00 | Wymeldowanie: Przed 11:00</p>
+<p>Online — sprawdź terminy i zapłać w kalendarzu poniżej.</p>
+<p>WhatsApp — <a href="https://wa.me/48508209313">+48 508 209 313</a></p>
+<p>Telefon — <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p>E-mail — <a href="mailto:info@orlicz32.pl">info@orlicz32.pl</a></p>
+<p>Zameldowanie 16:00–21:00 · wymeldowanie do 11:00 · bezpłatne anulowanie do 7 dni przed przyjazdem.</p>
 </section>
-<!-- IFRAME REZERWACJI -->
+<!-- WIDGET REZERWACJI -->
 <div class="booking-page-container">
-<iframe src="https://orlicz32.guestybookings.com/pl" class="booking-iframe" title="Rezerwacja - Apartamenty Orlicz 32" allow="payment">
+<div class="widget-intro">
+<p>Dostępność na żywo i bezpieczna płatność poniżej. Wolisz umówić się osobiście? <a href="https://wa.me/48508209313">Napisz na WhatsApp</a> albo zadzwoń: <a href="tel:+48508209313">+48 508 209 313</a>.</p>
+</div>
+<div class="widget-frame">
+<iframe src="https://orlicz32.guestybookings.com/pl" class="booking-iframe" title="Rezerwacja - Apartamenty Orlicz 32" allow="payment" loading="lazy">
 </iframe>
+</div>
 </div>
 
 
@@ -772,7 +806,7 @@ Orlicz-Dreszera 32, 22-400 Zamość, Poland
   </div>
 </footer>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
   // Update navbar for Polish pages
   var navbar = document.querySelector('.navbar-nav.me-auto');
   if (navbar) {
@@ -784,7 +818,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <li class="nav-item"><a class="nav-link" href="/pl/contact.html"><span class="menu-text">Kontakt</span></a></li>
     `;
   }
-  
+
   // Update right navbar
   var navbarRight = document.querySelector('.navbar-nav.navbar-nav-scroll:not(.me-auto)') || document.querySelector('.navbar-collapse .navbar-nav:last-child');
   if (navbarRight && navbarRight !== navbar) {
@@ -793,11 +827,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <li class="nav-item"><a class="nav-link" href="/index.html"><span class="menu-text">EN</span></a></li>
     `;
   }
-  
+
   // Update footer
   var footerTagline = document.querySelector('.footer-tagline');
   if (footerTagline) {
-    footerTagline.textContent = '"Poczuj się jak w domu, będąc daleko od niego"';
+    footerTagline.textContent = '„Poczuj się jak w domu będąc daleko"';
   }
   var footerAddress = document.querySelector('.footer-address');
   if (footerAddress) {
@@ -807,7 +841,15 @@ document.addEventListener('DOMContentLoaded', function() {
   if (footerCopyright) {
     footerCopyright.textContent = '© 2025 Apartamenty Orlicz 32. Wszelkie prawa zastrzeżone.';
   }
-});
+
+  // Localize WhatsApp tooltip
+  var whatsappTooltip = document.querySelector('.whatsapp-tooltip');
+  if (whatsappTooltip) {
+    whatsappTooltip.textContent = 'Napisz do nas';
+  }
+
+  document.documentElement.classList.add('pl-ready');
+})();
 </script>
 <!-- WhatsApp Floating Button -->
 <div class="whatsapp-float">

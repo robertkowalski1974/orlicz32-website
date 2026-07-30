@@ -5,9 +5,6 @@ format:
   html:
     include-in-header:
       - text: |
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
           <link rel="canonical" href="https://www.orlicz32.pl/index.html">
           <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/index.html">
           <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/index.html">
@@ -26,10 +23,10 @@ format:
           <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); background-size: cover; background-position: center;"}
+<!-- HERO -->
+::: {.hero-section .hero--home}
 ::: {.hero-content}
 
-![](images/logo.webp){.hero-logo style="max-width: 250px; margin-bottom: 1.5rem;"}
 
 [APARTAMENTY]{.hero-logo-text}
 
@@ -43,7 +40,7 @@ format:
 
 ["Feel like home while you are away"]{.hero-tagline}
 
-[UNESCO World Heritage City • Pearl of the Renaissance]{.hero-subtitle}
+[UNESCO World Heritage City • Zamość, Poland]{.hero-subtitle}
 
 ::: {.hero-cta}
 [Book Your Stay](book.qmd){.btn-book}
@@ -59,79 +56,75 @@ format:
 :::
 
 
-<!-- ABOUT SECTION -->
+<!-- ABOUT + HOST -->
 ::: {.section .section-light}
 ::: {.container}
 ::: {.section-header}
-[Our Philosophy]{.section-subtitle}
+[Our Place]{.section-subtitle}
 
 ## Welcome to Orlicz 32
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.divider-arch}
 :::
 :::
 
 ::: {.about-content}
-Apartamenty Orlicz 32 is a boutique accommodation nestled in the heart of **Zamość**, a city recognized by UNESCO as an outstanding example of a late 16th-century Renaissance planned town.
+Orlicz-Dreszera is a quiet villa street on the edge of the old fortifications. Our house stands at number 32, and two of its apartments are let to guests — 55 m² and 50 m². We renovated both ourselves and we still live close enough to hand over the keys in person.
 
-Named after its location on Orlicz-Dreszera Street, we offer guests a unique opportunity to experience the charm of this historic [**"Pearl of the Renaissance"**]{.highlight} while enjoying all the comforts of a modern home.
+The walk to Rynek Wielki takes about fifteen minutes, most of it along residential streets. What UNESCO listed in 1992 is not a single building but the plan itself: a whole town set out in 1580 to one Renaissance design by Bernardo Morando, and still standing largely as he drew it.
 
-Our meticulously designed apartments combine contemporary comfort with the timeless elegance that defines our host city. We provide personalized services and thoughtfully curated spaces that offer a true escape from the everyday hustle.
+Inside, we let the rooms keep the character they came with — herringbone parquet, a floral mural above the dining table, a navy velvet sofa, a distressed old door we refused to throw out. The rest is the ordinary equipment that makes a week away work: proper beds, a full kitchen with a dishwasher, a washing machine, fibre WiFi, and free parking in the yard.
+:::
+
+::: {.host-block}
+::: {.host-monogram}
+RK
+:::
+::: {.host-text}
+### Your host — Robert
+
+I look after both apartments myself. We live a few minutes away, so if a plan changes or a train runs late, send me a message on WhatsApp — I normally reply within a couple of hours.
+
+I am glad to fix a check-in time that suits your journey, and to point you at the restaurants we actually eat in rather than the ones on the square with the biggest sign. English and Polish are both fine.
 :::
 :::
 :::
+:::
 
 
-<!-- VALUES SECTION -->
+<!-- WHAT YOU GET -->
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
-[What We Offer]{.section-subtitle}
+[What You Get]{.section-subtitle}
 
-## The Orlicz 32 Experience
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## What you can count on
 :::
 
 ::: {.features-grid}
 
 ::: {.feature-card}
 ::: {.feature-icon}
-🏠
+{{< icon key >}}
 :::
-### Warmth & Comfort
-We create spaces that feel like home. Every detail is considered to ensure you feel welcomed, comfortable, and at ease from the moment you arrive.
-:::
-
-::: {.feature-card}
-::: {.feature-icon}
-🏛️
-:::
-### Heritage & Authenticity
-We honor the extraordinary Renaissance heritage of Zamość. Our brand reflects the timeless elegance and architectural harmony that makes our city a UNESCO treasure.
+### A real home base
+A full kitchen with a dishwasher, a washing machine, and room for five people to spread out. Stay a week without eating in a restaurant every night.
 :::
 
 ::: {.feature-card}
 ::: {.feature-icon}
-✨
+{{< icon arch >}}
 :::
-### Personal Touch
-We believe in boutique hospitality that treats every guest as an individual. Our personalized services ensure each stay is tailored to create meaningful experiences.
+### The Renaissance at a walk
+Zamość was laid out in 1580 as one planned town and UNESCO listed it in 1992. Rynek Wielki is fifteen minutes on foot from our gate.
 :::
 
 ::: {.feature-card}
 ::: {.feature-icon}
-🌿
+{{< icon message >}}
 :::
-### Escape & Retreat
-We offer sanctuary from the everyday hustle. Orlicz 32 is a place to slow down, reconnect, and experience the tranquility of a beautifully preserved Renaissance city.
+### A host who answers
+You have a direct WhatsApp line to Robert, not a call centre queue. Arrivals move when your travel does — just tell us when.
 :::
 
 :::
@@ -145,30 +138,25 @@ We offer sanctuary from the everyday hustle. Orlicz 32 is a place to slow down, 
 ::: {.section-header}
 [Accommodation]{.section-subtitle}
 
-## Our Apartments
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Two apartments
 :::
 
 ::: {.row}
 ::: {.col-md-6}
 ::: {.apartment-card}
 ::: {.apartment-image}
-![Room Nr 1 - Cozy apartment](images/room1-main.jpg)
+![](images/opt/room1-main-960.jpg){fig-alt="Dining corner with wisteria mural and herringbone parquet — Room Nr 1" srcset="images/opt/room1-main-480.webp 480w, images/opt/room1-main-960.webp 960w" sizes="(max-width: 768px) 100vw, 50vw" width="960" height="720" loading="lazy" decoding="async"}
 :::
 ::: {.apartment-details}
 ### Room Nr 1
 ::: {.apartment-features}
-[🛏️ 5 Guests]{} [📐 55m²]{} [🚿 Shower]{}
+[{{< icon bed >}} Sleeps 5]{} [{{< icon area >}} 55m²]{} [{{< icon shower >}} Walk-in shower]{}
 :::
-55 m² self-catering apartment for up to 5 guests. Ideal for families visiting Zamość Old Town. Double bed, double sofa bed, single sofa bed. Fully equipped kitchen, free parking.
+55 m² on one floor, with a double bed in the bedroom and a double plus a single sofa bed in the living room. Families take this one — there is floor space for a cot and a table everyone fits around.
 
-[View Details →](apartments.qmd){.btn-details}
-[Book Now →](book-room1.qmd){.btn-details}
+[Details →](apartments.qmd){.btn-details}
+[Photos →](gallery.qmd#room-nr-1){.btn-details}
+[Book →](book-room1.qmd){.btn-details}
 :::
 :::
 :::
@@ -176,78 +164,83 @@ We offer sanctuary from the everyday hustle. Orlicz 32 is a place to slow down, 
 ::: {.col-md-6}
 ::: {.apartment-card}
 ::: {.apartment-image}
-![Room Nr 3 - Cozy apartment with warm atmosphere](images/room3-main.jpg)
+![](images/opt/room3-main-960.jpg){fig-alt="Bright living room with navy velvet sofa — Room Nr 3" srcset="images/opt/room3-main-480.webp 480w, images/opt/room3-main-960.webp 960w" sizes="(max-width: 768px) 100vw, 50vw" width="960" height="1280" loading="lazy" decoding="async"}
 :::
 ::: {.apartment-details}
 ### Room Nr 3
 ::: {.apartment-features}
-[🛏️ 3 Guests]{} [📐 50m²]{} [🛁 Bathtub with Shower]{}
+[{{< icon bed >}} Sleeps 3]{} [{{< icon area >}} 50m²]{} [{{< icon bath >}} Bathtub]{}
 :::
-50 m² self-catering apartment for up to 3 guests. Ideal for couples or solo travelers. Queen bed, single bed. Large windows, natural light. Fully equipped kitchen, free parking.
+50 m² with a queen bed, a single bed and windows large enough that the lights stay off until evening. It has a bathtub as well as a shower, which is usually why couples pick it.
 
-[View Details →](apartments.qmd){.btn-details}
-[Book Now →](book-room3.qmd){.btn-details}
+[Details →](apartments.qmd){.btn-details}
+[Photos →](gallery.qmd#room-nr-3){.btn-details}
+[Book →](book-room3.qmd){.btn-details}
 :::
 :::
-:::
-:::
-
-::: {style="text-align: center; margin-top: 2rem;"}
-[Explore All Apartments](apartments.qmd){.btn-gold}
-:::
-
 :::
 :::
 
+::: {.section-cta}
+[See both apartments](apartments.qmd){.btn-gold}
+:::
 
-<!-- BOOKING SECTION -->
+:::
+:::
+
+
+<!-- BOOK DIRECT -->
 ::: {#booking .section .booking-section}
 ::: {.container}
 ::: {.section-header}
 [Reservations]{.section-subtitle}
 
-## Book Your Stay {style="color: #FFFFFF;"}
+## Book Direct
+:::
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.why-direct}
+
+::: {.why-item}
+{{< icon tag >}}
+
+### Best rate, always
+Our lowest rate is the one on this site. No platform commission is added on top of it.
+:::
+
+::: {.why-item}
+{{< icon message >}}
+
+### One message away
+You write to Robert and Robert writes back. WhatsApp +48 508 209 313, or info@orlicz32.pl.
+:::
+
+::: {.why-item}
+{{< icon key >}}
+
+### Flexible arrivals
+Check-in runs 16:00 to 21:00, and we move it by arrangement when your travel says otherwise.
+:::
+
+:::
+
+::: {.section-cta}
+[Check availability](book.qmd){.btn-book-large}
+:::
+
 :::
 :::
 
-::: {.booking-widget-container}
 
-::: {.booking-cta-box}
-::: {.booking-cta-content}
-
-[✨]{.booking-icon}
-
-### Ready to Experience Zamość?
-
-Select your dates and book your stay in our boutique apartments in the heart of this UNESCO World Heritage city.
-
-[Check Availability & Book](book.qmd){.btn-book-large}
-
-:::
-:::
-
-:::
-:::
-:::
-
-
-<!-- TESTIMONIALS SECTION -->
+<!-- REVIEWS -->
 ::: {.section .section-light .testimonials-section}
 ::: {.container}
 ::: {.section-header}
-[Guest Reviews]{.section-subtitle}
+[Guests]{.section-subtitle}
 
-## What Our Guests Say
+## What Guests Say
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.rating-badge}
+{{< icon star >}} **4.8** — 148 reviews across Booking.com, Airbnb & Google
 :::
 :::
 
@@ -260,9 +253,9 @@ Select your dates and book your stay in our boutique apartments in the heart of 
 :::
 
 ::: {.review-excerpt-card}
-> "Excellent apartment in great location, amazing service and wonderful standard. Clean, well-equipped."
+> "Apartment finished with attention to every detail, atmospheric, with soul. Impeccable cleanliness, snowy white bedding and towels."
 
-[— Tomasz, Booking.com]{.review-source}
+[— Marian, Booking.com]{.review-source}
 :::
 
 ::: {.review-excerpt-card}
@@ -272,47 +265,15 @@ Select your dates and book your stay in our boutique apartments in the heart of 
 :::
 
 ::: {.review-excerpt-card}
-> "Apartment finished with attention to every detail, atmospheric, with soul. Impeccable cleanliness, snowy white bedding and towels."
-
-[— Marian, Booking.com]{.review-source}
-:::
-
-::: {.review-excerpt-card}
-> "Nice, cozy apartment. Clean, nothing missing. Kitchen excellently equipped. Good location. Nice and helpful owners."
-
-[— Łukasz Szumiła, Google]{.review-source}
-:::
-
-::: {.review-excerpt-card}
-> "Rooms were clean, bathroom too. Everything we needed we found on site. The apartment is about 15 minutes walk from the market square. Owner helpful and very polite. We recommend."
-
-[— Ewa Kwiat, Google]{.review-source}
-:::
-
-::: {.review-excerpt-card}
 > "I'm a regular guest and always return. Staff is courteous and helpful. This place has everything I need: free WiFi, parking, kitchen equipment, flat-screen TV."
 
 [— Kazimierz, Booking.com]{.review-source}
 :::
 
-::: {.review-excerpt-card}
-> "This is another stay there. The owner was very helpful, and easily adjusted the check-in times to our arrival. A clean apartment with all the amenities, beautifully decorated. Great location!"
-
-[— Tomasz, Airbnb]{.review-source}
 :::
 
-::: {.review-excerpt-card}
-> "Unique style, attention to detail, cleanliness and access to everything needed. Proximity to the centre, quiet surroundings. Owners who care very much about guests."
-
-[— Maria, Booking.com]{.review-source}
-:::
-
-::: {.review-excerpt-card}
-> "Very pleasant reception and careful attention to our stay. Apartment equipped with everything needed. Location on a charming villa street. Excellent owner contact."
-
-[— Edward, Booking.com]{.review-source}
-:::
-
+::: {.reviews-live-rule}
+More reviews, live from Booking & Google
 :::
 
 ::: {.testimonial-widget-container}
@@ -326,25 +287,23 @@ Select your dates and book your stay in our boutique apartments in the heart of 
 :::
 
 
-<!-- LOCATION SECTION -->
+<!-- LOCATION -->
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
 [Location]{.section-subtitle}
 
-## In the Heart of Zamość
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## A quiet street, ten minutes out
 :::
 
 ::: {.row}
 ::: {.col-lg-8}
-::: {.map-container}
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.5!2d23.2519!3d50.7167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4723831fd4b5c5e7%3A0x1!2sOrlicz-Dreszera%2032%2C%2022-400%20Zamo%C5%9B%C4%87!5e0!3m2!1sen!2spl!4v1" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+::: {.map-frame}
+<iframe src="https://www.google.com/maps?q=50.717276,23.263793&hl=en&z=16&output=embed" title="Map — Apartamenty Orlicz 32, Orlicz-Dreszera 32, Zamość" width="100%" height="400" allowfullscreen loading="lazy"></iframe>
+
+::: {.map-caption}
+{{< icon pin >}} Orlicz-Dreszera 32, 22-400 Zamość · 15 min on foot to Rynek Wielki
+:::
 :::
 :::
 
@@ -354,7 +313,7 @@ Select your dates and book your stay in our boutique apartments in the heart of 
 
 ::: {.info-item}
 ::: {.info-icon}
-📍
+{{< icon pin >}}
 :::
 ::: {.info-text}
 #### Address
@@ -364,17 +323,17 @@ Orlicz-Dreszera 32, 22-400 Zamość, Poland
 
 ::: {.info-item}
 ::: {.info-icon}
-🕐
+{{< icon clock >}}
 :::
 ::: {.info-text}
 #### Check-in
-16:00 – 21:00
+16:00 – 21:00, flexible by arrangement
 :::
 :::
 
 ::: {.info-item}
 ::: {.info-icon}
-🕚
+{{< icon clock >}}
 :::
 ::: {.info-text}
 #### Check-out
@@ -384,11 +343,11 @@ Before 11:00
 
 ::: {.info-item}
 ::: {.info-icon}
-🌐
+{{< icon phone >}}
 :::
 ::: {.info-text}
-#### Website
-[www.orlicz32.pl](https://www.orlicz32.pl)
+#### Phone & WhatsApp
+[+48 508 209 313](tel:+48508209313)
 :::
 :::
 
@@ -403,23 +362,17 @@ Before 11:00
 ::: {.section .section-dark}
 ::: {.container}
 ::: {.section-header}
-[Discover]{.section-subtitle}
+[The City]{.section-subtitle}
 
 ## Pearl of the Renaissance
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
 ::: {.about-content}
-Zamość was founded in 1580 by Chancellor Jan Zamoyski and designed by Italian architect Bernardo Morando as an "ideal city" based on Italian Renaissance theories. 
+Jan Zamoyski founded Zamość in 1580 and gave Bernardo Morando, an architect from Padua, a single commission: draw the whole town at once. Streets, market squares, the town hall and the fortifications all belong to one plan, which is why UNESCO added Zamość to the World Heritage list in 1992.
 
-The city's perfectly preserved architecture, Renaissance town square, and historical significance earned it **UNESCO World Heritage status in 1992**.
+Rynek Wielki still works as a square rather than a museum piece — a market in the morning, cafés under the arcades, and the merchant house façades lit after dark. From our door it is a fifteen-minute walk each way.
 
-::: {style="margin-top: 2rem;"}
+::: {.section-cta}
 [Explore Zamość](zamosc.qmd){.btn-outline-gold}
 :::
 :::

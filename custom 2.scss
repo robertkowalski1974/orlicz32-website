@@ -1,0 +1,1681 @@
+/*-- scss:defaults --*/
+
+// Orlicz32 Brand Colors
+$rich-charcoal: #2D2926;
+$heritage-gold: #C9A961;
+$pure-white: #FFFFFF;
+$bright-gold: #D4AF37;
+$warm-linen: #F5F2ED;
+$stone-gray: #666666;
+
+// Bootstrap overrides
+$primary: $heritage-gold;
+$secondary: $rich-charcoal;
+$body-bg: $warm-linen;
+$body-color: $rich-charcoal;
+$link-color: $heritage-gold;
+$link-hover-color: $bright-gold;
+
+// Typography — Cormorant Garamond (self-hosted) for display, Georgia for body
+$font-family-sans-serif: Arial, "Helvetica Neue", sans-serif;
+$font-family-serif: Georgia, "Times New Roman", serif;
+$headings-font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+$headings-font-weight: 500;
+$headings-color: $rich-charcoal;
+
+// Cormorant runs small on the body-size axis — sizes compensate
+$font-size-base: 1rem;
+$h1-font-size: 3.25rem;
+$h2-font-size: 2.25rem;
+$h3-font-size: 1.6rem;
+$h4-font-size: 1.2rem;
+
+$navbar-bg: $rich-charcoal;
+$navbar-fg: $pure-white;
+
+/*-- scss:rules --*/
+
+// ============================================
+// SELF-HOSTED FONTS (latin + latin-ext for PL diacritics)
+// ============================================
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/cormorant-garamond-normal-latin-e99b45.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/cormorant-garamond-normal-latin-ext-211149.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/cormorant-garamond-italic-latin-af8c4f.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/cormorant-garamond-italic-latin-ext-b41a7e.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+// ============================================
+// GLOBAL STYLES
+// ============================================
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-serif;
+  line-height: 1.7;
+  color: $rich-charcoal;
+  background-color: $warm-linen;
+  overflow-x: clip; // full-bleed sections use 100vw
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $rich-charcoal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-bottom: none !important; // kill cosmo/Quarto heading rules
+  padding-bottom: 0;
+}
+
+// Break full-width bands out of Quarto's content column
+.hero-section,
+.section,
+.booking-section,
+.contact-grid,
+.booking-page-container {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Inline SVG icons (from the {{< icon >}} shortcode) — sized by context below
+svg.o32-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.12em;
+  flex-shrink: 0;
+}
+
+// ============================================
+// NAVBAR STYLES
+// ============================================
+
+.navbar {
+  background-color: $rich-charcoal !important;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid rgba($heritage-gold, 0.3);
+
+  .navbar-brand-container {
+    margin: 0 !important;
+  }
+
+  .navbar-brand {
+    padding: 0;
+    margin-right: 2rem;
+
+    &.navbar-brand-logo {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  // Hide the text title, keep only logo
+  .navbar-title {
+    display: none !important;
+  }
+
+  .navbar-logo {
+    height: 45px;
+    width: auto;
+  }
+
+  .nav-link {
+    color: $pure-white !important;
+    font-family: $font-family-sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $heritage-gold !important;
+    }
+  }
+
+  // Style the "Book Now" button (last item in right navbar)
+  .navbar-nav.navbar-nav-scroll:last-child .nav-link:last-child,
+  .navbar-nav:last-child .nav-link {
+    background-color: $heritage-gold !important;
+    color: $rich-charcoal !important;
+    padding: 0.6rem 1.5rem !important;
+    border-radius: 0;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $bright-gold !important;
+      color: $rich-charcoal !important;
+    }
+  }
+}
+
+// ============================================
+// HERO SECTION
+// ============================================
+
+// Text protection comes from a bottom-weighted scrim + text shadow, so the
+// photography stays visible. Never stack an extra gradient in the markup.
+@mixin hero-image($name) {
+  background-image: url("/images/opt/hero-#{$name}-1200.jpg");
+  background-image: -webkit-image-set(
+    url("/images/opt/hero-#{$name}-1200.webp") type("image/webp"),
+    url("/images/opt/hero-#{$name}-1200.jpg") type("image/jpeg")
+  );
+  background-image: image-set(
+    url("/images/opt/hero-#{$name}-1200.webp") type("image/webp"),
+    url("/images/opt/hero-#{$name}-1200.jpg") type("image/jpeg")
+  );
+}
+
+.hero-section {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $rich-charcoal;
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba($rich-charcoal, 0.45) 0%,
+      rgba($rich-charcoal, 0.3) 45%,
+      rgba($rich-charcoal, 0.65) 100%
+    );
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+  }
+
+  .hero-logo-text {
+    font-family: $font-family-sans-serif;
+    color: $heritage-gold;
+    font-size: 0.85rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 1px 8px rgba($rich-charcoal, 0.7);
+  }
+
+  .hero-title {
+    font-family: $headings-font-family;
+    font-weight: 500;
+    color: $pure-white;
+    font-size: 4rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 16px rgba($rich-charcoal, 0.65);
+
+    @media (max-width: 768px) {
+      font-size: 2.75rem;
+    }
+  }
+
+  .hero-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+
+    .line {
+      width: 80px;
+      height: 1px;
+      background-color: $heritage-gold;
+    }
+
+    .diamond {
+      width: 8px;
+      height: 8px;
+      background-color: $heritage-gold;
+      transform: rotate(45deg);
+    }
+  }
+
+  .hero-tagline {
+    font-family: $headings-font-family;
+    font-style: italic;
+    color: $pure-white;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.97;
+    text-shadow: 0 1px 12px rgba($rich-charcoal, 0.7);
+  }
+
+  .hero-subtitle {
+    font-family: $font-family-sans-serif;
+    color: $heritage-gold;
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 8px rgba($rich-charcoal, 0.7);
+  }
+
+  .hero-cta {
+    margin-top: 2.5rem;
+
+    .btn-book {
+      display: inline-block;
+      background-color: $heritage-gold;
+      color: $rich-charcoal;
+      padding: 1rem 3rem;
+      font-family: $font-family-sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 2px solid $heritage-gold;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: transparent;
+        color: $pure-white;
+        border-color: $pure-white;
+      }
+    }
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+    .mouse {
+      width: 26px;
+      height: 40px;
+      border: 2px solid $heritage-gold;
+      border-radius: 13px;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 8px;
+        background-color: $heritage-gold;
+        border-radius: 2px;
+        animation: scroll 2s infinite;
+      }
+    }
+  }
+
+  // ---- height tiers ----
+  &.hero--secondary {
+    min-height: 56vh;
+
+    .hero-title {
+      font-size: 2.9rem;
+
+      @media (max-width: 768px) {
+        font-size: 2.25rem;
+      }
+    }
+
+    .hero-tagline {
+      font-size: 1.25rem;
+    }
+  }
+
+  &.hero--compact {
+    min-height: 40vh;
+
+    .hero-content {
+      padding: 5.5rem 2rem 2rem; // clears the fixed navbar
+    }
+
+    .hero-title {
+      font-size: 2.4rem;
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+
+    .hero-tagline {
+      font-size: 1.1rem;
+    }
+  }
+
+  // ---- per-page imagery ----
+  &.hero--home { @include hero-image(home); }
+  &.hero--apartments { @include hero-image(apartments); }
+  &.hero--gallery { @include hero-image(gallery); }
+  &.hero--zamosc { @include hero-image(zamosc); }
+  &.hero--contact { @include hero-image(contact); }
+  &.hero--book { @include hero-image(book); }
+}
+
+@keyframes scroll {
+  0% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(12px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-section .scroll-indicator .mouse::before {
+    animation: none;
+  }
+}
+
+// ============================================
+// SECTION STYLES
+// ============================================
+
+.section {
+  padding: 5rem 0;
+
+  &.section-dark {
+    background-color: $rich-charcoal;
+    color: $pure-white;
+
+    h2, h3 {
+      color: $heritage-gold;
+    }
+
+    p {
+      color: rgba($pure-white, 0.9);
+    }
+
+    // Dark-surface card variant (no inline styles needed in markup)
+    .feature-card {
+      background-color: rgba($pure-white, 0.05);
+      border-color: rgba($heritage-gold, 0.3);
+
+      p {
+        color: rgba($pure-white, 0.75);
+      }
+    }
+  }
+
+  &.section-light {
+    background-color: $warm-linen;
+  }
+
+  &.section-white {
+    background-color: $pure-white;
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+
+  .section-subtitle {
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: $heritage-gold;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.1rem;
+    }
+  }
+
+  // Kept for the few places that still use it (heroes); body sections use
+  // .divider-arch or nothing
+  .section-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+
+    .line {
+      width: 50px;
+      height: 1px;
+      background-color: $heritage-gold;
+    }
+
+    .diamond {
+      width: 6px;
+      height: 6px;
+      background-color: $heritage-gold;
+      transform: rotate(45deg);
+    }
+  }
+
+  // Left-aligned editorial variant for story/intro sections
+  &.section-header--left {
+    text-align: left;
+    margin-bottom: 2rem;
+
+    h2 {
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba($heritage-gold, 0.4);
+      display: inline-block;
+    }
+  }
+}
+
+// Renaissance arcade ornament — used at most once or twice per page
+.divider-arch {
+  width: 76px;
+  height: 22px;
+  margin: 1.1rem auto 0;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 76 22' fill='none' stroke='%23C9A961' stroke-width='1.5' stroke-linecap='round'%3E%3Cpath d='M4 20v-7a8 8 0 0 1 16 0v7M30 20v-7a8 8 0 0 1 16 0v7M56 20v-7a8 8 0 0 1 16 0v7'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+// Centred CTA wrapper (replaces inline style divs)
+.section-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+// Small sans spec line under section headings ("55m² • 5 Guests • …")
+.spec-line {
+  font-family: $font-family-sans-serif;
+  color: $stone-gray;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+// ============================================
+// ABOUT / PROSE SECTIONS
+// ============================================
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+  }
+
+  .highlight {
+    color: $heritage-gold;
+    font-weight: 600;
+  }
+}
+
+// Editorial (left-aligned) prose — pairs with .section-header--left
+.prose-left {
+  max-width: 760px;
+  margin: 0;
+  text-align: left;
+
+  p {
+    font-size: 1.08rem;
+    line-height: 1.85;
+    margin-bottom: 1.4rem;
+  }
+}
+
+// ============================================
+// FEATURES / VALUES
+// ============================================
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background-color: $pure-white;
+  border: 1px solid rgba($heritage-gold, 0.2);
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $heritage-gold;
+    box-shadow: 0 10px 40px rgba($rich-charcoal, 0.1);
+  }
+
+  .feature-icon {
+    margin-bottom: 1.25rem;
+
+    svg.o32-icon {
+      width: 2.4rem;
+      height: 2.4rem;
+      color: $heritage-gold;
+    }
+  }
+
+  h3 {
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+    color: $rich-charcoal;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: $stone-gray;
+    line-height: 1.7;
+  }
+}
+
+// Compact amenity list: icon + short label, two columns, no filler sentences
+.amenity-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0 3rem;
+  max-width: 760px;
+  margin: 0 auto;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin: 0;
+    padding: 0.9rem 0.25rem;
+    border-bottom: 1px solid rgba($heritage-gold, 0.25);
+    font-size: 1.02rem;
+
+    svg.o32-icon {
+      width: 1.35rem;
+      height: 1.35rem;
+      color: $heritage-gold;
+    }
+  }
+}
+
+// Editorial sight list for the Zamość page: icon, name + distance, one line
+.sight-list {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .sight-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.6rem 0;
+    border-bottom: 1px solid rgba($heritage-gold, 0.25);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .sight-icon svg.o32-icon {
+      width: 2rem;
+      height: 2rem;
+      color: $heritage-gold;
+      margin-top: 0.2rem;
+    }
+
+    .sight-body {
+      flex: 1;
+
+      h3 {
+        font-size: 1.35rem;
+        margin: 0 0 0.2rem;
+      }
+
+      .sight-distance {
+        font-family: $font-family-sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $heritage-gold;
+        display: block;
+        margin-bottom: 0.4rem;
+      }
+
+      p {
+        margin: 0;
+        color: $stone-gray;
+        font-size: 0.98rem;
+      }
+    }
+  }
+}
+
+.section-dark .sight-list .sight-body p {
+  color: rgba($pure-white, 0.75);
+}
+
+// ============================================
+// APARTMENTS
+// ============================================
+
+.apartment-card {
+  position: relative;
+  overflow: hidden;
+  background-color: $pure-white;
+  margin-bottom: 2rem;
+
+  .apartment-image {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
+
+  .apartment-details {
+    padding: 2rem;
+
+    h3 {
+      font-size: 1.7rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .apartment-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin: 1rem 0;
+      font-family: $font-family-sans-serif;
+      font-size: 0.85rem;
+      color: $stone-gray;
+
+      span {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+      }
+
+      svg.o32-icon {
+        width: 1.15rem;
+        height: 1.15rem;
+        color: $heritage-gold;
+      }
+    }
+
+    p {
+      color: $stone-gray;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn-details {
+      display: inline-block;
+      color: $heritage-gold;
+      font-family: $font-family-sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px solid $heritage-gold;
+      padding-bottom: 0.25rem;
+      margin-right: 1.25rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $bright-gold;
+        border-color: $bright-gold;
+      }
+    }
+  }
+}
+
+// Larger imagery on the alternating full-width listing rows
+.apartment-listing .apartment-image img {
+  height: 400px;
+}
+
+// ============================================
+// CHECK-IN / POLICIES
+// ============================================
+
+.check-times {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.check-time-card {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: $pure-white;
+  border: 1px solid rgba($heritage-gold, 0.3);
+
+  h4 {
+    color: $heritage-gold;
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .time {
+    font-size: 1.5rem;
+    color: $rich-charcoal;
+    font-family: $headings-font-family;
+  }
+}
+
+// ============================================
+// BOOKING SECTION + CTA
+// ============================================
+
+.booking-section {
+  background-color: $rich-charcoal;
+  padding: 5rem 0;
+
+  .section-header {
+    h2 {
+      color: $pure-white;
+    }
+  }
+}
+
+.booking-widget-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.booking-cta-box {
+  background-color: $pure-white;
+  padding: 3rem;
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.booking-cta-content {
+  color: $rich-charcoal;
+
+  .cta-icon svg.o32-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: $heritage-gold;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    color: $rich-charcoal;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $stone-gray;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+}
+
+.btn-book-large {
+  display: inline-block;
+  background-color: $heritage-gold;
+  color: $rich-charcoal;
+  padding: 1.25rem 3rem;
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid $heritage-gold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $rich-charcoal;
+    color: $heritage-gold;
+  }
+}
+
+// "Why book direct" strip
+.why-direct {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+
+  .why-item {
+    svg.o32-icon {
+      width: 1.9rem;
+      height: 1.9rem;
+      color: $heritage-gold;
+      margin-bottom: 0.9rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $stone-gray;
+      margin: 0;
+    }
+  }
+}
+
+.section-dark .why-direct .why-item p,
+.booking-section .why-direct .why-item p {
+  color: rgba($pure-white, 0.75);
+}
+
+// AI-friendly booking fallback card (kept above the booking iframe)
+.booking-contact-info {
+  max-width: 640px;
+  margin: 3rem auto 2rem;
+  padding: 2rem 2.5rem;
+  background-color: $pure-white;
+  border: 1px solid rgba($heritage-gold, 0.3);
+  text-align: center;
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    color: $stone-gray;
+  }
+
+  a {
+    color: $heritage-gold;
+    text-decoration: none;
+
+    &:hover {
+      color: $bright-gold;
+    }
+  }
+}
+
+// Booking page iframe, framed
+.booking-page-container {
+  padding: 0 1.5rem 4rem;
+  background-color: $warm-linen;
+}
+
+.widget-frame {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: $pure-white;
+  border: 1px solid rgba($heritage-gold, 0.3);
+  padding: 0.75rem;
+}
+
+.widget-intro {
+  max-width: 640px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  color: $stone-gray;
+  font-size: 1rem;
+}
+
+.booking-iframe {
+  width: 100%;
+  height: calc(100vh - 140px);
+  min-height: 760px;
+  border: none;
+  display: block;
+}
+
+// ============================================
+// REVIEWS
+// ============================================
+
+.rating-badge {
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+
+  p {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0;
+    font-family: $font-family-sans-serif;
+    font-size: 0.95rem;
+    color: $rich-charcoal;
+  }
+
+  svg.o32-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: $heritage-gold;
+  }
+
+  strong {
+    font-size: 1.15rem;
+  }
+}
+
+.review-excerpts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.review-excerpt-card {
+  background: $pure-white;
+  padding: 1.75rem;
+  border-left: 3px solid $heritage-gold;
+
+  blockquote {
+    font-style: italic;
+    color: $rich-charcoal;
+    margin: 0 0 0.75rem;
+    font-size: 0.98rem;
+    line-height: 1.65;
+    border: none;
+    padding: 0;
+  }
+
+  .review-source {
+    font-family: $font-family-sans-serif;
+    font-size: 0.82rem;
+    color: $stone-gray;
+  }
+}
+
+// Labelled rule that separates the curated quotes from the live widget
+.reviews-live-rule {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 3rem auto 2rem;
+  max-width: 900px;
+  font-family: $font-family-sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $stone-gray;
+
+  &::before,
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: rgba($heritage-gold, 0.4);
+  }
+}
+
+.testimonial-widget-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+// ============================================
+// GALLERY
+// ============================================
+
+// Masonry-style columns preserve each photo's aspect ratio
+.gallery-grid {
+  columns: 3 280px;
+  column-gap: 1rem;
+
+  p {
+    margin: 0 0 1rem;
+    break-inside: avoid;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.92;
+    }
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figcaption {
+    display: none;
+  }
+}
+
+// ============================================
+// LOCATION / MAP & CONTACT INFO
+// ============================================
+
+.map-frame {
+  background-color: $pure-white;
+  border: 1px solid rgba($heritage-gold, 0.3);
+  padding: 0.6rem;
+
+  iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    display: block;
+    filter: grayscale(30%) sepia(6%);
+  }
+
+  .map-caption {
+    padding: 0.9rem 0.5rem 0.4rem;
+    text-align: center;
+
+    p {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin: 0;
+      font-family: $font-family-sans-serif;
+      font-size: 0.88rem;
+      color: $stone-gray;
+    }
+
+    svg.o32-icon {
+      color: $heritage-gold;
+      width: 1.05rem;
+      height: 1.05rem;
+    }
+  }
+}
+
+.map-container {
+  // legacy fallback (unframed embeds)
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+.location-info {
+  background-color: $rich-charcoal;
+  color: $pure-white;
+  padding: 2.5rem;
+  height: 100%;
+
+  h3 {
+    color: $heritage-gold;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  .info-icon {
+    flex-shrink: 0;
+    width: 30px;
+    text-align: center;
+
+    svg.o32-icon {
+      width: 1.3rem;
+      height: 1.3rem;
+      color: $heritage-gold;
+    }
+  }
+
+  .info-text {
+    flex: 1;
+
+    h4 {
+      color: $pure-white;
+      font-family: $font-family-sans-serif;
+      font-size: 0.8rem;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    p {
+      color: rgba($pure-white, 0.8);
+      font-size: 0.95rem;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    a {
+      color: $heritage-gold;
+      text-decoration: none;
+
+      &:hover {
+        color: $bright-gold;
+      }
+    }
+  }
+}
+
+// ============================================
+// CONTACT PAGE
+// ============================================
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0;
+  min-height: 600px;
+
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-info-panel {
+  background-color: $rich-charcoal;
+  color: $pure-white;
+  padding: 3rem;
+
+  h3 {
+    color: $heritage-gold;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba($heritage-gold, 0.3);
+    margin: 2rem 0;
+  }
+
+  em {
+    display: block;
+    color: rgba($pure-white, 0.6);
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  .contact-icon {
+    flex-shrink: 0;
+    width: 30px;
+
+    svg.o32-icon {
+      width: 1.3rem;
+      height: 1.3rem;
+      color: $heritage-gold;
+      margin-top: 0.15rem;
+    }
+  }
+
+  strong {
+    display: block;
+    color: $pure-white;
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    color: rgba($pure-white, 0.85);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  a {
+    color: $heritage-gold !important;
+    text-decoration: none;
+
+    &:hover {
+      color: $bright-gold !important;
+    }
+  }
+}
+
+.contact-form-panel {
+  background-color: $pure-white;
+  padding: 3rem;
+
+  .section-header {
+    text-align: left;
+    margin-bottom: 2rem;
+
+    h2 {
+      text-align: left;
+    }
+  }
+
+  .form-note {
+    color: $stone-gray;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.contact-form {
+  max-width: 640px;
+}
+
+// ============================================
+// FAQ (native <details> accordion)
+// ============================================
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+
+  details {
+    border-bottom: 1px solid rgba($heritage-gold, 0.3);
+
+    summary {
+      cursor: pointer;
+      padding: 1.1rem 0.25rem;
+      font-family: $headings-font-family;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: $rich-charcoal;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::after {
+        content: '+';
+        color: $heritage-gold;
+        font-family: $font-family-sans-serif;
+        font-size: 1.3rem;
+        line-height: 1;
+        flex-shrink: 0;
+      }
+
+      &:hover {
+        color: $heritage-gold;
+      }
+    }
+
+    &[open] summary::after {
+      content: '\2212'; // minus sign
+    }
+
+    p {
+      color: $stone-gray;
+      margin: 0;
+      padding: 0 0.25rem 1.25rem;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+  }
+}
+
+// ============================================
+// HOST BLOCK
+// ============================================
+
+.host-block {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-monogram {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: $rich-charcoal;
+    color: $heritage-gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $headings-font-family;
+    font-size: 2.4rem;
+    letter-spacing: 0.08em;
+    flex-shrink: 0;
+    border: 1px solid rgba($heritage-gold, 0.5);
+  }
+
+  .host-photo {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid rgba($heritage-gold, 0.5);
+  }
+
+  .host-text {
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: $stone-gray;
+      font-size: 1rem;
+      margin-bottom: 0.6rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.section-dark .host-block .host-text p {
+  color: rgba($pure-white, 0.8);
+}
+
+// ============================================
+// FOOTER
+// ============================================
+
+.footer-content {
+  text-align: center;
+  padding: 2rem 0;
+
+  .footer-logo {
+    font-family: $headings-font-family;
+    font-size: 1.6rem;
+    color: $heritage-gold;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-tagline {
+    font-family: $headings-font-family;
+    font-style: italic;
+    color: $pure-white;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-address {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: rgba($pure-white, 0.7);
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-copyright {
+    font-family: $font-family-sans-serif;
+    font-size: 0.75rem;
+    color: rgba($pure-white, 0.5);
+    margin-top: 1.5rem;
+  }
+}
+
+// ============================================
+// BUTTONS & UTILITIES
+// ============================================
+
+.btn-gold {
+  display: inline-block;
+  background-color: $heritage-gold;
+  color: $rich-charcoal;
+  padding: 1rem 2.5rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid $heritage-gold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: transparent;
+    color: $heritage-gold;
+  }
+}
+
+.btn-outline-gold {
+  display: inline-block;
+  background-color: transparent;
+  color: $heritage-gold;
+  padding: 1rem 2.5rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid $heritage-gold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $heritage-gold;
+    color: $rich-charcoal;
+  }
+}
+
+.text-gold {
+  color: $heritage-gold;
+}
+
+.container-narrow {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+// ============================================
+// RESPONSIVE ADJUSTMENTS
+// ============================================
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+
+  .hero-section {
+    min-height: 88vh;
+
+    &.hero--secondary {
+      min-height: 46vh;
+    }
+
+    &.hero--compact {
+      min-height: 36vh;
+    }
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info-panel,
+  .contact-form-panel {
+    padding: 2rem;
+  }
+}
+
+// ============================================
+// WHATSAPP FLOATING BUTTON
+// ============================================
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9998;
+
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #20BA5C;
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    svg {
+      width: 32px;
+      height: 32px;
+      fill: #FFFFFF;
+    }
+  }
+
+  .whatsapp-tooltip {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: $rich-charcoal;
+    color: $pure-white;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: -6px;
+      top: 50%;
+      transform: translateY(-50%);
+      border-width: 6px;
+      border-style: solid;
+      border-color: transparent transparent transparent $rich-charcoal;
+    }
+  }
+
+  &:hover .whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 16px;
+    right: 16px;
+
+    .whatsapp-button {
+      width: 54px;
+      height: 54px;
+
+      svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    .whatsapp-tooltip {
+      display: none;
+    }
+  }
+}
+
+// ============================================
+// PRINT
+// ============================================
+
+@media print {
+  .navbar,
+  .booking-section,
+  .whatsapp-float,
+  .scroll-indicator {
+    display: none !important;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 2rem;
+  }
+}
+
+// ============================================
+// QUARTO OVERRIDES
+// ============================================
+
+.quarto-title {
+  display: none;
+}
+
+#quarto-content {
+  padding: 0;
+}
+
+main.content {
+  padding: 0;
+  max-width: 100%;
+}
+
+.page-columns {
+  max-width: 100%;
+}

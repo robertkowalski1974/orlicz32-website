@@ -7,6 +7,8 @@ project:
     - llms.txt
     - llms-full.txt
     - CNAME
+    - images/
+    - fonts/
   output-dir: docs
   post-render:
     - cp sitemap.xml docs/
@@ -55,10 +57,11 @@ format:
     theme:
       - cosmo
       - custom.scss
-    css: styles.css
     lightbox: true
     toc: false
     page-layout: full
+    shortcodes:
+      - _includes/icons.lua
     include-in-header:
       - text: |
           <!-- Google Tag Manager -->

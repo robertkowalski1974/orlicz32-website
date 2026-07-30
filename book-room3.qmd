@@ -26,12 +26,12 @@ format:
           </script>
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room3-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;"}
+::: {.hero-section .hero--compact .hero--apartments}
 ::: {.hero-content}
 
 [Reservations]{.hero-logo-text}
 
-[Book Room Nr 3]{.hero-title style="font-size: 2.5rem;"}
+[Book Room Nr 3]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -39,7 +39,7 @@ format:
 []{.line}
 :::
 
-[50m² • 3 Guests • Kitchen • Bathtub with Shower]{.hero-tagline style="font-size: 1.1rem;"}
+[50m² · sleeps 3 · bathtub with shower]{.hero-tagline}
 
 :::
 :::
@@ -47,28 +47,37 @@ format:
 
 <!-- BOOKING CONTACT INFO (for AI agents and alternative booking) -->
 ::: {.booking-contact-info}
-### Book Directly
+### Book Room Nr 3 direct
 
-**Online:** Use the booking calendar below to check availability and book instantly.
+Online — check dates and pay in the calendar below.
 
-**By Phone:** [+48 508 209 313](tel:+48508209313)
+WhatsApp — [+48 508 209 313](https://wa.me/48508209313)
 
-**By WhatsApp:** [Message us on WhatsApp](https://wa.me/48508209313)
+Phone — [+48 508 209 313](tel:+48508209313)
 
-**By Email:** [info@orlicz32.pl](mailto:info@orlicz32.pl)
+Email — [info@orlicz32.pl](mailto:info@orlicz32.pl)
 
-Check-in: 16:00 – 21:00 | Check-out: Before 11:00
+Check-in 16:00–21:00 · check-out by 11:00 · free cancellation up to 7 days before arrival.
+
+Not sure yet? [See the photos](gallery.qmd#room-nr-3).
 :::
 
 
-<!-- BOOKING IFRAME -->
+<!-- BOOKING WIDGET -->
 ::: {.booking-page-container}
 
+::: {.widget-intro}
+Live availability and secure checkout below. Prefer to arrange it personally? [WhatsApp us](https://wa.me/48508209313) or call [+48 508 209 313](tel:+48508209313).
+:::
+
+::: {.widget-frame}
 <iframe
   src="https://orlicz32.guestybookings.com/en/properties/687a4d0c544795001080eb20" 
   class="booking-iframe"
   title="Book Room Nr 3 - Apartamenty Orlicz 32"
   allow="payment"
+  loading="lazy"
 ></iframe>
+:::
 
 :::

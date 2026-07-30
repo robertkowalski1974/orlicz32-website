@@ -1,5 +1,5 @@
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
   // Update navbar for Polish pages
   var navbar = document.querySelector('.navbar-nav.me-auto');
   if (navbar) {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <li class="nav-item"><a class="nav-link" href="/pl/contact.html"><span class="menu-text">Kontakt</span></a></li>
     `;
   }
-  
+
   // Update right navbar
   var navbarRight = document.querySelector('.navbar-nav.navbar-nav-scroll:not(.me-auto)') || document.querySelector('.navbar-collapse .navbar-nav:last-child');
   if (navbarRight && navbarRight !== navbar) {
@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <li class="nav-item"><a class="nav-link" href="/index.html"><span class="menu-text">EN</span></a></li>
     `;
   }
-  
+
   // Update footer
   var footerTagline = document.querySelector('.footer-tagline');
   if (footerTagline) {
-    footerTagline.textContent = '"Poczuj się jak w domu, będąc daleko od niego"';
+    footerTagline.textContent = '„Poczuj się jak w domu będąc daleko"';
   }
   var footerAddress = document.querySelector('.footer-address');
   if (footerAddress) {
@@ -34,5 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
   if (footerCopyright) {
     footerCopyright.textContent = '© 2025 Apartamenty Orlicz 32. Wszelkie prawa zastrzeżone.';
   }
-});
+
+  // Localize WhatsApp tooltip
+  var whatsappTooltip = document.querySelector('.whatsapp-tooltip');
+  if (whatsappTooltip) {
+    whatsappTooltip.textContent = 'Napisz do nas';
+  }
+
+  document.documentElement.classList.add('pl-ready');
+})();
 </script>

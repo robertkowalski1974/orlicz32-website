@@ -5,9 +5,6 @@ format:
   html:
     include-in-header:
       - text: |
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
           <link rel="canonical" href="https://www.orlicz32.pl/pl/index.html">
           <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/index.html">
           <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/index.html">
@@ -24,14 +21,15 @@ format:
           <meta name="twitter:title" content="Apartamenty Orlicz 32 | Zamość">
           <meta name="twitter:description" content="Butikowe apartamenty w Zamościu. Zarezerwuj bezpośrednio.">
           <meta name="twitter:image" content="https://www.orlicz32.pl/images/room1-main.jpg">
+          <style>html:not(.pl-ready) .navbar .menu-text { visibility: hidden; }</style>
     include-after-body:
       - file: navbar-pl.html
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); background-size: cover; background-position: center;"}
+<!-- HERO -->
+::: {.hero-section .hero--home}
 ::: {.hero-content}
 
-![](../images/logo.webp){.hero-logo style="max-width: 250px; margin-bottom: 1.5rem;"}
 
 [APARTAMENTY]{.hero-logo-text}
 
@@ -43,9 +41,9 @@ format:
 []{.line}
 :::
 
-["Poczuj się jak w domu, będąc daleko od niego"]{.hero-tagline}
+[„Poczuj się jak w domu będąc daleko”]{.hero-tagline}
 
-[Miasto UNESCO • Perła Renesansu]{.hero-subtitle}
+[Miasto z Listy UNESCO • Zamość]{.hero-subtitle}
 
 ::: {.hero-cta}
 [Zarezerwuj pobyt](book.qmd){.btn-book}
@@ -61,78 +59,75 @@ format:
 :::
 
 
-<!-- SEKCJA O NAS -->
+<!-- O NAS + GOSPODARZ -->
 ::: {.section .section-light}
 ::: {.container}
 ::: {.section-header}
-[Nasza filozofia]{.section-subtitle}
+[Nasze miejsce]{.section-subtitle}
 
 ## Witamy w Orlicz 32
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.divider-arch}
 :::
 :::
 
 ::: {.about-content}
-Apartamenty Orlicz 32 to butikowy obiekt noclegowy położony w samym sercu **Zamościa** – miasta uznanego przez UNESCO za wybitny przykład renesansowego założenia urbanistycznego z końca XVI wieku.
+Orlicz-Dreszera to cicha willowa ulica przy dawnych fortyfikacjach. Nasz dom stoi pod numerem 32, a dwa mieszkania w nim wynajmujemy gościom — 55 m² i 50 m². Oba remontowaliśmy sami i mieszkamy na tyle blisko, że klucze przekazujemy osobiście.
 
-Nazwa naszych apartamentów pochodzi od adresu przy ulicy Orlicz-Dreszera. Oferujemy gościom niepowtarzalną okazję, by doświadczyć uroku tego historycznego miasta, nazywanego [**„Perłą Renesansu"**]{.highlight}, ciesząc się jednocześnie wszelkimi udogodnieniami przytulnego domu.
+Na Rynek Wielki idzie się kwadrans, prawie całą drogę spokojnymi uliczkami. To, co UNESCO wpisało na listę w 1992 roku, to nie pojedynczy budynek, tylko sam układ miasta: całe założenie rozrysowane w 1580 roku przez Bernarda Moranda i stojące do dziś mniej więcej tak, jak je zaprojektował.
 
+W środku zostawiliśmy to, co wnętrza miały od początku — parkiet w jodełkę, malowidło z glicynią nad stołem, granatową aksamitną sofę, stare drzwi, których nie daliśmy wyrzucić. Reszta to zwykłe wyposażenie, dzięki któremu tydzień poza domem po prostu działa: porządne łóżka, kuchnia ze zmywarką, pralka, światłowód i parking z monitoringiem w podwórku.
+:::
+
+::: {.host-block}
+::: {.host-monogram}
+RK
+:::
+::: {.host-text}
+### Twój gospodarz — Robert
+
+Oba apartamenty prowadzę sam. Mieszkamy kilka minut stąd, więc jeśli plany się zmienią albo pociąg się spóźni, napisz na WhatsApp: +48 508 209 313. Zwykle odpisuję w ciągu dwóch godzin.
+
+Godzinę zameldowania dopasuję do Twojej podróży. Podpowiem też, gdzie zjeść — te miejsca, do których sami chodzimy, a nie te z największym szyldem przy rynku. Mówię po polsku i po angielsku.
 :::
 :::
 :::
+:::
 
 
-<!-- SEKCJA WARTOŚCI -->
+<!-- CO DOSTAJESZ -->
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
-[Co oferujemy]{.section-subtitle}
+[Co dostajesz]{.section-subtitle}
 
-## Doświadczenie Orlicz 32
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Na co możesz liczyć
 :::
 
 ::: {.features-grid}
 
 ::: {.feature-card}
 ::: {.feature-icon}
-🏠
+{{< icon key >}}
 :::
-### Ciepło i komfort
-Tworzymy przestrzenie, w których poczujesz się jak w domu. Każdy detal został przemyślany, abyś od pierwszej chwili czuł się mile widziany i swobodnie.
-:::
-
-::: {.feature-card}
-::: {.feature-icon}
-🏛️
-:::
-### Dziedzictwo i autentyczność
-Czerpiemy z niezwykłego renesansowego dziedzictwa Zamościa. Nasza marka odzwierciedla ponadczasową elegancję i architektoniczną harmonię, które czynią nasze miasto skarbem UNESCO.
+### Prawdziwa baza
+Kuchnia ze zmywarką, pralka i miejsce, w którym rozłoży się pięć osób. Można tu zostać tydzień i nie jeść co wieczór na mieście.
 :::
 
 ::: {.feature-card}
 ::: {.feature-icon}
-✨
+{{< icon arch >}}
 :::
-### Indywidualne podejście
-Każdego gościa traktujemy indywidualnie. Dbamy o to, by pobyt u nas był przyjemny i bezproblemowy.
+### Renesans w zasięgu spaceru
+Zamość rozplanowano w 1580 roku jako jedno założenie, a UNESCO wpisało je na listę w 1992. Z naszej bramy na Rynek Wielki idzie się kwadrans.
 :::
 
 ::: {.feature-card}
 ::: {.feature-icon}
-🌿
+{{< icon message >}}
 :::
-### Azyl i wytchnienie
-Oferujemy schronienie od codziennego pośpiechu. Orlicz 32 to miejsce, gdzie można zwolnić tempo, nabrać sił i doświadczyć spokoju pięknie zachowanego renesansowego miasta.
+### Gospodarz, który odpisuje
+Piszesz na WhatsApp prosto do Roberta, nie na infolinię. Godzinę przyjazdu przesuwamy wtedy, kiedy zmienia się Twój rozkład jazdy — wystarczy dać znać.
 :::
 
 :::
@@ -146,30 +141,25 @@ Oferujemy schronienie od codziennego pośpiechu. Orlicz 32 to miejsce, gdzie mo�
 ::: {.section-header}
 [Zakwaterowanie]{.section-subtitle}
 
-## Nasze apartamenty
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Dwa apartamenty
 :::
 
 ::: {.row}
 ::: {.col-md-6}
 ::: {.apartment-card}
 ::: {.apartment-image}
-![Apartament nr 1 - Przestronny apartament](../images/room1-main.jpg)
+![](../images/opt/room1-main-960.jpg){fig-alt="Kącik jadalny z malowidłem z glicynią i parkietem w jodełkę — Apartament Nr 1" srcset="../images/opt/room1-main-480.webp 480w, ../images/opt/room1-main-960.webp 960w" sizes="(max-width: 768px) 100vw, 50vw" width="960" height="720" loading="lazy" decoding="async"}
 :::
 ::: {.apartment-details}
-### Apartament nr 1
+### Apartament Nr 1
 ::: {.apartment-features}
-[🛏️ 5 osób]{} [📐 55m²]{} [🚿 Prysznic]{}
+[{{< icon bed >}} 5 osób]{} [{{< icon area >}} 55m²]{} [{{< icon shower >}} Prysznic walk-in]{}
 :::
-Apartament 55 m² dla maksymalnie 5 gości. Idealny dla rodzin odwiedzających Stare Miasto w Zamościu. Łóżko podwójne, rozkładana sofa podwójna, rozkładana sofa pojedyncza. W pełni wyposażona kuchnia, darmowy parking.
+55 m² na jednym poziomie: łóżko podwójne w sypialni, rozkładana sofa podwójna i pojedyncza w salonie. Biorą go głównie rodziny — jest miejsce na łóżeczko i stół, przy którym siądą wszyscy.
 
-[Zobacz szczegóły →](apartments.qmd){.btn-details}
-[Zarezerwuj →](book-room1.qmd){.btn-details}
+[Szczegóły →](apartments.qmd){.btn-details}
+[Zdjęcia →](gallery.qmd#room-nr-1){.btn-details}
+[Rezerwuj →](book-room1.qmd){.btn-details}
 :::
 :::
 :::
@@ -177,176 +167,217 @@ Apartament 55 m² dla maksymalnie 5 gości. Idealny dla rodzin odwiedzających S
 ::: {.col-md-6}
 ::: {.apartment-card}
 ::: {.apartment-image}
-![Apartament nr 3 - Przytulny apartament](../images/room3-main.jpg)
+![](../images/opt/room3-main-960.jpg){fig-alt="Jasny salon z granatową aksamitną sofą — Apartament Nr 3" srcset="../images/opt/room3-main-480.webp 480w, ../images/opt/room3-main-960.webp 960w" sizes="(max-width: 768px) 100vw, 50vw" width="960" height="1280" loading="lazy" decoding="async"}
 :::
 ::: {.apartment-details}
-### Apartament nr 3
+### Apartament Nr 3
 ::: {.apartment-features}
-[🛏️ 3 osoby]{} [📐 50m²]{} [🛁 Wanna z prysznicem]{}
+[{{< icon bed >}} 3 osoby]{} [{{< icon area >}} 50m²]{} [{{< icon bath >}} Wanna]{}
 :::
-Apartament 50 m² dla maksymalnie 3 gości. Idealny dla par lub podróżników. Łóżko queen-size, łóżko pojedyncze. Duże okna, naturalne światło. W pełni wyposażona kuchnia, darmowy parking.
+50 m² z łóżkiem queen i łóżkiem pojedynczym, okna na tyle duże, że światło zapala się dopiero wieczorem. Obok prysznica jest wanna — zwykle właśnie dlatego wybierają go pary.
 
-[Zobacz szczegóły →](apartments.qmd){.btn-details}
-[Zarezerwuj →](book-room3.qmd){.btn-details}
+[Szczegóły →](apartments.qmd){.btn-details}
+[Zdjęcia →](gallery.qmd#room-nr-3){.btn-details}
+[Rezerwuj →](book-room3.qmd){.btn-details}
 :::
 :::
-:::
-:::
-
-::: {style="text-align: center; margin-top: 2rem;"}
-[Zobacz wszystkie apartamenty](apartments.qmd){.btn-gold}
-:::
-
 :::
 :::
 
+::: {.section-cta}
+[Zobacz oba apartamenty](apartments.qmd){.btn-gold}
+:::
 
-<!-- SEKCJA LOKALIZACJA -->
-::: {.section .section-white}
+:::
+:::
+
+
+<!-- REZERWACJA BEZPOŚREDNIA -->
+::: {#booking .section .booking-section}
 ::: {.container}
 ::: {.section-header}
-[Lokalizacja]{.section-subtitle}
+[Rezerwacja]{.section-subtitle}
 
-## Perła Renesansu
+## Rezerwuj bezpośrednio
+:::
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.why-direct}
+
+::: {.why-item}
+{{< icon tag >}}
+
+### Zawsze najlepsza cena
+Najniższą cenę mamy tutaj, na tej stronie. Nie doliczamy do niej prowizji portalu.
+:::
+
+::: {.why-item}
+{{< icon message >}}
+
+### Jedna wiadomość
+Piszesz do Roberta i Robert odpisuje. WhatsApp +48 508 209 313 albo info@orlicz32.pl.
+:::
+
+::: {.why-item}
+{{< icon key >}}
+
+### Elastyczny przyjazd
+Zameldowanie jest między 16:00 a 21:00, a kiedy podróż wygląda inaczej, umawiamy się na inną godzinę.
+:::
+
+:::
+
+::: {.section-cta}
+[Sprawdź dostępność](book.qmd){.btn-book-large}
+:::
+
 :::
 :::
 
-::: {.about-content}
-Zamość został założony w **1580 roku** przez kanclerza **Jana Zamoyskiego** i zaprojektowany przez włoskiego architekta **Bernarda Moranda** jako „miasto idealne". Ten urbanistyczny klejnot, wpisany na **Listę Światowego Dziedzictwa UNESCO**, zachwyca doskonale zachowaną renesansową architekturą.
 
-Apartamenty Orlicz 32 znajdują się zaledwie kilka minut spacerem od słynnego Rynku Wielkiego – jednego z najpiękniejszych placów renesansowych w Europie.
-:::
-
-::: {style="text-align: center; margin-top: 2rem;"}
-[Odkryj Zamość](zamosc.qmd){.btn-gold}
-:::
-
-:::
-:::
-
-
-<!-- SEKCJA OPINIE -->
-::: {.section .section-light}
+<!-- OPINIE -->
+::: {.section .section-light .testimonials-section}
 ::: {.container}
 ::: {.section-header}
-[Opinie gości]{.section-subtitle}
+[Goście]{.section-subtitle}
 
-## Co mówią nasi goście
+## Co mówią goście
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.rating-badge}
+{{< icon star >}} **4,8** — 148 opinii w Booking.com, Airbnb i Google
 :::
 :::
 
 ::: {.review-excerpts}
 
 ::: {.review-excerpt-card}
-> "Apartament zasługuje na najwyższą ocenę. Kontakt z właścicielem też na 5 gwiazdek. Czysto, ładnie, urządzone z gustem. Kuchnia wyposażona rewelacyjnie."
+> „Apartament zasługuje na najwyższą ocenę. Kontakt z właścicielem też na 5 gwiazdek. Czysto, ładnie, urządzone z gustem. Kuchnia wyposażona rewelacyjnie.”
 
 [— Ewa Grabowska, Google]{.review-source}
 :::
 
 ::: {.review-excerpt-card}
-> "Doskonały apartament w świetnej lokalizacji, niesamowita obsługa i wspaniały standard. Czysto, dobrze wyposażone."
-
-[— Tomasz, Booking.com]{.review-source}
-:::
-
-::: {.review-excerpt-card}
-> "Bardzo czysty apartament zgodny z opisem, dobrze wyposażona kuchnia, zapewnione miejsce parkingowe, bliskość Starego Miasta, bardzo spokojna okolica. Właściciel bardzo komunikatywny i przyjazny."
-
-[— Grzegorz, Airbnb]{.review-source}
-:::
-
-::: {.review-excerpt-card}
-> "Apartament wykończony z dbałością o każdy szczegół, klimatyczny, z duszą. Nienaganna czystość, śnieżnobiała pościel i ręczniki."
+> „Apartament wykończony z dbałością o każdy szczegół, klimatyczny, z duszą. Nienaganna czystość, śnieżnobiała pościel i ręczniki.”
 
 [— Marian, Booking.com]{.review-source}
 :::
 
 ::: {.review-excerpt-card}
-> "Miłe, przytulne mieszkanie. Czysto, niczego nie brakuje. Kuchnia świetnie wyposażona. Dobra lokalizacja. Mili i pomocni właściciele."
+> „Bardzo czysty apartament zgodny z opisem, dobrze wyposażona kuchnia, zapewnione miejsce parkingowe, bliskość Starego Miasta, bardzo spokojna okolica. Właściciel bardzo komunikatywny i przyjazny.”
 
-[— Łukasz Szumiła, Google]{.review-source}
+[— Grzegorz, Airbnb]{.review-source}
 :::
 
 ::: {.review-excerpt-card}
-> "Pokoje były czyste, łazienka również. Wszystko czego potrzebowaliśmy znaleźliśmy na miejscu. Apartament znajduje się około 15 min pieszo od rynku. Właściciel pomocny i bardzo uprzejmy. Polecamy."
-
-[— Ewa Kwiat, Google]{.review-source}
-:::
-
-::: {.review-excerpt-card}
-> "Jestem stałym gościem i zawsze wracam. Personel uprzejmy i pomocny. To miejsce ma wszystko czego potrzebuję: darmowe WiFi, parking, wyposażenie kuchenne, telewizor."
+> „Jestem stałym gościem i zawsze wracam. Personel uprzejmy i pomocny. To miejsce ma wszystko czego potrzebuję: darmowe WiFi, parking, wyposażenie kuchenne, telewizor.”
 
 [— Kazimierz, Booking.com]{.review-source}
 :::
 
-::: {.review-excerpt-card}
-> "To kolejny pobyt tutaj. Właściciel bardzo pomocny, łatwo dostosował godziny zameldowania do naszego przyjazdu. Czysty apartament ze wszystkimi udogodnieniami, pięknie urządzony. Świetna lokalizacja!"
-
-[— Tomasz, Airbnb]{.review-source}
 :::
 
-::: {.review-excerpt-card}
-> "Niepowtarzalny styl, dbałość o szczegóły, czystość i dostęp do wszystkiego co potrzebne. Bliskość centrum, spokojne otoczenie. Właściciele, którzy bardzo dbają o gości."
-
-[— Maria, Booking.com]{.review-source}
+::: {.reviews-live-rule}
+Więcej opinii — na żywo z Booking i Google
 :::
 
-::: {.review-excerpt-card}
-> "Bardzo miłe przyjęcie i troska o nasz pobyt. Apartament wyposażony we wszystko co potrzebne. Lokalizacja na urokliwej uliczce willowej. Doskonały kontakt z właścicielem."
+::: {.testimonial-widget-container}
 
-[— Edward, Booking.com]{.review-source}
-:::
-
-:::
-
+<!-- Elfsight All-in-One Reviews Widget -->
 <script src="https://static.elfsight.com/platform/platform.js" async></script>
 <div class="elfsight-app-ba61a78d-0422-4329-9e8f-3158cb7c9d21" data-elfsight-app-lazy></div>
 
 :::
 :::
+:::
 
 
-<!-- SEKCJA REZERWACJA -->
-::: {#booking .section .booking-section}
+<!-- LOKALIZACJA -->
+::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
-[Rezerwacja]{.section-subtitle}
+[Lokalizacja]{.section-subtitle}
 
-## Zarezerwuj apartament {style="color: #FFFFFF;"}
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Cicha ulica, kwadrans od rynku
 :::
 
-::: {.booking-widget-container}
+::: {.row}
+::: {.col-lg-8}
+::: {.map-frame}
+<iframe src="https://www.google.com/maps?q=50.717276,23.263793&hl=en&z=16&output=embed" title="Mapa — Apartamenty Orlicz 32, Orlicz-Dreszera 32, Zamość" width="100%" height="400" allowfullscreen loading="lazy"></iframe>
 
-::: {.booking-cta-box}
-::: {.booking-cta-content}
-
-[✨]{.booking-icon}
-
-### Zarezerwuj swój pobyt
-
-Wybierz terminy i zabezpiecz swój pobyt w sercu Zamościa.
-
-[Sprawdź dostępność](book.qmd){.btn-book-large}
-
+::: {.map-caption}
+{{< icon pin >}} Orlicz-Dreszera 32, 22-400 Zamość · 15 min pieszo na Rynek Wielki
+:::
 :::
 :::
 
+::: {.col-lg-4}
+::: {.location-info}
+### Kontakt i informacje
+
+::: {.info-item}
+::: {.info-icon}
+{{< icon pin >}}
+:::
+::: {.info-text}
+#### Adres
+Orlicz-Dreszera 32, 22-400 Zamość
+:::
+:::
+
+::: {.info-item}
+::: {.info-icon}
+{{< icon clock >}}
+:::
+::: {.info-text}
+#### Zameldowanie
+16:00 – 21:00, elastycznie po uzgodnieniu
+:::
+:::
+
+::: {.info-item}
+::: {.info-icon}
+{{< icon clock >}}
+:::
+::: {.info-text}
+#### Wymeldowanie
+Do 11:00
+:::
+:::
+
+::: {.info-item}
+::: {.info-icon}
+{{< icon phone >}}
+:::
+::: {.info-text}
+#### Telefon i WhatsApp
+[+48 508 209 313](tel:+48508209313)
+:::
+:::
+
+:::
+:::
+:::
+:::
+:::
+
+
+<!-- ZAPOWIEDŹ ZAMOŚCIA -->
+::: {.section .section-dark}
+::: {.container}
+::: {.section-header}
+[Miasto]{.section-subtitle}
+
+## Perła Renesansu
+:::
+
+::: {.about-content}
+Jan Zamoyski założył Zamość w 1580 roku i dał Bernardowi Morandowi, architektowi z Padwy, jedno zlecenie: rozrysować całe miasto naraz. Ulice, rynki, ratusz i fortyfikacje należą do jednego planu — dlatego w 1992 roku UNESCO wpisało Zamość na Listę Światowego Dziedzictwa.
+
+Rynek Wielki nadal działa jak rynek, a nie jak eksponat: rano handel, kawiarnie pod podcieniami, wieczorem podświetlone fasady kamienic kupieckich. Od naszych drzwi kwadrans w jedną stronę.
+
+::: {.section-cta}
+[Poznaj Zamość](zamosc.qmd){.btn-outline-gold}
+:::
 :::
 :::
 :::

@@ -26,12 +26,13 @@ format:
           </script>
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room1-main.jpg'); min-height: 50vh; background-size: cover; background-position: center;"}
+<!-- HERO -->
+::: {.hero-section .hero--secondary .hero--apartments}
 ::: {.hero-content}
 
-[APARTAMENTY]{.hero-logo-text}
+[Apartamenty]{.hero-logo-text}
 
-[Our Apartments]{.hero-title style="font-size: 2.5rem;"}
+[The Apartments]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -39,7 +40,7 @@ format:
 []{.line}
 :::
 
-["Contemporary comfort meets timeless elegance"]{.hero-tagline style="font-size: 1.2rem;"}
+[Two apartments on one quiet villa street]{.hero-tagline}
 
 :::
 :::
@@ -48,10 +49,16 @@ format:
 <!-- INTRO -->
 ::: {.section .section-light}
 ::: {.container}
-::: {.about-content}
-Our apartments are designed to be your home away from home. Each space has been thoughtfully curated to combine modern comfort with the refined elegance that reflects the Renaissance heritage of Zamość.
+::: {.section-header .section-header--left}
+[Straightforward comfort]{.section-subtitle}
 
-Every apartment features high-quality furnishings, a fully equipped kitchen, comfortable beds with premium linens, and all the amenities you need for a relaxing stay.
+## Two apartments, one house
+:::
+
+::: {.prose-left}
+Both apartments are in our own house at Orlicz-Dreszera 32, on a villa street where the loudest thing after ten at night is usually the wind. Rynek Wielki is a ten to fifteen minute walk. The car stays behind the gate, in the yard, under CCTV, and there is an EV charger about 200 m away.
+
+We did the renovation ourselves, room by room, and we equipped both places for people staying longer than one night: a kitchen you can genuinely cook in, a dishwasher, a washing machine, fibre WiFi that holds a video call, and a desk if you have to work. Room Nr 1 takes five people, Room Nr 3 takes three.
 :::
 :::
 :::
@@ -63,71 +70,71 @@ Every apartment features high-quality furnishings, a fully equipped kitchen, com
 ::: {.section-header}
 [Choose Your Space]{.section-subtitle}
 
-## Available Apartments
+## Room Nr 1 and Room Nr 3
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.divider-arch}
 :::
 :::
 
 <!-- Room Nr 1 -->
-::: {.apartment-card style="margin-bottom: 3rem;"}
+::: {.apartment-card .apartment-listing}
 ::: {.row .align-items-center}
 ::: {.col-lg-6}
 ::: {.apartment-image}
-![Room Nr 1](images/room1-main.jpg)
+![](images/opt/room1-main-960.jpg){fig-alt="Dining corner with wisteria mural and herringbone parquet — Room Nr 1" srcset="images/opt/room1-main-480.webp 480w, images/opt/room1-main-960.webp 960w" sizes="(max-width: 992px) 100vw, 50vw" width="960" height="720" loading="lazy" decoding="async"}
 :::
 :::
 ::: {.col-lg-6}
 ::: {.apartment-details}
 ### Room Nr 1
 ::: {.apartment-features}
-[🛏️ 5 Guests]{} [📐 55m²]{} [🛁 1 Bathroom]{} [☕ Kitchen]{}
+[{{< icon bed >}} Sleeps 5]{} [{{< icon area >}} 55m²]{} [{{< icon shower >}} Walk-in shower]{} [{{< icon kitchen >}} Kitchen with dishwasher]{}
 :::
 
-55 m² self-catering apartment for up to 5 guests, ideal for families visiting Zamość's UNESCO Old Town or groups exploring eastern Poland. The apartment is a 10-15 minute walk from the Great Market Square (Rynek Wielki). Features:
+55 m² on one floor: a double bed in the bedroom, a double sofa bed and a single sofa bed in the living room. Families take this one — there is floor space for a cot and a table everyone fits around. Rynek Wielki is ten to fifteen minutes on foot.
 
-- Double bed with premium bedding
-- Double sofa bed + single sofa bed
-- Fully equipped kitchen with essentials
-- Modern bathroom with shower
-- Smart TV and high-speed WiFi
-- Work desk area
-- Air conditioning
+- Double bed, double sofa bed and single sofa bed
+- Full kitchen — hob, oven, fridge, dishwasher, kettle, coffee
+- Walk-in shower, hotel-grade towels and linen
+- Washing machine in the apartment
+- Air conditioning and a Smart TV with streaming
+- Work desk and fibre WiFi
 
-[Book This Apartment](book-room1.qmd){.btn-gold}
+[Book Room Nr 1](book-room1.qmd){.btn-gold}
+
+[See all 13 photos →](gallery.qmd#room-nr-1){.btn-details}
 :::
 :::
 :::
 :::
 
 <!-- Room Nr 3 -->
-::: {.apartment-card style="margin-bottom: 3rem;"}
+::: {.apartment-card .apartment-listing}
 ::: {.row .align-items-center .flex-lg-row-reverse}
 ::: {.col-lg-6}
 ::: {.apartment-image}
-![Room Nr 3](images/room3-main.jpg)
+![](images/opt/room3-main-960.jpg){fig-alt="Bright living room with navy velvet sofa — Room Nr 3" srcset="images/opt/room3-main-480.webp 480w, images/opt/room3-main-960.webp 960w" sizes="(max-width: 992px) 100vw, 50vw" width="960" height="1280" loading="lazy" decoding="async"}
 :::
 :::
 ::: {.col-lg-6}
 ::: {.apartment-details}
 ### Room Nr 3
 ::: {.apartment-features}
-[🛏️ 3 Guests]{} [📐 50m²]{} [🛁 1 Bathroom]{} [☕ Kitchen]{}
+[{{< icon bed >}} Sleeps 3]{} [{{< icon area >}} 50m²]{} [{{< icon bath >}} Bathtub with shower]{} [{{< icon kitchen >}} Kitchen with dishwasher]{}
 :::
 
-50 m² self-catering apartment for up to 3 guests, ideal for couples on a weekend getaway to Zamość or travelers looking for a quiet base near the Renaissance Old Town. Large windows fill the space with natural light. The Great Market Square is a 10-15 minute walk away. Features:
+50 m² with a queen bed and a single bed, and windows large enough that the lights stay off until evening. Couples and solo travellers usually choose it, often for the bathtub. Same walk to the Old Town: ten to fifteen minutes.
 
-- Queen-size bed + single bed with premium bedding
-- Fully equipped kitchen with essentials
-- Modern bathroom with bathtub and shower
-- Smart TV and high-speed WiFi
-- Work desk area
-- Air conditioning
+- Queen bed plus a single bed
+- Full kitchen — hob, oven, fridge, dishwasher, kettle, coffee
+- Bathtub with shower over, hotel-grade towels and linen
+- Washing machine in the apartment
+- Air conditioning and a Smart TV with streaming
+- Work desk and fibre WiFi
 
-[Book This Apartment](book-room3.qmd){.btn-gold}
+[Book Room Nr 3](book-room3.qmd){.btn-gold}
+
+[See all 15 photos →](gallery.qmd#room-nr-3){.btn-details}
 :::
 :::
 :::
@@ -143,64 +150,32 @@ Every apartment features high-quality furnishings, a fully equipped kitchen, com
 ::: {.section-header}
 [Included]{.section-subtitle}
 
-## Apartment Amenities
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## What's in both apartments
 :::
 
-::: {.features-grid}
+::: {.amenity-list}
 
-::: {.feature-card}
-::: {.feature-icon}
-📶
-:::
-### High-Speed WiFi
-Stay connected with complimentary high-speed internet throughout your apartment.
-:::
+{{< icon wifi >}} Fibre WiFi
 
-::: {.feature-card}
-::: {.feature-icon}
-🍳
-:::
-### Equipped Kitchen
-Prepare your own meals with all the cookware, utensils, and appliances you need.
-:::
+{{< icon kitchen >}} Full kitchen with dishwasher
 
-::: {.feature-card}
-::: {.feature-icon}
-❄️
-:::
-### Climate Control
-Enjoy year-round comfort with air conditioning and heating systems.
-:::
+{{< icon laundry >}} Washing machine
 
-::: {.feature-card}
-::: {.feature-icon}
-🛁
-:::
-### Premium Bath
-Luxuriate in modern bathrooms with quality toiletries provided.
-:::
+{{< icon climate >}} Air conditioning
 
-::: {.feature-card}
-::: {.feature-icon}
-📺
-:::
-### Entertainment
-Smart TV with streaming capabilities for your relaxation.
-:::
+{{< icon tv >}} Smart TV with streaming
 
-::: {.feature-card}
-::: {.feature-icon}
-🧺
-:::
-### Laundry
-Washer and dryer available for longer stays.
-:::
+{{< icon shower >}} Walk-in shower (Room Nr 1)
+
+{{< icon bath >}} Bathtub with shower (Room Nr 3)
+
+{{< icon parking >}} Free CCTV-monitored parking
+
+{{< icon car >}} EV charging 200 m away
+
+{{< icon bed >}} Proper beds, hotel-grade linen
+
+{{< icon key >}} Self check-in by arrangement
 
 :::
 :::
@@ -213,13 +188,7 @@ Washer and dryer available for longer stays.
 ::: {.section-header}
 [Reservations]{.section-subtitle}
 
-## Book Your Apartment {style="color: #FFFFFF;"}
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Book Direct
 :::
 
 ::: {.booking-widget-container}
@@ -227,13 +196,15 @@ Washer and dryer available for longer stays.
 ::: {.booking-cta-box}
 ::: {.booking-cta-content}
 
-[✨]{.booking-icon}
+::: {.cta-icon}
+{{< icon key >}}
+:::
 
-### Book Your Apartment
+### Check availability
 
-Select your dates and secure your stay in the heart of Zamość.
+Pick your dates and see what is free. Booking here comes straight to us, at our lowest rate.
 
-[Check Availability & Book](book.qmd){.btn-book-large}
+[Check Availability](book.qmd){.btn-book-large}
 
 :::
 :::
@@ -249,13 +220,7 @@ Select your dates and secure your stay in the heart of Zamość.
 ::: {.section-header}
 [Good to Know]{.section-subtitle}
 
-## House Rules & Policies
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## House Rules
 :::
 
 ::: {.check-times}
@@ -277,17 +242,10 @@ Select your dates and secure your stay in the heart of Zamość.
 
 :::
 
-::: {.about-content style="margin-top: 2rem;"}
+::: {.about-content}
+No smoking inside. No pets. Quiet hours 22:00 to 08:00. A security deposit may apply.
 
-**General Policies:**
-
-- No smoking inside apartments
-- No pets allowed
-- Quiet hours from 22:00 to 08:00
-- Security deposit may be required
-
-For special requests or early/late check-in arrangements, please [contact us](contact.qmd).
-
+Early or late arrival? [Write to us](contact.qmd) — we usually make it work.
 :::
 :::
 :::

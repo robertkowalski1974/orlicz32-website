@@ -29,12 +29,12 @@ format:
           </script>
 ---
 
-::: {.hero-section style="background-image: url('images/zamosc-hero.svg'); min-height: 50vh;"}
+::: {.hero-section .hero--secondary .hero--zamosc}
 ::: {.hero-content}
 
 [Discover]{.hero-logo-text}
 
-[Zamość]{.hero-title style="font-size: 2.5rem;"}
+[Zamość]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -42,7 +42,7 @@ format:
 []{.line}
 :::
 
-["Pearl of the Renaissance • UNESCO World Heritage Site"]{.hero-tagline style="font-size: 1.2rem;"}
+[Pearl of the Renaissance · UNESCO World Heritage]{.hero-tagline}
 
 :::
 :::
@@ -51,193 +51,220 @@ format:
 <!-- HISTORY -->
 ::: {.section .section-light}
 ::: {.container}
-::: {.section-header}
-[History]{.section-subtitle}
+::: {.section-header .section-header--left}
+[Since 1580]{.section-subtitle}
 
 ## The Ideal City
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
-::: {.about-content}
-Zamość was founded in **1580** by Chancellor **Jan Zamoyski**, one of the most powerful Polish magnates of the era. He commissioned the Italian architect **Bernardo Morando** to design a city based on Renaissance theories of the "ideal city" — a concept combining functionality, beauty, and harmony.
+::: {.prose-left}
+Zamość was built from scratch in 1580. Jan Zamoyski, Chancellor and Grand Hetman of the Crown, bought the land and hired Bernardo Morando, an architect from Padua, to lay out a whole city at once — the Renaissance "ideal city", drawn on paper before a single stone went down. The market square measures 100 by 100 metres. The streets run to a grid. The merchant houses carry arcades on the ground floor so you can cross the town in the rain.
 
-The result is a perfectly planned urban layout that has survived virtually intact for over four centuries. The city's unique blend of Italian and Central European architectural traditions earned it **UNESCO World Heritage status in 1992**.
+The plan survived. No fire, no war and no later rebuilding erased it, which is rare in Poland and the reason UNESCO put the Old Town on the World Heritage List in 1992. What you walk through is still Morando's town, not a reconstruction of it.
 
-Walking through Zamość today is like stepping back in time to the golden age of the Renaissance, with its arcaded merchant houses, grand town hall, and the magnificent Great Market Square at its heart.
+The whole Old Town is a 15-minute walk from your door. Go in the evening, when the arcades are lit and the square empties out.
 :::
 :::
 :::
 
 
-<!-- HIGHLIGHTS -->
+<!-- SIGHTS -->
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
-[Must See]{.section-subtitle}
+[On Foot From Our Door]{.section-subtitle}
 
-## City Highlights
+## What to See
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.divider-arch}
 :::
 :::
 
-::: {.features-grid}
+::: {.sight-list}
 
-::: {.feature-card}
-::: {.feature-icon}
-🏛️
-:::
-### Great Market Square
-The heart of Zamość — Rynek Wielki is one of the most beautiful Renaissance squares in Europe. Surrounded by colorful arcaded merchant houses, it's perfect for morning coffee or evening strolls.
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon arch >}}
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-🏰
+::: {.sight-body}
+### Great Market Square (Rynek Wielki)
+
+[850 m · 11 min walk]{.sight-distance}
+
+Morando's square is a perfect 100 by 100 metres, closed on three sides by arcaded merchant houses in ochre, pink and green. Several of the arcades have tables outside — it is the obvious place for morning coffee.
 :::
+:::
+
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon tower >}}
+:::
+
+::: {.sight-body}
 ### Town Hall
-The iconic Zamość Town Hall with its distinctive tower and grand staircase dominates the Great Market Square. A masterpiece of Renaissance architecture.
+
+[800 m · 10 min walk]{.sight-distance}
+
+The tower and its fan-shaped double staircase close the north side of the square. You can climb the tower for a view over the roofs, and a bugle call is played from it at noon.
+:::
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-⛪
-:::
-### Collegiate Church
-The Church of the Resurrection and St. Thomas the Apostle is a stunning example of Baroque architecture, featuring beautiful frescoes and the Zamoyski family chapel.
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon church >}}
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-🏯
+::: {.sight-body}
+### Collegiate Cathedral
+
+[1.0 km · 13 min walk]{.sight-distance}
+
+Morando built it for Zamoyski between 1587 and 1598; it became a cathedral in 1992. The founder is buried inside, in the chapel beside the chancel.
 :::
+:::
+
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon palace >}}
+:::
+
+::: {.sight-body}
 ### Zamoyski Palace
-Once the grand residence of the city's founder, the palace now houses a museum showcasing the history and treasures of Zamość.
-:::
 
-::: {.feature-card}
-::: {.feature-icon}
-🏰
-:::
-### Fortifications
-Explore the well-preserved Renaissance fortifications, bastions, and gates that once protected this strategic city on the trade route to the East.
-:::
+[1.1 km · 14 min walk]{.sight-distance}
 
-::: {.feature-card}
-::: {.feature-icon}
-🕍
-:::
-### Synagogue
-The 17th-century synagogue stands as a testament to the city's multicultural heritage and the once-thriving Jewish community of Zamość.
-:::
-
-:::
+Zamoyski's own residence, set at the west end of Morando's axis and facing the square down a straight line of street. The army took it over in the 1830s and stripped the Baroque front; it holds the courts today, so you see it from the outside.
 :::
 :::
 
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon bastion >}}
+:::
 
-<!-- WALKING TOURS -->
+::: {.sight-body}
+### Fortifications & Bastion VII
+
+[1.2 km · 15 min walk]{.sight-distance}
+
+Zamość was a working fortress that held out against the Swedes in 1656 and was only decommissioned in 1866. Bastion VII is the best-restored of the seven — you can walk the ramparts and go down into the casemates.
+:::
+:::
+
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon star-david >}}
+:::
+
+::: {.sight-body}
+### The Synagogue
+
+[650 m · 8 min walk]{.sight-distance}
+
+Built around 1620 and one of the largest Renaissance synagogues left in Poland. Before 1939 Jews were close to half the town's population; the building was restored in 2011 and is open to visitors.
+:::
+:::
+
+:::
+:::
+:::
+
+
+<!-- WALKS -->
 ::: {.section .section-light}
 ::: {.container}
-::: {.section-header}
-[Explore]{.section-subtitle}
+::: {.section-header .section-header--left}
+[Two Easy Routes]{.section-subtitle}
 
 ## Suggested Walks
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
-::: {.about-content}
+::: {.prose-left}
 
-### Renaissance Heritage Walk (2-3 hours)
+### The Renaissance circuit (2–3 hours)
 
-Start your exploration at our doorstep and follow this curated walk through Zamość's most significant sites:
+Straight down our street and into the Old Town, then round the plan the way Morando drew it. Take it slowly; nothing here is more than a few hundred metres from the next thing.
 
-- **Depart from Orlicz 32** — Begin your journey from our apartments
-- **Great Market Square** — Admire the arcaded houses and their decorative façades
-- **Town Hall** — Marvel at the Renaissance architecture and climb the tower for panoramic views
-- **Arsenal Museum** — Discover military history and artifacts
-- **Collegiate Church** — Experience the Baroque splendor inside
-- **Old Lublin Gate** — One of three original city gates
-- **Bastion VII** — Walk the fortifications for views of the moat
-- **Return via Grodzka Street** — Browse local shops and cafés
+- **Leave from Orlicz-Dreszera 32** — 10 to 15 minutes on foot to the square
+- **Great Market Square** — the arcades and the painted façades of the merchant houses
+- **Town Hall** — climb the tower first, while your legs are fresh
+- **Arsenal Museum** — Zamoyski's armoury, at the foot of the palace
+- **Collegiate Cathedral** — the founder's tomb and the bell tower
+- **Old Lublin Gate** — walled up in 1588 and never reopened
+- **Bastion VII** — the ramparts, the casemates and the moat line
+- **Back along Grodzka** — shops and cafés on the way home
 
-### Evening Promenade (1 hour)
+### The evening walk (1 hour)
 
-As the sun sets, Zamość transforms into a magical, lamp-lit Renaissance stage:
+Worth doing on your first night. The square is floodlit after dark and most of the day visitors have gone by then.
 
-- Stroll around the illuminated Great Market Square
-- Enjoy dinner at one of the restaurants under the arcades
-- Take in the view of the Town Hall tower against the evening sky
-- End with a gelato from one of the square's charming cafés
+- Cross the square when it is lit and largely empty
+- Eat under the arcades — the restaurants there keep tables outside until late
+- Look back at the Town Hall tower from the far corner of the square
+- Walk home down Grodzka and Partyzantów, about 15 minutes
 
 :::
 :::
 :::
 
 
-<!-- PRACTICAL INFO -->
+<!-- PRACTICAL -->
 ::: {.section .section-dark}
 ::: {.container}
 ::: {.section-header}
-[Practical Info]{.section-subtitle}
+[Practical]{.section-subtitle}
 
 ## Good to Know
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
 ::: {.features-grid}
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-card}
 ::: {.feature-icon}
-🚶
-:::
-### Walkable City
-Zamość's Old Town is compact and entirely walkable. Most attractions are within 10-15 minutes walk from Orlicz 32.
+{{< icon walk >}}
 :::
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
-::: {.feature-icon}
-🅿️
+### Everything on foot
+
+The Old Town is compact and flat. From our door the synagogue is 650 m, the Town Hall 800 m, Bastion VII 1.2 km — 8 to 15 minutes each. Once the car is parked you can leave it.
 :::
+
+::: {.feature-card}
+::: {.feature-icon}
+{{< icon parking >}}
+:::
+
 ### Parking
-Free street parking near our apartments. Paid parking available in the Old Town center.
+
+Free at our place, in the yard, under CCTV. Parking inside the Old Town is paid on weekdays and fills up by mid-morning, which is another reason to walk in.
 :::
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-card}
 ::: {.feature-icon}
-🍽️
-:::
-### Dining
-Excellent restaurants and cafés around the Great Market Square, ranging from traditional Polish to international cuisine.
+{{< icon fork >}}
 :::
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+### Eating out
+
+Most of the restaurants sit under the arcades on Rynek Wielki and on Staszica. Book a table at weekends in summer. Ask us and we will tell you where we eat ourselves.
+:::
+
+::: {.feature-card}
 ::: {.feature-icon}
-🛒
+{{< icon basket >}}
 :::
-### Shopping
-Local markets, artisan shops, and supermarkets all within easy reach.
+
+### Shops & market
+
+A supermarket is a few minutes' walk from the apartments, open late. The town market off Partyzantów runs in the mornings and is the place for fruit, bread and cheese.
+:::
+
+:::
+
+::: {.section-cta}
+[See our apartments](apartments.qmd){.btn-outline-gold}
 :::
 
 :::
 :::
-:::
-

@@ -46,16 +46,17 @@ format:
             ]
           }
           </script>
+          <style>html:not(.pl-ready) .navbar .menu-text { visibility: hidden; }</style>
     include-after-body:
       - file: navbar-pl.html
 ---
 
-::: {.hero-section style="background-image: url('../images/zamosc-hero.svg'); min-height: 50vh;"}
+::: {.hero-section .hero--secondary .hero--zamosc}
 ::: {.hero-content}
 
 [Odkryj]{.hero-logo-text}
 
-[Zamość]{.hero-title style="font-size: 2.5rem;"}
+[Zamość]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -63,7 +64,7 @@ format:
 []{.line}
 :::
 
-["Perła Renesansu • Światowe Dziedzictwo UNESCO"]{.hero-tagline style="font-size: 1.2rem;"}
+[Perła Renesansu · Światowe Dziedzictwo UNESCO]{.hero-tagline}
 
 :::
 :::
@@ -72,24 +73,18 @@ format:
 <!-- HISTORIA -->
 ::: {.section .section-light}
 ::: {.container}
-::: {.section-header}
-[Historia]{.section-subtitle}
+::: {.section-header .section-header--left}
+[Od 1580 roku]{.section-subtitle}
 
 ## Miasto idealne
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
-::: {.about-content}
-Zamość został założony w **1580 roku** przez kanclerza **Jana Zamoyskiego**, jednego z najpotężniejszych polskich magnatów tamtej epoki. Zlecił on włoskiemu architektowi **Bernardowi Morandowi** zaprojektowanie miasta opartego na renesansowych teoriach „miasta idealnego" – koncepcji łączącej funkcjonalność, piękno i harmonię.
+::: {.prose-left}
+Zamość zbudowano od zera w 1580 roku. Jan Zamoyski, kanclerz i hetman wielki koronny, kupił ziemię i zatrudnił Bernarda Moranda, architekta z Padwy, żeby rozplanował całe miasto naraz — renesansowe „miasto idealne”, narysowane na papierze, zanim położono pierwszy kamień. Rynek ma 100 na 100 metrów. Ulice układają się w siatkę. Kamienice kupieckie mają na parterze podcienia, więc miasto da się przejść w deszczu.
 
-Efektem jest doskonale zaplanowany układ urbanistyczny, który przetrwał niemal nienaruszony przez ponad cztery stulecia. Unikalne połączenie włoskich i środkowoeuropejskich tradycji architektonicznych przyniosło miastu wpis na **Listę Światowego Dziedzictwa UNESCO w 1992 roku**.
+Ten plan przetrwał. Nie starł go ani pożar, ani wojna, ani późniejsze przebudowy, co w Polsce zdarza się rzadko i dlatego właśnie UNESCO wpisało Stare Miasto na Listę Światowego Dziedzictwa w 1992 roku. Chodzisz po mieście Moranda, a nie po jego rekonstrukcji.
 
-Spacerując dziś po Zamościu, przenosimy się w czasie do złotego wieku renesansu – podziwiając podcieniowe kamienice kupieckie, okazały ratusz oraz wspaniały Rynek Wielki stanowiący serce miasta.
+Całe Stare Miasto jest kwadrans spacerem od naszych drzwi. Idź tam wieczorem, kiedy podcienia są oświetlone, a rynek pustoszeje.
 :::
 :::
 :::
@@ -99,65 +94,98 @@ Spacerując dziś po Zamościu, przenosimy się w czasie do złotego wieku renes
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
-[Warto zobaczyć]{.section-subtitle}
+[Pieszo od naszych drzwi]{.section-subtitle}
 
-## Atrakcje miasta
+## Co zobaczyć
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.divider-arch}
 :::
 :::
 
-::: {.features-grid}
+::: {.sight-list}
 
-::: {.feature-card}
-::: {.feature-icon}
-🏛️
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon arch >}}
 :::
+
+::: {.sight-body}
 ### Rynek Wielki
-Serce Zamościa – jeden z najpiękniejszych renesansowych placów w Europie. Otoczony kolorowymi podcieniowymi kamienicami, idealny na poranną kawę lub wieczorny spacer.
+
+[850 m · 11 min pieszo]{.sight-distance}
+
+Rynek Moranda to dokładnie 100 na 100 metrów, zamknięte z trzech stron podcieniowymi kamienicami kupieckimi w kolorze ochry, różu i zieleni. Pod kilkoma podcieniami stoją stoliki — to oczywiste miejsce na poranną kawę.
+:::
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-🏰
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon tower >}}
 :::
+
+::: {.sight-body}
 ### Ratusz
-Ikoniczny zamojski ratusz z charakterystyczną wieżą i wspaniałymi schodami dominuje nad Rynkiem Wielkim. Arcydzieło architektury renesansowej.
+
+[800 m · 10 min pieszo]{.sight-distance}
+
+Wieża i wachlarzowe schody zamykają północną pierzeję rynku. Na wieżę można wejść i popatrzeć na miasto z góry, a w południe grany jest z niej hejnał.
+:::
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-⛪
-:::
-### Kolegiata
-Kościół Zmartwychwstania Pańskiego i św. Tomasza Apostoła to wspaniały przykład architektury barokowej, z pięknymi freskami i kaplicą rodu Zamoyskich.
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon church >}}
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-🏯
+::: {.sight-body}
+### Katedra
+
+[1,0 km · 13 min pieszo]{.sight-distance}
+
+Morando zbudował ją dla Zamoyskiego w latach 1587–1598; rangę katedry ma od 1992 roku. Fundator jest pochowany w środku, w kaplicy przy prezbiterium.
 :::
+:::
+
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon palace >}}
+:::
+
+::: {.sight-body}
 ### Pałac Zamoyskich
-Niegdyś okazała rezydencja założyciela miasta, dziś mieści muzeum prezentujące historię i skarby Zamościa.
+
+[1,1 km · 14 min pieszo]{.sight-distance}
+
+Własna rezydencja Zamoyskiego, na zachodnim końcu osi Moranda, zwrócona prosto w stronę rynku. W latach 30. XIX wieku przejęło ją wojsko i zdjęło barokową fasadę; dziś mieszczą się tu sądy, więc ogląda się go z zewnątrz.
+:::
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-🏰
-:::
-### Fortyfikacje
-Odkryj doskonale zachowane renesansowe fortyfikacje, bastiony i bramy, które niegdyś chroniły to strategiczne miasto na szlaku handlowym na Wschód.
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon bastion >}}
 :::
 
-::: {.feature-card}
-::: {.feature-icon}
-🕍
+::: {.sight-body}
+### Fortyfikacje i Bastion VII
+
+[1,2 km · 15 min pieszo]{.sight-distance}
+
+Zamość był działającą twierdzą — w 1656 roku obronił się przed Szwedami, a zlikwidowano go dopiero w 1866. Bastion VII odrestaurowano najlepiej z siedmiu: można przejść się po wałach i zejść do kazamat.
 :::
+:::
+
+::: {.sight-item}
+::: {.sight-icon}
+{{< icon star-david >}}
+:::
+
+::: {.sight-body}
 ### Synagoga
-XVII-wieczna synagoga stanowi świadectwo wielokulturowego dziedzictwa miasta i niegdyś prężnej społeczności żydowskiej Zamościa.
+
+[650 m · 8 min pieszo]{.sight-distance}
+
+Zbudowana około 1620 roku, jedna z największych zachowanych renesansowych synagog w Polsce. Przed 1939 rokiem Żydzi stanowili blisko połowę mieszkańców miasta; budynek odnowiono w 2011 roku i jest otwarty dla zwiedzających.
+:::
 :::
 
 :::
@@ -165,99 +193,100 @@ XVII-wieczna synagoga stanowi świadectwo wielokulturowego dziedzictwa miasta i 
 :::
 
 
-<!-- PROPONOWANE SPACERY -->
+<!-- SPACERY -->
 ::: {.section .section-light}
 ::: {.container}
-::: {.section-header}
-[Zwiedzaj]{.section-subtitle}
+::: {.section-header .section-header--left}
+[Dwie proste trasy]{.section-subtitle}
 
 ## Proponowane spacery
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
-::: {.about-content}
+::: {.prose-left}
 
-### Szlak renesansowego dziedzictwa (2-3 godziny)
+### Pętla renesansowa (2–3 godziny)
 
-Rozpocznij zwiedzanie tuż za naszym progiem i podążaj tym starannie opracowanym szlakiem przez najważniejsze miejsca Zamościa:
+Prosto naszą ulicą na Stare Miasto, a potem wokół planu tak, jak narysował go Morando. Bez pośpiechu — nic nie jest tu dalej niż kilkaset metrów od kolejnego punktu.
 
-- **Start z Orlicz 32** — Rozpocznij podróż od naszych apartamentów
-- **Rynek Wielki** — Podziwiaj podcieniowe kamienice i ich zdobione fasady
-- **Ratusz** — Zachwyć się renesansową architekturą i wejdź na wieżę, by podziwiać panoramę miasta
-- **Muzeum Arsenał** — Poznaj historię militarną i zgromadzone artefakty
-- **Kolegiata** — Doświadcz barokowego przepychu wnętrza
-- **Stara Brama Lubelska** — Jedna z trzech oryginalnych bram miejskich
-- **Bastion VII** — Spaceruj po fortyfikacjach z widokiem na fosę
-- **Powrót ulicą Grodzką** — Zajrzyj do lokalnych sklepów i kawiarni
+- **Wyjście z Orlicz-Dreszera 32** — 10–15 minut pieszo na rynek
+- **Rynek Wielki** — podcienia i malowane fasady kamienic kupieckich
+- **Ratusz** — na wieżę wejdź na początku, póki masz siłę w nogach
+- **Muzeum Arsenał** — zbrojownia Zamoyskiego, u stóp pałacu
+- **Katedra** — grób fundatora i dzwonnica
+- **Stara Brama Lubelska** — zamurowana w 1588 roku i nigdy więcej nieotwarta
+- **Bastion VII** — wały, kazamaty i linia fosy
+- **Powrót ulicą Grodzką** — sklepy i kawiarnie po drodze do domu
 
 ### Wieczorny spacer (1 godzina)
 
-O zachodzie słońca Zamość przemienia się w magiczną, oświetloną lampami renesansową scenę:
+Warto zrobić go pierwszego wieczoru. Rynek jest po zmroku oświetlony, a większość odwiedzających jest już wtedy w drodze powrotnej.
 
-- Przejdź się wokół iluminowanego Rynku Wielkiego
-- Zjedz kolację w jednej z restauracji pod podcieniami
-- Podziwiaj widok wieży ratuszowej na tle wieczornego nieba
-- Zakończ spacer lodami z jednej z uroczych kawiarni przy rynku
+- Przejdź przez rynek, kiedy jest oświetlony i prawie pusty
+- Zjedz pod podcieniami — tamtejsze restauracje trzymają stoliki na zewnątrz do późna
+- Spójrz na wieżę ratusza z przeciwległego rogu rynku
+- Wróć do domu Grodzką i Partyzantów, jakieś 15 minut
 
 :::
 :::
 :::
 
 
-<!-- INFORMACJE PRAKTYCZNE -->
+<!-- PRAKTYCZNIE -->
 ::: {.section .section-dark}
 ::: {.container}
 ::: {.section-header}
-[Informacje praktyczne]{.section-subtitle}
+[Praktycznie]{.section-subtitle}
 
 ## Warto wiedzieć
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
 :::
 
 ::: {.features-grid}
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-card}
 ::: {.feature-icon}
-🚶
-:::
-### Miasto do zwiedzania pieszo
-Zamojskie Stare Miasto jest kompaktowe i idealne do zwiedzania pieszo. Większość atrakcji znajduje się w odległości 10-15 minut spacerem od Orlicz 32.
+{{< icon walk >}}
 :::
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
-::: {.feature-icon}
-🅿️
+### Wszystko na piechotę
+
+Stare Miasto jest zwarte i płaskie. Od naszych drzwi synagoga to 650 m, ratusz 800 m, Bastion VII 1,2 km — od 8 do 15 minut. Po zaparkowaniu samochód możesz zostawić.
 :::
+
+::: {.feature-card}
+::: {.feature-icon}
+{{< icon parking >}}
+:::
+
 ### Parking
-Bezpłatny parking na terenie obiektu za budynkiem, monitorowany przez CCTV. Płatny parking dostępny w centrum Starego Miasta.
+
+U nas bezpłatny, w podwórku, pod monitoringiem. Parkowanie na Starym Mieście jest w dni robocze płatne i zapełnia się przed południem, co jest kolejnym powodem, żeby pójść pieszo.
 :::
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+::: {.feature-card}
 ::: {.feature-icon}
-🍽️
-:::
-### Gastronomia
-Doskonałe restauracje i kawiarnie wokół Rynku Wielkiego – od tradycyjnej kuchni polskiej po dania kuchni międzynarodowej.
+{{< icon fork >}}
 :::
 
-::: {.feature-card style="background-color: rgba(255,255,255,0.05); border-color: rgba(201,169,97,0.3);"}
+### Gdzie zjeść
+
+Większość restauracji jest pod podcieniami przy Rynku Wielkim i przy Staszica. Latem w weekendy warto zarezerwować stolik. Zapytaj nas, a powiemy, gdzie chodzimy sami.
+:::
+
+::: {.feature-card}
 ::: {.feature-icon}
-🛒
+{{< icon basket >}}
 :::
-### Zakupy
-Lokalne targowiska, sklepy z rzemiosłem artystycznym i supermarkety – wszystko w zasięgu ręki.
+
+### Sklepy i targ
+
+Supermarket jest kilka minut pieszo od apartamentów i czynny do późna. Targ miejski przy Partyzantów działa rano — tam kupisz owoce, chleb i ser.
 :::
 
 :::
+
+::: {.section-cta}
+[Zobacz nasze apartamenty](apartments.qmd){.btn-outline-gold}
+:::
+
 :::
 :::

@@ -26,12 +26,12 @@ format:
           </script>
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('images/room3-main.jpg'); min-height: 40vh; background-size: cover; background-position: center;"}
+::: {.hero-section .hero--secondary .hero--gallery}
 ::: {.hero-content}
 
-[Visual Journey]{.hero-logo-text}
+[Gallery]{.hero-logo-text}
 
-[Our Gallery]{.hero-title style="font-size: 2.5rem;"}
+[Have a Look Around]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -49,48 +49,42 @@ format:
 ::: {.section-header}
 [Apartment]{.section-subtitle}
 
-## Room Nr 1
+## Room Nr 1 {#room-nr-1}
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
-
-[55m² • 5 Guests • Full Kitchen • Shower]{style="color: #666; font-size: 1.1rem;"}
+[55m² · sleeps 5 · walk-in shower]{.spec-line}
 :::
 
 ::: {.gallery-grid}
 
-![Room 1 living area with sofa bed and modern decor](images/gallery/room1/01.jpg){group="room1" .gallery-img}
+![](images/opt/room1/01-960.jpg){group="room1" fig-alt="Living room with sofa bed — Room 1" srcset="images/opt/room1/01-480.webp 480w, images/opt/room1/01-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="eager" decoding="async"}
 
-![Room 1 double bed with premium bedding](images/gallery/room1/02.jpg){group="room1" .gallery-img}
+![](images/opt/room1/02-960.jpg){group="room1" fig-alt="Double bed — Room 1" srcset="images/opt/room1/02-480.webp 480w, images/opt/room1/02-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 1 fully equipped kitchen](images/gallery/room1/03.jpg){group="room1" .gallery-img}
+![](images/opt/room1/03-960.jpg){group="room1" fig-alt="Kitchen — Room 1" srcset="images/opt/room1/03-480.webp 480w, images/opt/room1/03-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 1 dining area](images/gallery/room1/04.jpg){group="room1" .gallery-img}
+![](images/opt/room1/04-960.jpg){group="room1" fig-alt="Dining table — Room 1" srcset="images/opt/room1/04-480.webp 480w, images/opt/room1/04-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 1 work desk and seating area](images/gallery/room1/05.jpg){group="room1" .gallery-img}
+![](images/opt/room1/05-960.jpg){group="room1" fig-alt="Desk and seating area — Room 1" srcset="images/opt/room1/05-480.webp 480w, images/opt/room1/05-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 1 bathroom with modern shower](images/gallery/room1/06.jpg){group="room1" .gallery-img}
+![](images/opt/room1/06-960.jpg){group="room1" fig-alt="Bathroom with walk-in shower — Room 1" srcset="images/opt/room1/06-480.webp 480w, images/opt/room1/06-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 1 interior details and decor](images/gallery/room1/07.jpg){group="room1" .gallery-img}
+![](images/opt/room1/07-960.jpg){group="room1" fig-alt="Interior detail — Room 1" srcset="images/opt/room1/07-480.webp 480w, images/opt/room1/07-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 1 kitchen appliances and storage](images/gallery/room1/08.jpg){group="room1" .gallery-img}
+![](images/opt/room1/08-960.jpg){group="room1" fig-alt="Kitchen appliances and storage — Room 1" srcset="images/opt/room1/08-480.webp 480w, images/opt/room1/08-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 1 natural light and window view](images/gallery/room1/09.jpg){group="room1" .gallery-img}
+![](images/opt/room1/09-960.jpg){group="room1" fig-alt="Window and daylight — Room 1" srcset="images/opt/room1/09-480.webp 480w, images/opt/room1/09-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 1 sofa bed for additional guests](images/gallery/room1/10.jpg){group="room1" .gallery-img}
+![](images/opt/room1/10-960.jpg){group="room1" fig-alt="Sofa bed made up — Room 1" srcset="images/opt/room1/10-480.webp 480w, images/opt/room1/10-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 1 wardrobe and storage space](images/gallery/room1/11.jpg){group="room1" .gallery-img}
+![](images/opt/room1/11-960.jpg){group="room1" fig-alt="Wardrobe and storage — Room 1" srcset="images/opt/room1/11-480.webp 480w, images/opt/room1/11-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 1 smart TV and entertainment area](images/gallery/room1/12.jpg){group="room1" .gallery-img}
+![](images/opt/room1/12-960.jpg){group="room1" fig-alt="Smart TV and seating — Room 1" srcset="images/opt/room1/12-480.webp 480w, images/opt/room1/12-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 1 hallway and entrance area](images/gallery/room1/13.jpg){group="room1" .gallery-img}
+![](images/opt/room1/13-960.jpg){group="room1" fig-alt="Entrance hall — Room 1" srcset="images/opt/room1/13-480.webp 480w, images/opt/room1/13-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
 :::
 
-::: {style="text-align: center; margin-top: 2rem;"}
+::: {.section-cta}
 [Book Room Nr 1](book-room1.qmd){.btn-gold}
 :::
 
@@ -104,52 +98,46 @@ format:
 ::: {.section-header}
 [Apartment]{.section-subtitle}
 
-## Room Nr 3
+## Room Nr 3 {#room-nr-3}
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
-
-[50m² • 3 Guests • Full Kitchen • Bathtub with Shower]{style="color: #666; font-size: 1.1rem;"}
+[50m² · sleeps 3 · bathtub with shower]{.spec-line}
 :::
 
 ::: {.gallery-grid}
 
-![Room 3 living area with natural light](images/gallery/cozy-retreat/01-living.jpg){group="room3" .gallery-img}
+![](images/opt/room3/01-living-960.jpg){group="room3" fig-alt="Living area — Room 3" srcset="images/opt/room3/01-living-480.webp 480w, images/opt/room3/01-living-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="eager" decoding="async"}
 
-![Room 3 bedroom with queen bed](images/gallery/cozy-retreat/02-bedroom.jpg){group="room3" .gallery-img}
+![](images/opt/room3/02-bedroom-960.jpg){group="room3" fig-alt="Bedroom with queen bed — Room 3" srcset="images/opt/room3/02-bedroom-480.webp 480w, images/opt/room3/02-bedroom-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 fully equipped kitchen](images/gallery/cozy-retreat/03-kitchen.jpg){group="room3" .gallery-img}
+![](images/opt/room3/03-kitchen-960.jpg){group="room3" fig-alt="Kitchen — Room 3" srcset="images/opt/room3/03-kitchen-480.webp 480w, images/opt/room3/03-kitchen-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 3 interior detail and decor](images/gallery/cozy-retreat/04-detail.jpg){group="room3" .gallery-img}
+![](images/opt/room3/04-detail-960.jpg){group="room3" fig-alt="Interior detail — Room 3" srcset="images/opt/room3/04-detail-480.webp 480w, images/opt/room3/04-detail-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 3 window view with natural light](images/gallery/cozy-retreat/05-view.jpg){group="room3" .gallery-img}
+![](images/opt/room3/05-view-960.jpg){group="room3" fig-alt="Window view — Room 3" srcset="images/opt/room3/05-view-480.webp 480w, images/opt/room3/05-view-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 3 single bed and seating area](images/gallery/cozy-retreat/06-room.jpg){group="room3" .gallery-img}
+![](images/opt/room3/06-room-960.jpg){group="room3" fig-alt="Single bed and seating — Room 3" srcset="images/opt/room3/06-room-480.webp 480w, images/opt/room3/06-room-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 3 bathroom with bathtub and shower](images/gallery/cozy-retreat/07-bathroom.jpg){group="room3" .gallery-img}
+![](images/opt/room3/07-bathroom-960.jpg){group="room3" fig-alt="Bathroom with bathtub and shower — Room 3" srcset="images/opt/room3/07-bathroom-480.webp 480w, images/opt/room3/07-bathroom-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 stylish interior and furnishings](images/gallery/cozy-retreat/08-interior.jpg){group="room3" .gallery-img}
+![](images/opt/room3/08-interior-960.jpg){group="room3" fig-alt="Interior and furnishings — Room 3" srcset="images/opt/room3/08-interior-480.webp 480w, images/opt/room3/08-interior-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 spacious layout and open plan](images/gallery/cozy-retreat/09-space.jpg){group="room3" .gallery-img}
+![](images/opt/room3/09-space-960.jpg){group="room3" fig-alt="Open-plan layout — Room 3" srcset="images/opt/room3/09-space-480.webp 480w, images/opt/room3/09-space-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 amenities and toiletries](images/gallery/cozy-retreat/10-amenity.jpg){group="room3" .gallery-img}
+![](images/opt/room3/10-amenity-960.jpg){group="room3" fig-alt="Towels and toiletries — Room 3" srcset="images/opt/room3/10-amenity-480.webp 480w, images/opt/room3/10-amenity-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 dining and work area](images/gallery/cozy-retreat/11-area.jpg){group="room3" .gallery-img}
+![](images/opt/room3/11-area-960.jpg){group="room3" fig-alt="Dining and work area — Room 3" srcset="images/opt/room3/11-area-480.webp 480w, images/opt/room3/11-area-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 cozy reading corner](images/gallery/cozy-retreat/12-corner.jpg){group="room3" .gallery-img}
+![](images/opt/room3/12-corner-960.jpg){group="room3" fig-alt="Reading corner — Room 3" srcset="images/opt/room3/12-corner-480.webp 480w, images/opt/room3/12-corner-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 smart TV and entertainment](images/gallery/cozy-retreat/13-feature.jpg){group="room3" .gallery-img}
+![](images/opt/room3/13-feature-960.jpg){group="room3" fig-alt="Smart TV — Room 3" srcset="images/opt/room3/13-feature-480.webp 480w, images/opt/room3/13-feature-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async"}
 
-![Room 3 wardrobe and storage](images/gallery/cozy-retreat/14-extra.jpg){group="room3" .gallery-img}
+![](images/opt/room3/14-extra-960.jpg){group="room3" fig-alt="Wardrobe and storage — Room 3" srcset="images/opt/room3/14-extra-480.webp 480w, images/opt/room3/14-extra-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
-![Room 3 hallway and entrance](images/gallery/cozy-retreat/15-final.jpg){group="room3" .gallery-img}
+![](images/opt/room3/15-final-960.jpg){group="room3" fig-alt="Entrance hall — Room 3" srcset="images/opt/room3/15-final-480.webp 480w, images/opt/room3/15-final-960.webp 960w" sizes="(max-width: 768px) 50vw, 33vw" width="960" height="1280" loading="lazy" decoding="async"}
 
 :::
 
-::: {style="text-align: center; margin-top: 2rem;"}
+::: {.section-cta}
 [Book Room Nr 3](book-room3.qmd){.btn-gold}
 :::
 
@@ -161,21 +149,17 @@ format:
 ::: {.section .section-light}
 ::: {.container}
 ::: {.section-header}
-[Experience Zamość]{.section-subtitle}
+[Seen Enough?]{.section-subtitle}
 
-## Ready to Stay?
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Check the Dates
 :::
 
-::: {.about-content style="text-align: center;"}
-Book your boutique apartment in the heart of UNESCO's Pearl of the Renaissance.
+::: {.about-content}
+Both apartments are on the same calendar, so you can see straight away what is free for your dates.
+:::
 
-[View All Rooms](book.qmd){.btn-gold}
+::: {.section-cta}
+[Check availability](book.qmd){.btn-gold}
 :::
 
 :::

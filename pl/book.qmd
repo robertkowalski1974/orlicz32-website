@@ -24,16 +24,17 @@ format:
           <script type="application/ld+json">
           {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Rezerwacja","item":"https://www.orlicz32.pl/pl/book.html"}]}
           </script>
+          <style>html:not(.pl-ready) .navbar .menu-text { visibility: hidden; }</style>
     include-after-body:
       - file: navbar-pl.html
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;"}
+::: {.hero-section .hero--compact .hero--book}
 ::: {.hero-content}
 
 [Rezerwacja]{.hero-logo-text}
 
-[Zarezerwuj pobyt]{.hero-title style="font-size: 2.5rem;"}
+[Zarezerwuj pobyt]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -45,29 +46,71 @@ format:
 :::
 
 
-::: {.booking-contact-info}
-### Zarezerwuj bezpośrednio
+<!-- DLACZEGO BEZPOŚREDNIO -->
+::: {.section .section-light}
+::: {.container}
+::: {.why-direct}
 
-**Online:** Skorzystaj z kalendarza poniżej, aby sprawdzić dostępność i zarezerwować.
+::: {.why-item}
+{{< icon tag >}}
 
-**Telefonicznie:** [+48 508 209 313](tel:+48508209313)
+### Zawsze najlepsza cena
 
-**WhatsApp:** [Napisz do nas na WhatsApp](https://wa.me/48508209313)
+Rezerwacja tutaj nigdy nie kosztuje więcej niż przez portal — po drodze nie ma prowizji.
+:::
 
-**Email:** [info@orlicz32.pl](mailto:info@orlicz32.pl)
+::: {.why-item}
+{{< icon message >}}
 
-Zameldowanie: 16:00 – 21:00 | Wymeldowanie: Przed 11:00
+### Jedna wiadomość
+
+WhatsApp trafia prosto do Roberta, nie na infolinię. Zapytaj o wszystko, zanim się zdecydujesz.
+:::
+
+::: {.why-item}
+{{< icon key >}}
+
+### Elastyczny przyjazd
+
+Zameldowanie jest między 16:00 a 21:00, ale podaj godzinę pociągu albo samolotu, a ułożymy to pod Ciebie.
+:::
+
+:::
+:::
 :::
 
 
-<!-- IFRAME REZERWACJI -->
+<!-- DANE DO REZERWACJI (dla asystentów AI i rezerwacji alternatywnej) -->
+::: {.booking-contact-info}
+### Zarezerwuj bezpośrednio
+
+Online — sprawdź terminy i zapłać w kalendarzu poniżej.
+
+WhatsApp — [+48 508 209 313](https://wa.me/48508209313)
+
+Telefon — [+48 508 209 313](tel:+48508209313)
+
+E-mail — [info@orlicz32.pl](mailto:info@orlicz32.pl)
+
+Zameldowanie 16:00–21:00 · wymeldowanie do 11:00 · bezpłatne anulowanie do 7 dni przed przyjazdem.
+:::
+
+
+<!-- WIDGET REZERWACJI -->
 ::: {.booking-page-container}
 
+::: {.widget-intro}
+Dostępność na żywo i bezpieczna płatność poniżej. Wolisz umówić się osobiście? [Napisz na WhatsApp](https://wa.me/48508209313) albo zadzwoń: [+48 508 209 313](tel:+48508209313).
+:::
+
+::: {.widget-frame}
 <iframe
   src="https://orlicz32.guestybookings.com/pl"
   class="booking-iframe"
   title="Rezerwacja - Apartamenty Orlicz 32"
   allow="payment"
+  loading="lazy"
 ></iframe>
+:::
 
 :::

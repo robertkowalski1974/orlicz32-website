@@ -46,12 +46,12 @@ format:
           </script>
 ---
 
-::: {.hero-section style="background-image: url('images/contact-hero.svg'); min-height: 40vh;"}
+::: {.hero-section .hero--compact .hero--contact}
 ::: {.hero-content}
 
-[Get in Touch]{.hero-logo-text}
+[Contact]{.hero-logo-text}
 
-[Contact Us]{.hero-title style="font-size: 2.5rem;"}
+[Talk to Us]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -63,14 +63,16 @@ format:
 :::
 
 
-<!-- CONTACT INFO - Full width grid -->
+<!-- CONTACT INFO + FORM -->
 ::: {.contact-grid}
 
 ::: {.contact-info-panel}
 ### Contact Information
 
 ::: {.contact-item}
-[📍]{.contact-icon}
+::: {.contact-icon}
+{{< icon pin >}}
+:::
 
 **Address**  
 Orlicz-Dreszera 32  
@@ -78,24 +80,30 @@ Orlicz-Dreszera 32
 :::
 
 ::: {.contact-item}
-[📧]{.contact-icon}
+::: {.contact-icon}
+{{< icon message >}}
+:::
 
-**Email**  
-[info@orlicz32.pl](mailto:info@orlicz32.pl)
+**WhatsApp**  
+[+48 508 209 313 — fastest way to reach us](https://wa.me/48508209313)
 :::
 
 ::: {.contact-item}
-[📱]{.contact-icon}
+::: {.contact-icon}
+{{< icon phone >}}
+:::
 
 **Phone**  
 [+48 508 209 313](tel:+48508209313)
 :::
 
 ::: {.contact-item}
-[🌐]{.contact-icon}
+::: {.contact-icon}
+{{< icon mail >}}
+:::
 
-**Website**  
-[www.orlicz32.pl](https://www.orlicz32.pl)
+**Email**  
+[info@orlicz32.pl](mailto:info@orlicz32.pl)
 :::
 
 ---
@@ -103,35 +111,35 @@ Orlicz-Dreszera 32
 ### Check-in / Check-out
 
 ::: {.contact-item}
-[🕐]{.contact-icon}
+::: {.contact-icon}
+{{< icon clock >}}
+:::
 
 **Check-in**  
 16:00 – 21:00
 :::
 
 ::: {.contact-item}
-[🕚]{.contact-icon}
-
-**Check-out**  
-Before 11:00
+::: {.contact-icon}
+{{< icon clock >}}
 :::
 
-*For early or late arrival, please contact us in advance.*
+**Check-out**  
+By 11:00
+:::
+
+*Arriving outside those hours? Tell us in advance and we will work around it.*
 
 :::
 
 ::: {.contact-form-panel}
-::: {.section-header style="margin-bottom: 2rem; text-align: left;"}
+::: {.section-header}
 [Message Us]{.section-subtitle}
 
 ## Send a Message
+:::
 
-::: {.section-divider style="justify-content: flex-start;"}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
-:::
+[We usually reply within a few hours — same day at the latest.]{.form-note}
 
 ::: {.contact-form}
 <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/bXxqqpeuUFyj8lxviq6BvqmZ8Hs3gSGXAj7kYL3Z4b0OKzsyiiCggdeVpz7cH1Rb7d"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
@@ -141,45 +149,55 @@ Before 11:00
 :::
 
 
-<!-- MAP -->
+<!-- MAP + DIRECTIONS -->
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
 [Find Us]{.section-subtitle}
 
 ## Location
+:::
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.map-frame}
+<iframe src="https://www.google.com/maps?q=50.717276,23.263793&hl=en&z=16&output=embed" title="Map — Apartamenty Orlicz 32, Orlicz-Dreszera 32, Zamość" width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe>
+
+::: {.map-caption}
+{{< icon pin >}} Orlicz-Dreszera 32, 22-400 Zamość · 15 min on foot to Rynek Wielki
 :::
 :::
 
-::: {.map-container style="height: 450px; margin-bottom: 2rem;"}
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.5!2d23.2519!3d50.7167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4723831fd4b5c5e7%3A0x1!2sOrlicz-Dreszera%2032%2C%2022-400%20Zamo%C5%9B%C4%87!5e0!3m2!1sen!2spl!4v1" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+::: {.section-header .section-header--left}
+[By Road]{.section-subtitle}
+
+## Getting Here
 :::
 
-::: {.about-content}
-### Getting Here
+::: {.prose-left}
+**From Warsaw — 300 km.** S17 south-east towards Lublin, then route 17 to Zamość. Three and a half to four hours, most of it dual carriageway.
 
-**From Warsaw (approx. 300 km):**  
-Take the S17 expressway towards Lublin, then continue on route 17 to Zamość. Journey time approximately 3.5-4 hours.
+**From Lublin — 90 km.** Route 17 to Piaski, then route 74 south-east. One to one and a half hours.
 
-**From Lublin (approx. 90 km):**  
-Follow route 17/74 southeast to Zamość. Journey time approximately 1-1.5 hours.
+**From Kraków — 300 km.** A4 east to Rzeszów, then route 19 north and route 74 across to Zamość. Four to four and a half hours.
 
-**From Kraków (approx. 300 km):**  
-Take the A4 motorway east, then route 94 via Rzeszów and route 77 north. Journey time approximately 4-4.5 hours.
+**Airports.** Lublin (LUZ) is about 85 km away — roughly an hour by road, with connections to Warsaw, London and other European cities. Rzeszów-Jasionka (RZE) is about 120 km. We can arrange a private transfer from either; send us your flight details.
 
-**Nearest Airports:**  
-Lublin Airport (LUZ) - approximately 100 km, with connections to Warsaw, London, and other European cities.
-
-Rzeszów-Jasionka Airport (RZE) - approximately 120 km, with connections to major European destinations.
-
-**Parking:**  
-Free on-premises parking is available behind our building, monitored by CCTV.
+**Parking.** Free, in our own yard behind the building, monitored by CCTV. There is always space, so nothing to reserve. The nearest EV charger is 200 m away.
 :::
+
+::: {.host-block}
+::: {.host-monogram}
+RK
+:::
+
+::: {.host-text}
+### Your host — Robert
+
+I live here in Zamość and look after both apartments myself. I speak English and Polish, and I answer WhatsApp within a few hours — usually a lot sooner.
+
+Tell me roughly when you expect to arrive and I will fit the handover around it. Ask me where to eat, too: I will point you at the places we go to ourselves rather than the ones with the biggest menus on the square.
+:::
+:::
+
 :::
 :::
 
@@ -188,54 +206,96 @@ Free on-premises parking is available behind our building, monitored by CCTV.
 ::: {.section .section-light}
 ::: {.container}
 ::: {.section-header}
-[Help]{.section-subtitle}
+[Questions]{.section-subtitle}
 
-## Frequently Asked Questions
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Frequently Asked
 :::
 
-::: {.about-content}
+::: {.faq-list}
 
-**What time is check-in and check-out?**  
-Check-in is between 16:00 and 21:00. Check-out is before 11:00. If you need different times, please contact us in advance and we'll do our best to accommodate you.
+<details>
+<summary>What time is check-in and check-out?</summary>
 
-**Is parking available?**  
-Yes, we offer free on-premises parking supervised by CCTV.
+Check-in is between 16:00 and 21:00, check-out by 11:00. Those are the default hours, not a rule — tell us your arrival time in advance and we will usually work around it.
 
-**Are pets allowed?**  
-Unfortunately, pets are not allowed in our apartments.
+</details>
 
-**Do you offer airport transfers?**  
-We can arrange private transfers from Lublin Airport or other locations. Please contact us for pricing and availability.
+<details>
+<summary>Is parking available?</summary>
 
-**What's included in the apartment?**  
-All our apartments include bed linens, towels, toiletries, a fully equipped kitchen, high-speed WiFi, Smart TV, and climate control. We also provide a welcome guide with local recommendations.
+Yes — parking in our yard is free, monitored by CCTV, and there is always space for guests. Nothing to book. The nearest EV charger is 200 m away.
 
-**Can I cancel my reservation?**  
-Our standard policy allows free cancellation up to 7 days before arrival. Please check the specific terms when booking.
+</details>
 
-**Is the Old Town walkable from Orlicz 32?**
-Absolutely! We're located just a short walk from the Great Market Square and all major attractions. You won't need a car to explore the city.
+<details>
+<summary>Are pets allowed?</summary>
 
-**How do I book an apartment at Orlicz 32?**
-You can book directly on our website, call us at [+48 508 209 313](tel:+48508209313), message us on [WhatsApp](https://wa.me/48508209313), or email [info@orlicz32.pl](mailto:info@orlicz32.pl).
+No. We do not take pets in either apartment.
 
-**Is Zamość worth visiting?**
-Absolutely! Zamość is a UNESCO World Heritage city founded in 1580 as an "ideal Renaissance city." It features a perfectly preserved town square, colourful merchant houses, Renaissance fortifications, and rich multicultural history. Often called the "Pearl of the Renaissance."
+</details>
 
-**Do the apartments have a washing machine?**
-Yes, both apartments have a washing machine available for guests.
+<details>
+<summary>Do you offer airport transfers?</summary>
 
-**Can I arrange early check-in or late check-out?**
-Please contact us in advance and we'll do our best to accommodate your schedule. Early check-in and late check-out are subject to availability.
+We can arrange a private transfer from Lublin airport (LUZ, about 85 km) or Rzeszów-Jasionka (RZE, about 120 km). Send us your flight number and arrival time and we will organise a driver.
 
-**What is the nearest airport to Zamość?**
-Lublin Airport (LUZ) is approximately 85 km away, with connections to Warsaw, London, and other European cities. Rzeszów-Jasionka Airport (RZE) is approximately 120 km away.
+</details>
+
+<details>
+<summary>What is included in the apartment?</summary>
+
+Bed linen, towels and toiletries. A kitchen with dishwasher, hob, oven, fridge and coffee-making things. A washing machine, air conditioning, fibre WiFi and a smart TV with streaming. You will also find our own notes on where to eat and what to see.
+
+</details>
+
+<details>
+<summary>What is the cancellation policy?</summary>
+
+Free cancellation up to 7 days before arrival. The exact terms for your dates are shown before you confirm the booking.
+
+</details>
+
+<details>
+<summary>How far is the Old Town?</summary>
+
+Rynek Wielki is about 850 m from our door — 10 to 15 minutes on foot. The synagogue is 650 m, the Town Hall 800 m, Bastion VII 1.2 km. Once you have parked the car you will not need it again.
+
+</details>
+
+<details>
+<summary>How do I book an apartment at Orlicz 32?</summary>
+
+Use the calendar on our [booking page](book.qmd), message us on [WhatsApp](https://wa.me/48508209313), call [+48 508 209 313](tel:+48508209313) or email [info@orlicz32.pl](mailto:info@orlicz32.pl). Booking direct never costs you more than going through a platform.
+
+</details>
+
+<details>
+<summary>Is Zamość worth visiting?</summary>
+
+Zamość was built from scratch in 1580 to an Italian architect's plan for an "ideal city", and it has been a UNESCO World Heritage site since 1992. The Renaissance layout survived intact — a square of exactly 100 by 100 metres, arcaded merchant houses, the fortifications. Two days is enough to see it properly, and it is far quieter than Kraków.
+
+</details>
+
+<details>
+<summary>Do the apartments have a washing machine?</summary>
+
+Yes, both apartments have one.
+
+</details>
+
+<details>
+<summary>Can I arrange early check-in or late check-out?</summary>
+
+Often, yes — it depends on whether anyone is arriving or leaving on the same day. Ask a day or two ahead and we will confirm it.
+
+</details>
+
+<details>
+<summary>What is the nearest airport to Zamość?</summary>
+
+Lublin airport (LUZ), about 85 km away, roughly an hour by road, with connections to Warsaw, London and other European cities. Rzeszów-Jasionka (RZE) is about 120 km. Warsaw is 300 km, three and a half to four hours on the S17.
+
+</details>
 
 :::
 :::

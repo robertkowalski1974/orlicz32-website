@@ -24,16 +24,18 @@ format:
           <script type="application/ld+json">
           {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Apartamenty","item":"https://www.orlicz32.pl/pl/apartments.html"}]}
           </script>
+          <style>html:not(.pl-ready) .navbar .menu-text { visibility: hidden; }</style>
     include-after-body:
       - file: navbar-pl.html
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room1-main.jpg'); min-height: 50vh; background-size: cover; background-position: center;"}
+<!-- HERO -->
+::: {.hero-section .hero--secondary .hero--apartments}
 ::: {.hero-content}
 
-[APARTAMENTY]{.hero-logo-text}
+[Apartamenty]{.hero-logo-text}
 
-[Nasze apartamenty]{.hero-title style="font-size: 2.5rem;"}
+[Nasze apartamenty]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -41,21 +43,25 @@ format:
 []{.line}
 :::
 
-["Współczesny komfort w ponadczasowej elegancji"]{.hero-tagline style="font-size: 1.2rem;"}
+[Dwa apartamenty przy jednej cichej willowej ulicy]{.hero-tagline}
 
 :::
 :::
-
 
 
 <!-- WSTĘP -->
 ::: {.section .section-light}
 ::: {.container}
-::: {.about-content}
+::: {.section-header .section-header--left}
+[Zwyczajna wygoda]{.section-subtitle}
 
-Nasze apartamenty zostały zaprojektowane tak, abyś poczuł się jak w domu. Przytulne wnętrza łączą wygodę z elegancją.
+## Dwa apartamenty, jeden dom
+:::
 
-Znajdziesz tu w pełni wyposażoną kuchnię, wygodne łóżka i wszystko, czego potrzebujesz do spokojnego wypoczynku.
+::: {.prose-left}
+Oba apartamenty są w naszym własnym domu przy Orlicz-Dreszera 32, na willowej ulicy, gdzie po dziesiątej wieczorem najgłośniejszy bywa wiatr. Na Rynek Wielki idzie się 10–15 minut. Samochód zostaje za bramą, w podwórku, pod monitoringiem, a ładowarka do auta elektrycznego jest jakieś 200 m dalej.
+
+Remont robiliśmy sami, pokój po pokoju, i wyposażyliśmy oba mieszkania z myślą o kimś, kto zostaje dłużej niż na jedną noc: kuchnia, w której da się naprawdę gotować, zmywarka, pralka, światłowód, który uciągnie wideorozmowę, i biurko, jeśli musisz popracować. Apartament Nr 1 przyjmuje pięć osób, Apartament Nr 3 — trzy.
 :::
 :::
 :::
@@ -65,72 +71,73 @@ Znajdziesz tu w pełni wyposażoną kuchnię, wygodne łóżka i wszystko, czego
 ::: {.section .section-white}
 ::: {.container}
 ::: {.section-header}
-[Wybierz swój apartament]{.section-subtitle}
+[Wybierz swoje miejsce]{.section-subtitle}
 
-## Dostępne apartamenty
+## Apartament Nr 1 i Apartament Nr 3
 
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
+::: {.divider-arch}
 :::
 :::
 
-<!-- Apartament nr 1 -->
-::: {.apartment-card style="margin-bottom: 3rem;"}
+<!-- Apartament Nr 1 -->
+::: {.apartment-card .apartment-listing}
 ::: {.row .align-items-center}
 ::: {.col-lg-6}
 ::: {.apartment-image}
-![Apartament nr 1](../images/room1-main.jpg)
+![](../images/opt/room1-main-960.jpg){fig-alt="Kącik jadalny z malowidłem z glicynią i parkietem w jodełkę — Apartament Nr 1" srcset="../images/opt/room1-main-480.webp 480w, ../images/opt/room1-main-960.webp 960w" sizes="(max-width: 992px) 100vw, 50vw" width="960" height="720" loading="lazy" decoding="async"}
 :::
 :::
 ::: {.col-lg-6}
 ::: {.apartment-details}
-### Apartament nr 1
+### Apartament Nr 1
 ::: {.apartment-features}
-[🛏️ 5 osób]{} [📐 55m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
+[{{< icon bed >}} 5 osób]{} [{{< icon area >}} 55m²]{} [{{< icon shower >}} Prysznic walk-in]{} [{{< icon kitchen >}} Kuchnia ze zmywarką]{}
 :::
 
-Apartament 55 m² dla maksymalnie 5 gości. Idealny dla rodzin odwiedzających Zamość lub grup zwiedzających Stare Miasto — 10 minut spacerem do Rynku Wielkiego.
+55 m² na jednym poziomie: łóżko podwójne w sypialni, rozkładana sofa podwójna i rozkładana sofa pojedyncza w salonie. Biorą go głównie rodziny — jest miejsce na łóżeczko i stół, przy którym siądą wszyscy. Na Rynek Wielki idzie się 10–15 minut.
 
-- Łóżko podwójne, rozkładana sofa podwójna, rozkładana sofa pojedyncza
-- W pełni wyposażona kuchnia ze zmywarką
-- Nowoczesna łazienka z prysznicem
-- Smart TV, szybki internet WiFi
-- Biurko do pracy, klimatyzacja
-- Darmowy parking na terenie obiektu z CCTV
+- Łóżko podwójne, rozkładana sofa podwójna i pojedyncza
+- Pełna kuchnia — płyta, piekarnik, lodówka, zmywarka, czajnik, kawa
+- Prysznic walk-in, ręczniki i pościel jak w hotelu
+- Pralka w apartamencie
+- Klimatyzacja i Smart TV ze streamingiem
+- Biurko do pracy i światłowód
 
-[Zarezerwuj ten apartament](book-room1.qmd){.btn-gold}
+[Zarezerwuj Apartament Nr 1](book-room1.qmd){.btn-gold}
+
+[Zobacz wszystkie 13 zdjęć →](gallery.qmd#room-nr-1){.btn-details}
 :::
 :::
 :::
 :::
 
-<!-- Apartament nr 3 -->
-::: {.apartment-card style="margin-bottom: 3rem;"}
+<!-- Apartament Nr 3 -->
+::: {.apartment-card .apartment-listing}
 ::: {.row .align-items-center .flex-lg-row-reverse}
 ::: {.col-lg-6}
 ::: {.apartment-image}
-![Apartament nr 3](../images/room3-main.jpg)
+![](../images/opt/room3-main-960.jpg){fig-alt="Jasny salon z granatową aksamitną sofą — Apartament Nr 3" srcset="../images/opt/room3-main-480.webp 480w, ../images/opt/room3-main-960.webp 960w" sizes="(max-width: 992px) 100vw, 50vw" width="960" height="1280" loading="lazy" decoding="async"}
 :::
 :::
 ::: {.col-lg-6}
 ::: {.apartment-details}
-### Apartament nr 3
+### Apartament Nr 3
 ::: {.apartment-features}
-[🛏️ 3 osoby]{} [📐 50m²]{} [🛁 1 łazienka]{} [☕ Kuchnia]{}
+[{{< icon bed >}} 3 osoby]{} [{{< icon area >}} 50m²]{} [{{< icon bath >}} Wanna z prysznicem]{} [{{< icon kitchen >}} Kuchnia ze zmywarką]{}
 :::
 
-Apartament 50 m² dla maksymalnie 3 gości. Idealny dla par lub podróżników szukających spokoju — duże okna, naturalne światło, 10 minut spacerem do Rynku Wielkiego.
+50 m² z łóżkiem queen i łóżkiem pojedynczym, okna na tyle duże, że światło zapala się dopiero wieczorem. Wybierają go zwykle pary i osoby podróżujące same, często właśnie dla wanny. Na Stare Miasto ten sam spacer: 10–15 minut.
 
-- Łóżko queen-size, łóżko pojedyncze
-- W pełni wyposażona kuchnia ze zmywarką
-- Nowoczesna łazienka z wanną i prysznicem
-- Smart TV, szybki internet WiFi
-- Biurko do pracy, klimatyzacja
-- Darmowy parking na terenie obiektu z CCTV
+- Łóżko queen i łóżko pojedyncze
+- Pełna kuchnia — płyta, piekarnik, lodówka, zmywarka, czajnik, kawa
+- Wanna z prysznicem, ręczniki i pościel jak w hotelu
+- Pralka w apartamencie
+- Klimatyzacja i Smart TV ze streamingiem
+- Biurko do pracy i światłowód
 
-[Zarezerwuj ten apartament](book-room3.qmd){.btn-gold}
+[Zarezerwuj Apartament Nr 3](book-room3.qmd){.btn-gold}
+
+[Zobacz wszystkie 15 zdjęć →](gallery.qmd#room-nr-3){.btn-details}
 :::
 :::
 :::
@@ -146,64 +153,32 @@ Apartament 50 m² dla maksymalnie 3 gości. Idealny dla par lub podróżników s
 ::: {.section-header}
 [W cenie]{.section-subtitle}
 
-## Udogodnienia w apartamentach
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Co jest w obu apartamentach
 :::
 
-::: {.features-grid}
+::: {.amenity-list}
 
-::: {.feature-card}
-::: {.feature-icon}
-📶
-:::
-### Szybki internet WiFi
-Bądź na bieżąco dzięki bezpłatnemu szybkiemu internetowi w całym apartamencie.
-:::
+{{< icon wifi >}} Światłowód
 
-::: {.feature-card}
-::: {.feature-icon}
-🍳
-:::
-### Wyposażona kuchnia
-Przygotuj własne posiłki – masz do dyspozycji wszystkie naczynia, sztućce i sprzęty kuchenne.
-:::
+{{< icon kitchen >}} Pełna kuchnia ze zmywarką
 
-::: {.feature-card}
-::: {.feature-icon}
-❄️
-:::
-### Klimatyzacja
-Ciesz się komfortem przez cały rok dzięki klimatyzacji i ogrzewaniu.
-:::
+{{< icon laundry >}} Pralka
 
-::: {.feature-card}
-::: {.feature-icon}
-🛁
-:::
-### Nowoczesna łazienka
-Relaksuj się w nowoczesnej łazience z zapewnionymi kosmetykami.
-:::
+{{< icon climate >}} Klimatyzacja
 
-::: {.feature-card}
-::: {.feature-icon}
-📺
-:::
-### Rozrywka
-Smart TV z możliwością streamingu dla Twojego relaksu.
-:::
+{{< icon tv >}} Smart TV ze streamingiem
 
-::: {.feature-card}
-::: {.feature-icon}
-🧺
-:::
-### Pralnia
-Pralka i suszarka dostępne przy dłuższych pobytach.
-:::
+{{< icon shower >}} Prysznic walk-in (Apartament Nr 1)
+
+{{< icon bath >}} Wanna z prysznicem (Apartament Nr 3)
+
+{{< icon parking >}} Bezpłatny parking z monitoringiem
+
+{{< icon car >}} Ładowarka do auta elektrycznego 200 m dalej
+
+{{< icon bed >}} Porządne łóżka, pościel jak w hotelu
+
+{{< icon key >}} Samodzielne zameldowanie po uzgodnieniu
 
 :::
 :::
@@ -216,13 +191,7 @@ Pralka i suszarka dostępne przy dłuższych pobytach.
 ::: {.section-header}
 [Rezerwacja]{.section-subtitle}
 
-## Zarezerwuj apartament {style="color: #FFFFFF;"}
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Rezerwuj bezpośrednio
 :::
 
 ::: {.booking-widget-container}
@@ -230,11 +199,13 @@ Pralka i suszarka dostępne przy dłuższych pobytach.
 ::: {.booking-cta-box}
 ::: {.booking-cta-content}
 
-[✨]{.booking-icon}
+::: {.cta-icon}
+{{< icon key >}}
+:::
 
-### Zarezerwuj swój apartament
+### Sprawdź dostępność
 
-Wybierz terminy i zabezpiecz swój pobyt w sercu Zamościa.
+Wybierz terminy i zobacz, co jest wolne. Rezerwacja tutaj trafia prosto do nas, w naszej najniższej cenie.
 
 [Sprawdź dostępność](book.qmd){.btn-book-large}
 
@@ -252,13 +223,7 @@ Wybierz terminy i zabezpiecz swój pobyt w sercu Zamościa.
 ::: {.section-header}
 [Warto wiedzieć]{.section-subtitle}
 
-## Regulamin i zasady
-
-::: {.section-divider}
-[]{.line}
-[]{.diamond}
-[]{.line}
-:::
+## Zasady pobytu
 :::
 
 ::: {.check-times}
@@ -280,17 +245,10 @@ Wybierz terminy i zabezpiecz swój pobyt w sercu Zamościa.
 
 :::
 
-::: {.about-content style="margin-top: 2rem;"}
+::: {.about-content}
+W środku nie palimy. Nie przyjmujemy zwierząt. Cisza nocna od 22:00 do 8:00. Może być wymagana kaucja.
 
-**Zasady ogólne:**
-
-- Zakaz palenia w apartamentach
-- Zakaz wprowadzania zwierząt
-- Cisza nocna od 22:00 do 8:00
-- Może być wymagana kaucja
-
-W przypadku specjalnych próśb lub wcześniejszego/późniejszego zameldowania prosimy o [kontakt](contact.qmd).
-
+Wcześniejszy albo późniejszy przyjazd? [Napisz do nas](contact.qmd) — zwykle da się to ułożyć.
 :::
 :::
 :::

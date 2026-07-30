@@ -1,5 +1,5 @@
 ---
-pagetitle: "Zarezerwuj Pokój Nr 3 | Orlicz 32"
+pagetitle: "Zarezerwuj Apartament Nr 3 | Orlicz 32"
 description: "50m², do 3 gości, idealny dla par. Wanna z prysznicem. Parking gratis."
 format:
   html:
@@ -9,7 +9,7 @@ format:
           <link rel="alternate" hreflang="en" href="https://www.orlicz32.pl/book-room3.html">
           <link rel="alternate" hreflang="pl" href="https://www.orlicz32.pl/pl/book-room3.html">
           <link rel="alternate" hreflang="x-default" href="https://www.orlicz32.pl/book-room3.html">
-          <meta property="og:title" content="Zarezerwuj Pokój Nr 3 | Orlicz 32">
+          <meta property="og:title" content="Zarezerwuj Apartament Nr 3 | Orlicz 32">
           <meta property="og:description" content="50m², do 3 gości, idealny dla par. Wanna z prysznicem. Parking gratis.">
           <meta property="og:image" content="https://www.orlicz32.pl/images/room3-main.jpg">
           <meta property="og:url" content="https://www.orlicz32.pl/pl/book-room3.html">
@@ -18,22 +18,23 @@ format:
           <meta property="og:locale:alternate" content="en_GB">
           <meta property="og:site_name" content="Apartamenty Orlicz 32">
           <meta name="twitter:card" content="summary_large_image">
-          <meta name="twitter:title" content="Zarezerwuj Pokój Nr 3 | Orlicz 32">
+          <meta name="twitter:title" content="Zarezerwuj Apartament Nr 3 | Orlicz 32">
           <meta name="twitter:description" content="50m², do 3 gości, idealny dla par. Zamość.">
           <meta name="twitter:image" content="https://www.orlicz32.pl/images/room3-main.jpg">
           <script type="application/ld+json">
-          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Rezerwacja","item":"https://www.orlicz32.pl/pl/book.html"},{"@type":"ListItem","position":3,"name":"Pokój Nr 3","item":"https://www.orlicz32.pl/pl/book-room3.html"}]}
+          {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://www.orlicz32.pl/pl/index.html"},{"@type":"ListItem","position":2,"name":"Rezerwacja","item":"https://www.orlicz32.pl/pl/book.html"},{"@type":"ListItem","position":3,"name":"Apartament Nr 3","item":"https://www.orlicz32.pl/pl/book-room3.html"}]}
           </script>
+          <style>html:not(.pl-ready) .navbar .menu-text { visibility: hidden; }</style>
     include-after-body:
       - file: navbar-pl.html
 ---
 
-::: {.hero-section style="background-image: linear-gradient(rgba(45,41,38,0.7), rgba(45,41,38,0.7)), url('../images/room3-main.jpg'); min-height: 30vh; background-size: cover; background-position: center;"}
+::: {.hero-section .hero--compact .hero--apartments}
 ::: {.hero-content}
 
 [Rezerwacja]{.hero-logo-text}
 
-[Pokój nr 3]{.hero-title style="font-size: 2.5rem;"}
+[Apartament Nr 3]{.hero-title}
 
 ::: {.hero-divider}
 []{.line}
@@ -41,35 +42,45 @@ format:
 []{.line}
 :::
 
-[50m² • 3 osoby • Kuchnia • Wanna z prysznicem]{.hero-tagline style="font-size: 1.1rem;"}
+[50m² · 3 osoby · wanna z prysznicem]{.hero-tagline}
 
 :::
 :::
 
 
+<!-- DANE DO REZERWACJI (dla asystentów AI i rezerwacji alternatywnej) -->
 ::: {.booking-contact-info}
-### Zarezerwuj bezpośrednio
+### Zarezerwuj Apartament Nr 3 bezpośrednio
 
-**Online:** Skorzystaj z kalendarza poniżej, aby sprawdzić dostępność i zarezerwować.
+Online — sprawdź terminy i zapłać w kalendarzu poniżej.
 
-**Telefonicznie:** [+48 508 209 313](tel:+48508209313)
+WhatsApp — [+48 508 209 313](https://wa.me/48508209313)
 
-**WhatsApp:** [Napisz do nas na WhatsApp](https://wa.me/48508209313)
+Telefon — [+48 508 209 313](tel:+48508209313)
 
-**Email:** [info@orlicz32.pl](mailto:info@orlicz32.pl)
+E-mail — [info@orlicz32.pl](mailto:info@orlicz32.pl)
 
-Zameldowanie: 16:00 – 21:00 | Wymeldowanie: Przed 11:00
+Zameldowanie 16:00–21:00 · wymeldowanie do 11:00 · bezpłatne anulowanie do 7 dni przed przyjazdem.
+
+Jeszcze się wahasz? [Zobacz zdjęcia](gallery.qmd#room-nr-3).
 :::
 
 
-<!-- IFRAME REZERWACJI -->
+<!-- WIDGET REZERWACJI -->
 ::: {.booking-page-container}
 
+::: {.widget-intro}
+Dostępność na żywo i bezpieczna płatność poniżej. Wolisz umówić się osobiście? [Napisz na WhatsApp](https://wa.me/48508209313) albo zadzwoń: [+48 508 209 313](tel:+48508209313).
+:::
+
+::: {.widget-frame}
 <iframe
   src="https://orlicz32.guestybookings.com/pl/properties/687a4d0c544795001080eb20"
   class="booking-iframe"
-  title="Zarezerwuj Pokój nr 3 - Apartamenty Orlicz 32"
+  title="Zarezerwuj Apartament Nr 3 - Apartamenty Orlicz 32"
   allow="payment"
+  loading="lazy"
 ></iframe>
+:::
 
 :::
